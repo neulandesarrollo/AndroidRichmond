@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/circulo_rosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/child_icon"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:textSize="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/child_text"
+            android:paddingLeft="45sp"
+            android:paddingTop="12sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/child_icon"
+            android:text="Place Holder"
+            android:textColor="#212121"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAllCaps="false"
+            android:maxLines="1"/>
+
+    </RelativeLayout>
+
+</ScrollView>

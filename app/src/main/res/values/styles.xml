@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Inicial" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="preschool" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="primary" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#1cb0c3</item>
+    <item name="colorPrimaryDark">#0a8f99</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="secondary" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#99549b</item>
+    <item name="colorPrimaryDark">#793c7c</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="young" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#1db59b</item>
+    <item name="colorPrimaryDark">#188973</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="supplementary" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#ef6264</item>
+    <item name="colorPrimaryDark">#cc4047</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="exams" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#fdc931</item>
+    <item name="colorPrimaryDark">#f7b30b</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="digital" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#d5dd4d</item>
+    <item name="colorPrimaryDark">#b7b720</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="readers" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#4d8abc</item>
+    <item name="colorPrimaryDark">#377199</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

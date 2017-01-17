@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloComponentsTeachers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Components &amp; Resources:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/componentsTeachers"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212121"/>
+
+            <TextView
+                android:textColor="#212121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descripcionTeachers" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

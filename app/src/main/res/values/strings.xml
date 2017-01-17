@@ -1,0 +1,828 @@
+<resources>
+    <string name="app_name">Richmond</string>
+    <string name="title_activity_lista_series">ListaSeriesActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra porta massa, sit amet cursus dui facilisis ac. Nam maximus metus risus, id ultrices arcu semper rhoncus. Donec sollicitudin at augue non ullamcorper. Morbi placerat venenatis imperdiet. Pellentesque et dolor enim. Pellentesque facilisis felis a tortor consequat, a efficitur libero pellentesque. Nulla vehicula sed lorem in varius. Proin tempus venenatis nisl sit amet vulputate. Curabitur egestas, quam et ultrices vulputate, velit nisl finibus lacus, id consectetur felis leo at purus. Phasellus purus eros, vulputate at est et, mollis volutpat ipsum. Fusce porttitor leo at nisi feugiat, sit amet imperdiet justo malesuada. In gravida consequat tortor at mattis. Cras semper ut nunc vel egestas. Pellentesque porttitor condimentum aliquet. Etiam aliquet neque vitae ante egestas, vel fringilla libero accumsan. Donec dictum ligula non ultricies porta.
+
+Aliquam pellentesque consectetur turpis, at varius est varius euismod. Nullam dolor risus, tempor dictum lacus vitae, interdum cursus risus. Mauris commodo risus eu pretium ultrices. Ut arcu purus, vehicula at tempor vel, volutpat sollicitudin nibh. Praesent ullamcorper at quam at vehicula. Curabitur sollicitudin, magna vitae bibendum vestibulum, quam mauris posuere est, ornare congue mauris nisi sit amet diam. Phasellus posuere feugiat vestibulum. Morbi ut mi eget arcu elementum mattis sit amet in felis. Cras vitae elit sapien. Suspendisse dignissim iaculis vehicula. Curabitur gravida erat at tempus commodo. Proin pulvinar volutpat mauris id accumsan. Phasellus bibendum nisi felis, ut pretium ante pharetra in.</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="components_lorem">
+&#8226; Student’s Book \n \n
+&#8226; Student’s CD
+    </string>
+
+    <string name="teachers_lorem">
+&#8226; Guía del Maestro (In Spanish)\n \n
+&#8226; Class &amp; Resource CD \n \n
+&#8226; Story Cards \n \n
+&#8226; Flashcards\n \n
+    </string>
+
+    <string name="ibt">Essential Grammar for the iBT \n
+    Nancy Gallagher \n\n
+    Reviews the grammar that is fundamental to succeed on the internet-based TOEFL, the paperbased TOEFL and other tests of English proficiency. \n
+    Key Features: \n\n
+    &#8226; 20 units covering essential points of sentence structure\n
+    &#8226; Abundant practice in TOEFL-like questions\n
+    &#8226; CD with all audio texts\n
+    &#8226; Diagnostic tests, quizzes and review test\n
+    &#8226; Answer key, audio scripts and index \n \n
+
+    SEVEN Practice Tests - Revised Edition \n
+    Nancy Gallagher\n\n
+    Delta’s Key to the TOEFL iBT: Seven Practice Tests, Revised Edition will give students plenty of practice as they prepare for the Internet-based TOEFL (iBT). This new book/audio package contains a concise introduction to the TOEFL and the various question types, along with seven full-length tests, one of which has not been published before. \n
+    Key Features:\n\n
+    &#8226; Description of the TOEFL iBT form and content\n
+    &#8226; Sample questions in the four skill areas of reading, listening, speaking, and writing\n
+    &#8226; Seven full-length practice tests\n
+    &#8226; Nearly 700 questions in TOEFL format\n
+    &#8226; Complete answer key and audio script Charts to record test scores and monitor progress\n
+    &#8226; Seven hours of audio in mp3 format\n\n
+
+    Advanced Skill Practice - Revised Edition\n
+    Nancy Gallagher\n\n
+    It is a comprehensive test preparation course for advanced and upper-intermediate learners of English who are studying for the Test of English as a Foreign Language. The course format works very well in the classroom as well as for self-study. Ample practice builds the skills and the confidence that are keys to success in an English-speaking environment. \n
+    Key Features:\n\n
+    &#8226; 35 units of study in reading, listening, speaking and writing\n
+    &#8226; Four full-length tests in TOEFL iBT format\n
+    &#8226; 1,200 questions in the units, quizzes and tests\n
+    &#8226; Answer key, audio script and score charts\n
+    &#8226; 9 hours of audio in MP3 format included with the book \n\n
+    </string>
+
+    <string name="cubbyhouse">Cubby House is a new three-level preschool series that incorporates multiple teaching methodologies to provide children with the best learning experience. The series focuses on fostering cognitive skills and motor skills development. \n \n
+With Cubby House students will: \n \n
+&#8226; Acquire the English language whiledeveloping their cognitive skills \n \n
+&#8226; Develop their  ne and gross motor skills through activities such as running, dancing, jumping, imitating animal movements, drawing, tracing lines and numbers, cutting with scissors and more \n \n
+&#8226; Learn values for building a sense of community and well-being \n \n
+&#8226; Complete a project per unit that will allow them to be creative and reinforce their  ne motor skills \n \n
+&#8226; Be involved in age-appropriate activities to develop mathematical thinking, such as recognizing numbers, counting, identifying more and less, etc. \n \n
+&#8226; Develop their reading skills through original and fun stories \n \n \n \n \n  \n  \n \n \n
+    </string>
+
+    <string name="pebbles">Pebbles helps students reach their full potential in different developmental areas: cognitive, emotional, linguistic, physical and social. Important and basic values, such as good manners and respect for others, are also reinforced. \n \n
+Pebbles provides core material as well as optional and integrated-learning activities.\n \n
+With Pebbles students will:\n \n
+&#8226; Practice vocabulary in interactive ways with Pictionary Puzzles\n \n
+&#8226; Develop prewriting skills by working with tracing materials\n \n
+&#8226; Acquire, practice and reinforce lexical items with the Fun Activity Mat\n \n \n \n \n \n \n \n
+    </string>
+
+    <string name="gumdrops">Gumdrops is an exciting, comprehensive, four-level preschool series that incorporates the most recent methodology proven to be effective in teaching little ones English. It provides students with positive early childhood experiences in a wide range of relevant contexts.\n \n
+With Gumdrops students will:\n \n
+&#8226; Acquire English, following the natural stages of language learning: Preproduction, Early Production and Speech Emergence\n \n
+&#8226; Develop six crucial areas of learning— Personal, Social and Emotional Development; Communication, Language and Literacy; Problem Solving, Reasoning and Numeracy; Knowledge of the World; Artistic Development; and Physical Development\n \n
+&#8226; Use vocabulary in meaningful and focused activities\n \n
+&#8226; Play extension-activity games on the interactive CD-ROM in Gumdrops 2 and Gumdrops 3\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="tippytoes">Tippy Toes is an exciting preschool series for very young children. It fosters Personal and Social Development, Language and Literacy, Mathematics, Knowing About the World and the Environment, Artistic Development and Health Development.\n \n
+With Tippy Toes students will:\n \n
+&#8226; Assimilate grammar structures and vocabulary through engaging activities\n \n
+&#8226; Read and listen to original and traditional stories that develop cognitive, vocabulary and pronunciation skills and model natural language\n \n
+&#8226; Do class projects to further explore different areas of the curriculum\n \n
+&#8226; Learn basic letter–sound relationships through a comprehensive phonics program\n \n\n \n\n \n\n \n
+    </string>
+    
+    <string name="crikets">Crickets is a four-level preschool series that integrates all the domains of early learning. The learning cycle is based on the 5 E’s methodology (Engage, Explore, Explain, Elaborate, Evaluate). This instructional model relies on the constructivist approach to learning.\n \n
+With Crikets students will:\n \n
+&#8226; Build on previous knowledge through a constructivist approach\n \n
+&#8226; Develop cognitive and early literacy skills \n \n
+&#8226; Work with age-appropriate CLIL lessons\n \n
+&#8226; Use ICT (Information and Communication Technology) through interactive activities and videos\n \n
+&#8226; Begin exploring stories through a complete cycle of reading activities\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="math_adventures">M@th Adventures is an innovative two-level course for teaching mathematics to preschool children. This enjoyable course promotes the development of mathematical skills through engaging hands-on activities and materials. The series teaches skills such as counting, recognizing, patterning, sorting, graphing, estimating, comparing, measuring and problem solving.\n \n
+The topics and vocabulary in each unit are appropriate for children learning English as a second language without placing too much emphasis on language learning. The video clips and interactive games provide enjoyable ways for children to practice mathematical concepts in class and at home.\n \n
+With M@th Adventures students will:\n \n
+&#8226; Develop mathematical skills through hands-on activities and manipulative materials\n \n
+&#8226; Learn and practice math concepts through songs and rhymes\n \n
+&#8226; Work with digital components like videos and interactive games for further practice\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="abacadabra">Abracadabra is a six-level primary series that fosters English language learning through a variety of attractive and colorful resources, like posters,  ashcards, comic strips, songs, games and optical illusions.\n \n
+The activities in Abracadabra are designed to encourage the constant recycling of vocabulary and language structures so students can discover how language works and begin using it gradually and successfully. Abracadabra also promotes the development of the four skills: listening, speaking, reading, and writing.\n \n
+With Abracadabra students will:\n \n
+&#8226; Use their critical thinking skills when working with appealing optical illusions\n \n
+&#8226; Acquire vocabulary and language structures gradually and successfully\n \n
+&#8226; Learn everyday expressions through the Functional Language section\n \n
+&#8226; Read and listen to comic strips\n \n
+&#8226; Practice pronunciation using the recorded Pictionary words as a model\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="beep">Beep is a six-level course for elementary education. It is based on the guiding principle that all contexts and situations in which English is presented should be meaningful and relevant and draw upon the students’ own worlds.\n \n
+The wide variety of materials allows teachers  exible pacing covering 3 to 5 hours of class a week.\n \n
+With Beep students will:\n \n
+&#8226; Explore a curriculum area through CLIL lessons\n \n
+&#8226; Learn phonics through comic strips and tongue twisters\n \n
+&#8226; Develop reading and writing skills through the Literacy lessons\n \n
+&#8226; Make crafts to consolidate the concepts taught\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="cool_kids">Cool Kids SECOND EDITION is a six level series for primary school children.
+It caters to different learning styles and encourages students’ participation, giving them opportunities to use the language in meaningful ways. It also fosters learner autonomy.\n \n
+With Cool Kids SECOND EDITION students will:\n \n
+&#8226; Learn and reinforce vocabulary using the Cool Pictionary.\n \n
+&#8226; Use everyday expressions included in the Cool Language section.\n \n
+&#8226; Develop creative skills and consolidate learning through Cool Crafts.\n \n
+&#8226; Develop reading skills through comics and non- ction texts included in Cool Reading.\n \n\n \n\n \n\n \n
+    </string>
+    
+    <string name="lighthouse">Lighthouse is a six-level series that aims to help primary students navigate the occasionally rough seas of learning English. It integrates modern language teaching practices with traditional classroom needs, and helps students successfully acquire the four language skills. As a result, the learners use English in real-life situations.\n \n
+With Lighthouse students will:\n \n
+&#8226; Use English in real-life situations \n \n
+&#8226; Develop con dence and independence\n \n
+&#8226; Become familiar with universal values and cultural differences through craft activities\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="science_geography">Science and Geography is a six-level series for primary school learners based on three main cornerstones: improving understanding, learning more culture, and acquiring habits and values for living within a community. Language and skills are developed simultaneously.\n \n
+With Science and Geography students will:\n \n
+&#8226; Learn culture, improve understanding and acquire habits and values for living within a community\n \n
+&#8226; Develop vital language skills\n \n
+&#8226; Do awareness building activities\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="thumps_up">Thumbs Up! SECOND EDITION is a six-level primary series that motivates children to learn English while developing other areas of knowledge. It fosters students’ critical thinking skills, creativity and natural curiosity through comics, videos, cross- curricular themes, games, poems and songs.\n \n
+With Thumbs Up! SECOND EDITION students will:\n \n
+&#8226; Discover grammar rules at their own pace over several presentations\n \n
+&#8226; Focus on meaning rather than on form, as in  rst language acquisition\n \n
+&#8226; Have a structure reading skills program with original stories, a comprehensive phonics, pronunciation and spelling program, and a six-level writing program\n \n
+&#8226; Reinforce values by means of a series of comics accompanied with fun activities\n \n
+&#8226; Develop their listening skills and broaden their knowledge of the world through a series of videos accompanied with fun activities\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="skyrocket">kyrocket is a six-level series for elementary school learners. Each unit is content-based, to encourage children to focus on the topic more than on the structures and vocabulary presented. Although the series has a very solid and structured grammar syllabus, Skyrocket also offers a literature section (Skyrocket to Literature) every three units that allows students to experience reading for pleasure. Skyrocket offers a wide variety of fun activities, such as games, songs, puzzles and more, in order to cater to different types of intelligences and learning styles.\n \n
+Skyrocket offers a range of components to cater to every teacher’s needs and to develop different interests, abilities and skills. Among these are Value Activities, Communicative Grammar Games, Holidays, Multiple Intelligence Activities and more.\n \n
+With Skyrocket students will:\n \n
+&#8226; Become autonomous learners\n \n
+&#8226; Develop receptive and productive skills\n \n
+&#8226; Advance critical thinking and life skills\n \n
+&#8226; Enjoy reading stories included in the Skyrocket through Literature section\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="path_science">Pathway to Science is a new CLIL course for primary with lots of fun hands-on activities to help learners develop competencies in science while developing their English language pro ciency. Pathway to Science is the perfect complement for any general English course. It enables students to transfer their English skills to another content area while reinforcing their knowledge of science.\n \n
+With Pathway to Science students will:\n \n
+&#8226; Gain practical knowledge about what a scientist is and does by doing classroom experiments\n \n
+&#8226; Become familiar with the scienti c method from an early age\n \n
+&#8226; Explore the sciences of Life Science, Physics and Chemistry, and Earth and the Universe\n \n
+&#8226; Study scienti c terms included in the illustrated glossary\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="pathway_math">Pathway to Math is a new CLIL course for primary with a variety of activities to help learners develop competencies in math while developing their English language pro ciency. Pathway to Math complements any general English course, enabling students to transfer their English skills to another content area while reinforcing their math knowledge.\n \n
+With Pathway to Math students will:\n \n
+&#8226; Practice age-appropriate math as learned in their native language classes, in English\n \n
+&#8226; Work together to  nd solutions, develop math skills and apply different calculation strategies\n \n
+&#8226; Study mathematical terms included in the illustrated glossary\n \n
+&#8226; Acquire math exam strategies\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="pathway_literature">
+        Pathway to Literature is a literature course designed to accompany our primary series. Each level is full of stories and comics that will expand students’ vocabulary and build on their knowledge of common expressions. Colorful illustrations, fascinating characters, and a variety of genres will help students to enjoy reading in English.\n \n
+Pathway to Literature comes with a digital manual for teachers to guide the development of students’ reading skills. Each unit provides three core lessons and two extra lessons with integrated skills and cross-curricular extension activities.\n \n
+&#8226; Lesson 1: Introduces the theme of the story, provides vocabulary support and teaches students to make predictions to increase their understanding as they read.\n \n
+&#8226; Lesson 2: Students read the story and follow a clear, natural audio recording. Comprehension and strategy activities check students’ understanding and build their reading skills.\n \n
+&#8226; Lesson 3: Provides additional reading support through character analysis, summarizing and a range of strategy-based activities. Lesson 3 also includes an integrated writing task.\n \n\n \n\n \n\n \n
+    </string>
+    
+    <string name="pathway_grammar">Pathway to Grammar is a six-level course for primary schools. It helps students review and practice the grammar and vocabulary needed for a variety of standardized tests: Cambridge Young Learners (Starters, Movers, Flyers), Cambridge Key for Schools (KET), and TOEFL Primary.\n \n
+Pathway to Grammar  is a supplementary resource that can be used alongside any textbook to consolidate and enrich vocabulary and grammar instruction, including for groups not preparing for certi cation.\n \n
+With Pathway to Grammar  students will:\n \n
+&#8226; Learn and review vocabulary and grammar needed for a variety of standardized tests\n \n
+&#8226; Use functional language\n \n
+&#8226; Do a variety of fun tasks like singing or rapping\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="spotlight">
+        Spotlight on English is a comprehensive, standards-based program for English language learners (ELLs) designed to help K-6 students gain and develop English language pro ciency, while studying grade-level content. The course exposes students to grade-level academic English while providing teachers with the tools needed to empower their learners to acquire the language accurately and achieve competency in listening, reading, writing and speaking.\n \n
+Spotlight on Englishh is a balanced program that not only provides the academic language students need, but also brings together proven methodologies and innovative teaching strategies.\n \n
+With Spotlight on English students will:\n \n
+&#8226; Learn with materials aligned to the US CoreCurriculum Content Standards\n \n
+&#8226; Study grade-level content\n \n
+&#8226; Acquire academic English\n \n
+&#8226; Achieve competency in listening, reading, writing and speaking through proven methodologies and innovative teaching strategies\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="stopwatch">
+        Stopwatch is a motivating, visually engaging six-level series for teenagers. It offers a choice of entry-point level (Starter, Beginner or Beginner Plus) and develops skills through B1 of the Common European Framework (CEFR). Each level of Stopwatch covers 90-120 hours of classroom instruction, plus an additional 20 hours of supplementary materials in the Teacher’s Toolkit.\n \n
+With Stopwatch students will...\n \n
+&#8226; Reinforce visual literacy skills through icons and impactful photos\n \n
+&#8226; Use critical thinking skills to answer relevant, thought-provoking questions\n \n
+&#8226; Become aware of the wide range of cultural differences in our global community\n \n
+&#8226; Be motivated by timed activities and challenges\n \n
+&#8226; Learn vocabulary and grammar in realistic, meaningful contexts\n \n
+&#8226; Engage with authentic, down-to- earth topics\n \n
+&#8226; Access practice opportunities in a variety of formats\n \n
+&#8226; Enjoy hands-on projects in print and/or digital form\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="next_steps">
+        Next Step is a four-level course that takes students from elementary to intermediate level. It follows a comprehensive grammar syllabus and offers plenty of opportunity for students to practice and personalize what they have learned. It features class projects and, a magazine and encourages the use of new technology and media in English.\n \n
+With Next Step students will:\n \n
+&#8226; Have multiple opportunities to use new technology and media in English projects\n \n
+&#8226; Participate in age-appropriate projects\n \n
+&#8226; Improve their pronunciation and speaking skills\n \n
+&#8226; Become aware of grammar and language features\n \n
+&#8226; Practice and personalize what they have learned\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="english_motion">English in Motionis a dynamic four-level course that thoroughly integrates practice of the four skills with work on vocabulary, grammar and pronunciation.\n \n
+&#8226; Language is presented through relevant, up-to-date topics.\n \n
+&#8226; Practice begins with meaningful controlled exercises before developing into freer, personalized activities.\n \n
+&#8226; Songs are used to motivate students, and a DVD links with the course themes, giving students the chance to see real teenagers talk about their lives.\n \n
+With English in Motion students will:\n \n
+&#8226; Develop their reading, listening, speaking and writing skills\n \n
+&#8226; Work on vocabulary, grammar and pronunciation\n \n
+&#8226; Learn English through relevant up-to-date topics\n \n
+&#8226; Listen to songs related to course themes\n \n
+&#8226; Participate in personalized activities to talk about their lives\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="awesome">Awesome NEW EDITION is a four-level course in general English for the 21st Century that takes students from an elementary level to an upper-intermediate level. By the end of the course, students will have reached the Vantage (B2 or Cambridge First) level of the Common European Framework for Languages. The lessons take the best from Communicative Language Teaching and feature elements of the Lexical Approach, Task and Content Based Learning and Integrated Skills teaching methods.\n \n
+With Awesome NEW EDITION students will:\n \n
+&#8226; Learn grammar, vocabulary and functions\n \n
+&#8226; Develop reading and listening skills through contextualized texts\n \n
+&#8226; Communicate in varied situations\n \n
+&#8226; Use online resources to create presentations, videos, slideshows, blogs and web pages\n \n
+&#8226; Participate in autonomous learning activities\n \n
+&#8226; Develop IT literacy\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="achievers">Achievers is a brand-new six-level course for teenagers which combines interesting, age-appropriate topics with challenging input, practice and support, so that every student will achieve his or her best.\n \n
+Achievers offers a choice of entry point (Post-Beginner or Elementary) and covers CEFR levels A1+ to C1 over six levels.\n \n
+With Achievers students will:\n \n
+&#8226; Learn contemporary, colloquial English\n \n
+&#8226; Improve their vocabulary through lexical sets and vocabulary-building sections\n \n
+&#8226; Focus on Cambridge and TOEFL exams through an exam training section\n \n
+&#8226; Partake in an ambitious project- like speaking task to develop their speaking skills\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="spotlight_on_literature">Spotlight on Literature NEW EDITION is a literature-based program that consolidates English skills for teenage and young adult learners. It features culturally diverse literary texts together with varied activities that strengthen reading comprehension and critical literary analysis.\n \n
+Spotlight on Literature NEW EDITION also includes lessons on grammar and vocabulary from the reading selections and activities to develop critical thinking, classroom discussion, group work, individual work and creative writing.\n \n
+With Spotlight on Literature NEW EDITION students will:\n \n
+&#8226; Read literary texts, brief biographies and interesting facts\n \n
+&#8226; Strengthen reading comprehension and critical literary analysis\n \n
+&#8226; Participate in classroom discussions, group work and individual tasks\n \n
+&#8226; Develop creative writing skills\n \n
+&#8226; Do grammar and vocabulary activities based on the reading selections\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="combined_sciences">Combined Sciences is a Content and Language Integrated Learning (CLIL) series for secondary students that improves their pro ciency in both English and science. There are three textbooks in print and digital form—Pathway to Biology, Pathway to Physics and Pathway to Chemestry—and they feature practical experiments with readily available materials that follow the standard sequence of stages in the scientic method. Specially produced videos by renowned science educator Robert Krampf—also known as the Happy Scientist—demonstrate the experiments and explain the scientic concepts behind them.\n \n
+With combined sciences students will:\n \n
+&#8226; Reinforce previous knowledge of biology, physics and chemistry\n \n
+&#8226; Improve their pro ciency in both English and science\n \n
+&#8226; Perform research activities\n \n
+&#8226; Carry out practical experiments that follow the stages in the scientic method\n \n
+&#8226; Develop critical thinking skills through the analysis of their experiments and their results to test students’ progress\n \n\n \n\n \n\n \n
+    </string>
+    
+    <string name="english_id">English ID is a fun, engaging four-level series for adults and young adults with an emphasis on speaking both accurately and  fluently. It accelerates the learning process with a range of exciting strategies that encourage students to express themselves and build their new identity in English. The material builds on students’ existing knowledge of English and introduces new language through authentic texts and audiovisual material. With its user-friendly format, English ID is a highly  exible course that offers 80–120 hours of material per level.\n \n
+With English ID students will:\n \n
+&#8226; Learn more quickly through a pedagogy which respects the needs and strengths of speakers of Romance languages\n \n
+&#8226; Develop accuracy by avoiding typical errors highlighted in Common Mistakes\n \n
+&#8226; Improve their speaking and pronunciation through a syllabus and activities focused on their needs\n \n
+&#8226; Enjoy language in context with the entertaining videos of the ID Café sitcom\n \n
+&#8226; Benefit from varied vocabulary input which builds on their existing knowledge\n \n
+&#8226; Learn a motivating songline in every lesson which reinforces the language area learned\n \n
+&#8226; Personalize their learning with a wealth of opportunities to talk about their own experience and opinions\n \n
+&#8226; Practice as much as they want in class, on paper and online with the Richmond Learning Platform\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="identities">Identities is a brand-new two-level course for adults and young adults which gives upper intermediate and advanced students the tools they need to speak, listen, read and write with greater  uency and accuracy. The course combines high-interest topics with a rich vocabulary syllabus and clear, organized approach to grammar. Fun, varied activity types with many opportunities for personalization mean that students really learn to express themselves in a variety of different contexts. The course is supported by a wide range of online practice and tests on the Richmond Learning Platform.\n \n
+With Identities students will:\n \n
+&#8226; Enjoy learning English through motivating contemporary texts and lively activities.\n \n
+&#8226; Study more advanced grammar inductively, in context and focusing on usage and meaning.\n \n
+&#8226; Enjoy the bene ts of a rich vocabulary syllabus, with meaningful lexical sets, including more phrasal verbs, presented in context.\n \n
+&#8226; Make it personal with challenging personalized speaking tasks.\n \n
+&#8226; Learn How to say it through boxes introducing useful formulas, conversation strategies and functions.\n \n
+&#8226; Develop their writing skills systematically with a full page in every unit.\n \n
+&#8226; Watch authentic video.\n \n
+&#8226; Practice their pronunciation in targeted speaking activities.\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="american_big_picture">American Big Picture is a highly visual six-level course for adult and young adult learners. Real-life, relevant, international contexts combine with striking images to engage the mind. The series provides 90-120 hours of core classroom material, complemented by a wealth of digital and print resources.\n \n
+With American Big Picture students will: \n \n
+&#8226; Develop their visual literacy through a wealth of activities based on rich images\n \n
+&#8226; Explore cultural contexts through different global perspectives\n \n
+&#8226; Develop their reading, writing, listening and speaking skills in natural contexts\n \n
+&#8226; Personalize new language through fresh, real-life and relevant contexts\n \n
+&#8226; Build their vocabulary through a wide range of input and activities\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="the_big_picture">The Big Picture is a beautifully designed six-level general English course for adult and young adult learners. It uses striking imagery to present core vocabulary, capture the learner’s attention and encourage critical discussion.\n \n
+The content is genuinely international and the course takes a refreshingly new look at many familiar topics. It also offers both students and teachers access to The Big Picture Learning Platform, a comprehensive online resource which includes the Richmond Virtual Learning Environment and a user friendly test generator.\n \n
+Key Features:\n \n
+&#8226; Fully integrated core vocabulary syllabus\n \n
+&#8226; Extra skills development pages in the workbook\n \n
+&#8226; Functional language pages in every unit that focus on practical everyday English\n \n
+&#8226; Bring It Together skills-based tasks\n \n
+&#8226; Clear, user friendly grammar and vocabulary panels\n \n
+&#8226; Blogs, vodcasts and other fun widgets on the Big Picture Learning Platform\n \n\n \n\n \n\n \n
+    </string>
+    
+    <string name="going_pro">
+        Going Pro is the course for aspiring young professionals. With strong visuals, accessible content, a thorough syllabus and material on a range of professional  elds, students will gain the con dence they need to move forward with English and their careers.\n \n
+Going Pro promotes the acquisition of linguistic competencies through a structured, inductive approach to English, connecting it to the learners’ communicative needs. It also encourages students’ digital competencies by combining knowledge, skills and values with digital tools to reach task-based goals. Moreover, the series develops learners’ interpersonal competencies through collaborative work in the classroom.\n \n
+With Going Pro students will:\n \n
+&#8226; Focus on developing reading strategies and written production in Level 5\n \n
+&#8226; Focus on developing listening strategies and spoken production in Level 6\n \n
+&#8226; Learn about different professional  elds with the videos from the DVD\n \n
+&#8226; Expand their general linguistic, interpersonal communication and digital competencies\n \n
+&#8226; Communicate effectively and work in a collaborative way\n \n
+&#8226; Develop critical thinking\n \n\n \n\n \n\n \n
+    </string>
+    
+    <string name="at_work">
+         .@Work is the perfect course for anyone who needs to communicate in English at work, regardless of their profession or job title. @Work brings a light-hearted and non-executive approach to English learning and is also suitable for pre-work tertiary students. Available in 4 levels, the @work Student’s Book material offers a minimum of 60 hours of study. However, the course can be extended with a wealth of additional digital components: to meet the varying needs of different students. These include the interactive @work digital workbook, Richmond Business Theories and Richmond Business Skills and the award- winning Richmond Mazes. Whatever the industry, whatever the job, @Work will suit any employee, preparing them to conduct business outside the classroom.\n \n
+With @Work students will:\n \n
+&#8226; Learn get-the-job done language while avoiding business English clichés\n \n
+&#8226; Deal with grammar through an upfront approach\n \n
+&#8226; Work with  exible materials \n \n
+&#8226; Practice email writing\n \n
+&#8226; Follow video modules comprising presentations, negotiations, communications and meetings\n \n\n \n\n \n\n \n
+    </string>
+
+    <string name="richmond_mazes">The Richmond Mazes are a brand-new series of interactive readers with a difference. Available as both apps and printed readers, they offer students a challenging but fun way of improving and extending their knowledge of the English language. Each one focuses on a realistic scenario from the world of work. Each original piece of  ction offers students a series of choices, allowing them to steer their own path through the story and create alternative outcomes. They can win bonus points by selecting the most appropriate route or even be sent back to the very beginning if they make the wrong choice! The lively range of characters and surprising storylines will keep readers hooked for hours.\n \n
+Key Features:\n \n
+&#8226; Graded language to suit students at all four levels\n \n
+&#8226; Glossary section with explanations of key business vocabulary\n \n
+&#8226; Focus on working situations helps students see business language in context\n \n
+&#8226; Rich mixture of audio and colour illustrations brings the stories to life\n \n
+&#8226; “My-route” option lets students re-read the maze and explore alternative endings\n \n\n \n\n \n\n \n
+</string>
+
+    <string name="components_cubby">
+&#8226; Student’s Book \n \n
+&#8226; Student’s CD
+    </string>
+
+    <string name="components_pebbles">
+&#8226; Student’s Book\n \n
+&#8226; Resource Booklet \n \n
+&#8226; Hands-on Activity Pad \n \n
+&#8226; Student’s CD
+    </string>
+
+    <string name="components_gumdrops">
+&#8226; Student’s Book Activity Pad\n \n
+&#8226; Student’s Audio CD (Level 1)\n \n
+&#8226; Student’s Audio/Interactive CD-ROM (Levels 2 and 3)\n \n
+&#8226; Student’s (Resource Pack)\n \n
+&#8226; Finger and Stick Puppets - Stickers\n \n
+&#8226; Mini- fashcards
+    </string>
+
+    <string name="components_tippytoes">
+&#8226; Student’s Book\n \n
+&#8226; Stickers\n \n
+&#8226; Activity Book\n \n
+&#8226; Student’s CD\n \n
+&#8226; Interactive CD (Levels 2 and 3)\n \n
+&#8226; Tippy Toes App (Level 1)
+    </string>
+
+    <string name="components_mflas">
+
+    </string>
+
+    <string name="components_crickets">
+&#8226; Student’s Book\n \n
+&#8226; Stickers\n \n
+&#8226; Activity Book\n \n
+&#8226; Student’s CD\n \n
+&#8226; Interactive CD (Levels 2 and 3)\n \n
+&#8226; Tippy Toes App (Level 1)
+    </string>
+
+    <string name="components_mathadventures">
+&#8226; Student’s Book \n \n
+&#8226; Resource Pack \n \n
+&#8226; Student’s CD
+    </string>
+
+    <string name="components_abracadabra">
+&#8226; Student’s Book \n \n
+&#8226; Student’s CD
+    </string>
+
+    <string name="components_beep">
+    &#8226; Student’s Book &amp; Activity Book combo\n \n
+    &#8226; Student’s Audio CD\n \n
+    &#8226; Playing Cards &amp; Stickers (Levels 1 and 2)\n \n
+    &#8226; Playing Cards (Levels 3 and 4)
+    </string>
+
+    <string name="components_coolkids">
+&#8226; Student’s Book \n \n
+&#8226; Workbook \n \n
+&#8226; Student’s CD \n \n
+&#8226; Cool Reading
+    </string>
+
+    <string name="components_lighthouse">
+&#8226; Student’s Book\n \n
+&#8226; Student’s CD \n \n
+&#8226; Activity Book \n \n
+&#8226; Stickers
+    </string>
+
+    <string name="components_science_geography">
+&#8226; Student’s Book
+    </string>
+
+    <string name="components_thumps_up">
+&#8226; Student’s Book\n \n
+&#8226; Practice Book\n \n
+&#8226; Student’s Resource Book \n \n
+&#8226; Practice Tests Booklet \n \n
+&#8226; Student’s CD\n \n
+&#8226; Richmond Spiral Platform
+    </string>
+
+    <string name="components_skyrocket">
+&#8226; Student’s Book\n \n
+&#8226; Practice Book\n \n
+&#8226; Student’s CD\n \n
+&#8226; Richmond Spiral Platform
+    </string>
+
+    <string name="components_pathway_science">
+&#8226; Student’s Book with Activity Cards
+    </string>
+
+    <string name="components_pathway_math">
+&#8226; Student’s Book with Activity Cards
+    </string>
+
+    <string name="components_pathway_literature">
+&#8226; Student’s Book with Activity Cards
+    </string>
+
+    <string name="components_pathway_grammar">
+&#8226; Student’s Book with Audio CD
+    </string>
+
+    <string name="components_spotlight">
+&#8226; Student’s Book \n \n
+&#8226; Practice Book \n \n
+&#8226; Assessments \n \n
+&#8226; Interactive CD-ROM \n \n
+&#8226; Thematic Library
+    </string>
+
+    <string name="components_stopwatch">
+&#8226; Student’s Book with integrated Workbook and Audio CD\n \n
+&#8226; App
+    </string>
+
+    <string name="components_nextstep">
+&#8226; Student’s Book \n \n
+&#8226; Practice Book \n \n
+&#8226; CD-ROM
+    </string>
+
+    <string name="components_englishinmotion">
+&#8226; Student’s Book\n \n
+&#8226; Workbook\n \n
+&#8226; Student’s Multi-ROM\n \n
+&#8226; My Portfolio downloadable online
+    </string>
+
+    <string name="components_awesome">
+&#8226; Student’s Book \n \n
+&#8226; Practice Book\n \n
+&#8226; Reference Guide
+    </string>
+
+    <string name="components_achievers">
+&#8226; Student’s Book \n \n
+&#8226; Workbook\n \n
+&#8226; Audio CD\n \n
+&#8226; Richmond Spiral Platform
+    </string>
+
+    <string name="components_spotlightliterature">
+&#8226; Student’s Book (with integrated workbook)
+    </string>
+
+    <string name="components_combinedsciences">
+&#8226; Student’s Book\n \n
+&#8226; Digital Book with Videos
+    </string>
+
+    <string name="components_englishid">
+&#8226; Student’s Book (with portal access code)\n \n
+&#8226; eWorkbook\n \n
+&#8226; Split editions (except for Starter)\n \n
+&#8226; Learning Platform extra practice, audio and video
+    </string>
+
+    <string name="components_identities">
+&#8226; Student’s Book (with portal access code)\n \n
+&#8226; eWorkbook\n \n
+&#8226; Split editions (except for Starter)\n \n
+&#8226; Learning Platform extra practice, audio and video
+    </string>
+
+    <string name="components_americanbigpicture">
+&#8226; Student’s Book\n \n
+&#8226; Workbook\n \n
+&#8226; Audio CD\n \n
+&#8226; Downloadable audio online\n \n
+&#8226; Split Edition Available\n \n
+&#8226; Interactive online activities\n \n
+&#8226; Learning Platform
+    </string>
+
+    <string name="components_thebigpicture">
+&#8226; Student’s Book\n \n
+&#8226; Workbook\n \n
+&#8226; Audio CD\n \n
+&#8226; Downloadable audio online\n \n
+&#8226; Split Edition Available\n \n
+&#8226; Interactive online activities\n \n
+&#8226; Learning Platform App
+    </string>
+
+    <string name="components_goingpro">
+&#8226; Student’s Book \n \n
+&#8226; Student’s Audio CD\n \n
+    </string>
+
+    <string name="components_atwork">
+&#8226; Student’s Book with access code\n \n
+&#8226; Workbook \n \n
+&#8226; Audio CD \n \n
+&#8226; eWorkbook
+    </string>
+
+    <string name="components_richmondmazes">
+
+    </string>
+
+    <string name="teachers_cubbyhouse">
+&#8226; Guía del Maestro (In Spanish)\n \n
+&#8226; Class &amp; Resource CD \n \n
+&#8226; Story Cards \n \n
+&#8226; Flashcards\n \n
+    </string>
+
+    <string name="teachers_pebbles">
+&#8226; Teacher’s Guide in Spanish\n \n
+&#8226; Class CD\n \n
+&#8226; Flashcards\n \n
+&#8226; Fun Activity Mat with Pebble Puppet\n \n
+    </string>
+
+    <string name="teachers_gumdrops">
+&#8226; Teacher’s Guide\n \n
+&#8226; Big Books\n \n
+&#8226; Posters &amp; Cutouts\n \n
+&#8226; Teacher’s Resource CD-ROM\n \n
+&#8226; Class Audio\n \n
+&#8226; Classroom Language Cards\n \n
+&#8226; Digital Book\n \n
+    </string>
+
+    <string name="teachers_tippytoes">
+&#8226; Teacher’s Book \n \n
+&#8226; Class CD\n \n
+&#8226; Big Book\n \n
+&#8226; Posters &amp; Cutouts \n \n
+&#8226; Fun Activity Mat \n \n
+&#8226; Puppets (Level 3) \n \n
+&#8226; Digital Book\n \n
+    </string>
+
+    <string name="teachers_crickets">
+&#8226; Teacher’s Book \n \n
+&#8226; Class CD\n \n
+&#8226; Big Book\n \n
+&#8226; Posters &amp; Cutouts \n \n
+&#8226; Fun Activity Mat \n \n
+&#8226; Puppets (Level 3) \n \n
+&#8226; Digital Book\n \n
+    </string>
+
+    <string name="teachers_mathadventures">
+&#8226; Teacher’s Guide with Pocket Cube\n \n
+&#8226; Resource Pack \n \n
+&#8226; Teacher’s Resource CD \n \n
+&#8226; Digital Book\n \n
+    </string>
+
+    <string name="teachers_mflas">
+
+    </string>
+
+    <string name="teachers_abracadabra">
+&#8226; Teacher’s Guide in Spanish\n \n
+&#8226; Flashcards\n \n
+&#8226; Teacher’s Resource CD with Audio\n \n
+&#8226; Digital Book\n \n
+    </string>
+
+        <string name="teachers_beep">
+&#8226; Teacher’s Book \n \n
+&#8226; Posters \n \n
+&#8226; Flashcards\n \n
+&#8226; Puppet included in the  ashcards pack (Levels 1 and 2)\n \n
+&#8226; Class Audio &amp; Resource CD\n \n
+&#8226; Digital Book\n \n
+    </string>
+
+        <string name="teachers_coolkids">
+&#8226; Teacher’s Guide (printed and digital)\n \n
+&#8226; Guía del Maestro (printed and digital)\n \n
+&#8226; Teacher’s Resource CD (with audio, crafts instructions, extra activities, tests and word lists)\n \n
+&#8226; Flashcards \n \n
+&#8226; Cool Reading\n \n
+    </string>
+
+        <string name="teachers_lighthouse">
+&#8226; Teacher’s Book\n \n
+&#8226; Class CD &amp; CD-ROM\n \n
+&#8226; Puzzles (levels 1-3)\n \n
+&#8226; Word Kits (levels 4-6) \n \n
+&#8226; Digital Book\n \n
+&#8226; Poster with Word Cards and Cutouts\n \n
+    </string>
+
+        <string name="teachers_sciencegeography">
+&#8226; Teacher’s Book \n \n
+&#8226; Resource Book \n \n
+&#8226; Posters\n \n
+    </string>
+
+        <string name="teachers_thumpsup">
+&#8226; Teacher’s Guide (Units 1-4)\n \n
+&#8226; Teacher’s Guide (Units 5-8)\n \n
+&#8226; Posters and Poster Cutouts\n \n
+&#8226; Teacher’s Resource CDs\n \n
+&#8226; Class CDs \n \n
+&#8226; Videos\n \n
+&#8226; Resources:  ashcards, word cards, templates, grammar worksheets, assessments, practice tests audio, audioscript and answer key\n \n
+&#8226; Richmond Spiral Platform\n \n
+    </string>
+
+        <string name="teachers_skyrocket">
+&#8226; Teacher’s Guide\n \n
+&#8226; Class Audio CD\n \n
+&#8226; Teacher’s Resource CD\n \n
+&#8226; Posters and Word Cards\n \n
+&#8226; Digital Media Projects (Levels 3-6)\n \n
+&#8226; Digital Book\n \n
+&#8226; Richmond Spiral Platform\n \n
+    </string>
+
+        <string name="teachers_pathwayscience">
+&#8226; Teacher’s Guide\n \n
+&#8226; Reinforcement and Extension Worksheets\n \n
+&#8226; Evaluations \n \n
+&#8226; Digital Book\n \n
+    </string>
+
+        <string name="teachers_pathwaymath">
+&#8226; Teacher’s Guide\n \n
+&#8226; Reinforcement and Extension Worksheets\n \n
+&#8226; Evaluations \n \n
+&#8226; Digital Book\n \n
+    </string>
+
+        <string name="teachers_pathwayliterature">
+&#8226; Teacher’s Guide\n \n
+&#8226; Reinforcement and Extension Worksheets\n \n
+&#8226; Evaluations \n \n
+&#8226; Digital Book\n \n
+    </string>
+
+        <string name="teachers_pathwaytogrammar">
+&#8226; Teacher’s Booklet\n \n
+    </string>
+
+        <string name="teachers_spotlightonenglish">
+&#8226; Teacher’s Guide\n \n
+&#8226; Assessments Teacher’s Manual\n \n
+&#8226; Blackline Masters\n \n
+&#8226; Audio CD\n \n
+&#8226; Photo Cards\n \n
+&#8226; Poster Cutouts (Level K)\n \n
+&#8226; Big Books (Level K)\n \n
+&#8226; Teacher’s Digital Resource Pack\n \n
+&#8226; Digital Book\n \n
+    </string>
+
+    <string name="teachers_stopwatch">
+&#8226; Teacher’s Guide\n \n
+&#8226; Teacher’s Toolkit (CD)\n \n
+&#8226; Class audio\n \n
+&#8226; Exams and exam audio\n \n
+&#8226; Additional readings with activities\n \n
+&#8226; Grammar worksheets\n \n
+&#8226; Vocabulary worksheets\n \n
+&#8226; Digital Book App\n \n
+    </string>
+
+        <string name="teachers_nextstep">
+&#8226; Teacher’s Book\n \n
+&#8226; Class CDs &amp; Tests\n \n
+&#8226; Tests (can be downloaded and adapted)\n \n
+&#8226; Posters Digital Book\n \n
+    </string>
+
+        <string name="teachers_englishinmotion">
+&#8226; Teacher’s Book\n \n
+&#8226; Class CDs\n \n
+&#8226; Teacher’s all-in-one Book Tests Book\n \n
+&#8226; Test CD\n \n
+&#8226; DVD\n \n
+&#8226; Digital Book\n \n
+&#8226; Website\n \n
+    </string>
+
+        <string name="teachers_awesome">
+&#8226; Teacher’s Book\n \n
+&#8226; Resource Book\n \n
+&#8226; Class CDs\n \n
+&#8226; Tests\n \n
+&#8226; Posters\n \n
+&#8226; Digital Book\n \n
+    </string>
+
+        <string name="teachers_achievers">
+&#8226; Teacher’s Book\n \n
+&#8226; Teacher’s Resource Book\n \n
+&#8226; Teacher’s Digital Book\n \n
+&#8226; Teacher’s Audio Material Pack\n \n
+&#8226; Richmond Spiral Platform\n \n
+    </string>
+
+        <string name="teachers_spotlightonliterature">
+&#8226; Teacher’s Guide \n \n
+&#8226; Teacher’s CD-ROM\n \n
+    </string>
+
+        <string name="teachers_combinedsciences">
+&#8226; Online Teacher’s Guide and Videos\n \n
+    </string>
+
+        <string name="teachers_englishid">
+&#8226; Teacher’s Book \n \n
+&#8226; Class CD\n \n
+&#8226; DVD (ID Café) \n \n
+&#8226; Digital Book\n \n
+&#8226; Learning Platform with a full range of digital resources\n \n
+    </string>
+
+        <string name="teachers_identities">
+&#8226; Teacher’s Book \n \n
+&#8226; Class CD\n \n
+&#8226; DVD (ID Café) \n \n
+&#8226; Digital Book\n \n
+&#8226; Learning Platform with a full range of digital resources\n \n
+    </string>
+
+        <string name="teachers_americanbigpicture">
+&#8226; Teacher’s Book\n \n
+&#8226; Class Audio CD\n \n
+&#8226; Digital Book\n \n
+&#8226; Test Studio\n \n
+&#8226; Online videos and author interviews\n \n
+&#8226; Learning Platform\n \n
+    </string>
+
+        <string name="teachers_thebigpicture">
+&#8226; Teacher’s Book\n \n
+&#8226; Class Audio CD\n \n
+&#8226; Digital Book\n \n
+&#8226; Test Studio\n \n
+&#8226; Online videos and author interviews\n \n
+&#8226; Learning Platform\n \n
+    </string>
+
+
+        <string name="teachers_goingpro">
+&#8226; Teacher’s Guide\n \n
+&#8226; Teacher’s Resource CD\n \n
+&#8226; DVD\n \n
+&#8226; Digital Book\n \n
+    </string>
+
+        <string name="teachers_atwork">
+&#8226; Teacher’s Book \n \n
+&#8226; Class Audio CD \n \n
+&#8226; Learning Platform \n \n
+&#8226; Digital book for IWB\n \n
+    </string>
+
+        <string name="teachers_richmondmazes">
+
+    </string>
+
+</resources>

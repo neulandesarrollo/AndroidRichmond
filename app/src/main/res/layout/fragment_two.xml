@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloComponents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Components &amp; Resources:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/components"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212121"/>
+
+            <TextView
+                android:id="@+id/studentsbook"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student's book"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/imagen1" />
+
+            <TextView
+                android:textColor="#212121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto1" />
+
+            <ImageView
+                android:id="@+id/imagen2"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+              />
+
+            <TextView
+                android:textColor="#212121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto2" />
+
+            <ImageView
+                android:id="@+id/imagen3"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                />
+
+            <TextView
+                android:textColor="#212121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto3" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
