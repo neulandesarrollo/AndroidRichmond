@@ -284,9 +284,9 @@ public class FourFragment extends Fragment{
 
             ISBNSAk.setText("7506009837508");
             ISBNSk.setText("");
-            ISBNS1.setText("7506009834934");
-            ISBNS2.setText("7506009834941");
-            ISBNS3.setText("7506009834958");
+            ISBNS1.setText("7506009837515");
+            ISBNS2.setText("7506009837522");
+            ISBNS3.setText("7506009837539");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -296,9 +296,9 @@ public class FourFragment extends Fragment{
             ISBNS2T.setVisibility(View.VISIBLE);
             ISBNS3T.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("7506009835405");
-            ISBNS1T.setText("7506009835412");
-            ISBNS1T.setText("7506009835429");
+            ISBNS1T.setText("7506009837546");
+            ISBNS1T.setText("7506009837553");
+            ISBNS1T.setText("7506009837560");
         }
 
         else if(titulo1.equals("TIPPY TOES"))
@@ -371,8 +371,8 @@ public class FourFragment extends Fragment{
             ISBNS2T.setVisibility(View.VISIBLE);
             ISBNS3T.setVisibility(View.VISIBLE);
 
-            ISBNS2T.setText("7506009842359");
-            ISBNS3T.setText("7506009842366");
+            ISBNS2T.setText("7506009842816");
+            ISBNS3T.setText("7506009842823");
         }
 
         //
@@ -680,12 +680,12 @@ public class FourFragment extends Fragment{
             ISBNS5.setVisibility(View.VISIBLE);
             ISBNS6.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("9786070611087");
-            ISBNS2.setText("9786070611032");
-            ISBNS3.setText("9786070611094");
-            ISBNS4.setText("9786070611100");
-            ISBNS5.setText("976070611049");
-            ISBNS6.setText("9786070611056");
+            ISBNS1.setText("7506009840041");
+            ISBNS2.setText("7506009840058");
+            ISBNS3.setText("7506009840065");
+            ISBNS4.setText("7506009840072");
+            ISBNS5.setText("7506009840089");
+            ISBNS6.setText("7506009840096");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -701,12 +701,12 @@ public class FourFragment extends Fragment{
             ISBNS5T.setVisibility(View.VISIBLE);
             ISBNS6T.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("7506009842403");
-            ISBNS2T.setText("7506009842410");
-            ISBNS3T.setText("7506009842427");
-            ISBNS4T.setText("7506009842434");
-            ISBNS5T.setText("7506009842441");
-            ISBNS6T.setText("7506009842458");
+            ISBNS1T.setText("7506009840409");
+            ISBNS2T.setText("7506009840416");
+            ISBNS3T.setText("7506009840423");
+            ISBNS4T.setText("7506009840430");
+            ISBNS5T.setText("7506009840447");
+            ISBNS6T.setText("7506009840454");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -728,12 +728,12 @@ public class FourFragment extends Fragment{
             ISBNS5.setVisibility(View.VISIBLE);
             ISBNS6.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("9786076000465");
-            ISBNS2.setText("9786076000557");
-            ISBNS3.setText("9786076000502");
-            ISBNS4.setText("9786076000779");
-            ISBNS5.setText("9786076000472");
-            ISBNS6.setText("9786076000878");
+            ISBNS1.setText("7506009837447");
+            ISBNS2.setText("7506009837454");
+            ISBNS3.setText("7506009837461");
+            ISBNS4.setText("7506009837478");
+            ISBNS5.setText("7506009837485");
+            ISBNS6.setText("7506009837492");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -793,12 +793,12 @@ public class FourFragment extends Fragment{
             ISBNS5.setVisibility(View.VISIBLE);
             ISBNS6.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("7506009839908");
-            ISBNS2.setText("7506009839915");
-            ISBNS3.setText("7506009839922");
-            ISBNS4.setText("7506009839939");
-            ISBNS5.setText("7506009839946");
-            ISBNS6.setText("7506009839953");
+            ISBNS1.setText("9786070608827");
+            ISBNS2.setText("9786070608834");
+            ISBNS3.setText("978607060884");
+            ISBNS4.setText("9786070609503");
+            ISBNS5.setText("9786070609510");
+            ISBNS6.setText("9786070608858");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -908,10 +908,10 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
             ISBNS4.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("7506009840829");
-            ISBNS2.setText("7506009841086");
-            ISBNS3.setText("7506009841154");
-            ISBNS4.setText("7506009841161");
+            ISBNS1.setText("9788466829434");
+            ISBNS2.setText("9788466829069");
+            ISBNS3.setText("9788466829229");
+            ISBNS4.setText("9788466829137");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -923,10 +923,10 @@ public class FourFragment extends Fragment{
             ISBNS3T.setVisibility(View.VISIBLE);
             ISBNS4T.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("7506009841178");
-            ISBNS2T.setText("7506009841185");
-            ISBNS3T.setText("7506009841192");
-            ISBNS4T.setText("7506009841208");
+            ISBNS1T.setText("7506009843646");
+            ISBNS2T.setText("7506009843615");
+            ISBNS3T.setText("7506009843622");
+            ISBNS4T.setText("7506009843639");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -944,10 +944,10 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
             ISBNS4.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("7506009840829");
-            ISBNS2.setText("7506009841086");
-            ISBNS3.setText("7506009841154");
-            ISBNS4.setText("7506009841161");
+            ISBNS1.setText("9786070609701");
+            ISBNS2.setText("9786070609831");
+            ISBNS3.setText("9786070609855");
+            ISBNS4.setText("9786070609848");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -959,10 +959,10 @@ public class FourFragment extends Fragment{
             ISBNS3T.setVisibility(View.VISIBLE);
             ISBNS4T.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("7506009841178");
-            ISBNS2T.setText("7506009841185");
-            ISBNS3T.setText("7506009841192");
-            ISBNS4T.setText("7506009841208");
+            ISBNS1T.setText("9786070609909");
+            ISBNS2T.setText("9786070609916");
+            ISBNS3T.setText("9786070609923");
+            ISBNS4T.setText("9786070609930");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1006,10 +1006,10 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
             ISBNS4.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("7506009834149");
-            ISBNS2.setText("7506009834156");
-            ISBNS3.setText("7506009834163");
-            ISBNS4.setText("7506009834170");
+            ISBNS1.setText("9788466810029");
+            ISBNS2.setText("9788466814928");
+            ISBNS3.setText("9788466815123");
+            ISBNS4.setText("9788466815147");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -1021,10 +1021,10 @@ public class FourFragment extends Fragment{
             ISBNS3T.setVisibility(View.VISIBLE);
             ISBNS4T.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("7506009838833");
-            ISBNS2T.setText("7506009838840");
-            ISBNS3T.setText("7506009838857");
-            ISBNS4T.setText("7506009838864");
+            ISBNS1T.setText("9788466808538");
+            ISBNS2T.setText("9788466813594");
+            ISBNS3T.setText("9788466813884");
+            ISBNS4T.setText("9788466814072");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1145,12 +1145,12 @@ public class FourFragment extends Fragment{
             ISBNS5.setVisibility(View.VISIBLE);
             ISBNS6.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("7506009834965");
-            ISBNS2.setText("7506009834972");
-            ISBNS3.setText("7506009834989");
-            ISBNS4.setText("7506009834996");
-            ISBNS5.setText("7506009835009");
-            ISBNS6.setText("7506009835016");
+            ISBNS1.setText("9786070608704");
+            ISBNS2.setText("9786070605697");
+            ISBNS3.setText("9786070605772");
+            ISBNS4.setText("9786070607066");
+            ISBNS5.setText("9786070607561");
+            ISBNS6.setText("9786070608728");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -1260,9 +1260,9 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
 
             ISBNSk.setText("7506009840829");
-            ISBNS1.setText("7506009841086");
-            ISBNS2.setText("7506009841154");
-            ISBNS3.setText("7506009841161");
+            ISBNS1.setText("9786070607615");
+            ISBNS2.setText("9786070607639");
+            ISBNS3.setText("9786070607653");
 
             levelkT.setVisibility(View.VISIBLE);
             level1T.setVisibility(View.VISIBLE);
@@ -1275,9 +1275,9 @@ public class FourFragment extends Fragment{
             ISBNS3T.setVisibility(View.VISIBLE);
 
             ISBNSkT.setText("7506009841178");
-            ISBNS1T.setText("7506009841185");
-            ISBNS2T.setText("7506009841192");
-            ISBNS3T.setText("7506009841208");
+            ISBNS1T.setText("9786070607752");
+            ISBNS2T.setText("9786070607721");
+            ISBNS3T.setText("9786070607738");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1306,12 +1306,12 @@ public class FourFragment extends Fragment{
             ISBNS5.setVisibility(View.VISIBLE);
             ISBNS6.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("7506009834965");
-            ISBNS2.setText("7506009834972");
-            ISBNS3.setText("7506009834989");
-            ISBNS4.setText("7506009834996");
-            ISBNS5.setText("7506009835009");
-            ISBNS6.setText("7506009835016");
+            ISBNS1.setText("7506009840188");
+            ISBNS2.setText("7506009839052");
+            ISBNS3.setText("7506009840201");
+            ISBNS4.setText("7506009839069");
+            ISBNS5.setText("7506009842069");
+            ISBNS6.setText("7506009842465");
 
             level1T.setVisibility(View.VISIBLE);
             level2T.setVisibility(View.VISIBLE);
@@ -1334,12 +1334,12 @@ public class FourFragment extends Fragment{
             ISBNS5T.setVisibility(View.VISIBLE);
             ISBNS6T.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("7506009835436");
-            ISBNS2T.setText("7506009835443");
-            ISBNS3T.setText("7506009835450");
-            ISBNS4T.setText("7506009835467");
-            ISBNS5T.setText("7506009835474");
-            ISBNS6T.setText("7506009835481");
+            ISBNS1T.setText("77506009843165");
+            ISBNS2T.setText("7506009843172");
+            ISBNS3T.setText("7506009843189");
+            ISBNS4T.setText("7506009843196");
+            ISBNS5T.setText("7506009843141");
+            ISBNS6T.setText("7506009843295");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
