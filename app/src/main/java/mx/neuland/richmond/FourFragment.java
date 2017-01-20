@@ -1586,35 +1586,57 @@ public class FourFragment extends Fragment{
 
         else if(titulo1.equals("English ID"))
         {
-            levelk.setVisibility(View.VISIBLE);
             level1.setVisibility(View.VISIBLE);
+            level1.setText("English ID Starter Student's & Workbook");
             level2.setVisibility(View.VISIBLE);
+            level2.setText("English ID Student’s Book");
             level3.setVisibility(View.VISIBLE);
+            level3.setText("English ID Workbook");
 
-            ISBNSk.setVisibility(View.VISIBLE);
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
             ISBNS3.setVisibility(View.VISIBLE);
 
-            ISBNSk.setText("7506009840829");
-            ISBNS1.setText("9786070607615");
-            ISBNS2.setText("9786070607639");
-            ISBNS3.setText("9786070607653");
+            ISBNS1.setText("Level 1: 9786070607776");
+            ISBNS2.setText("Level 2: 9786070607615\n" +
+                    "Level 3: 9786070607639");
+            ISBNS3.setText("Level 2: 9786070607622\n" +
+                    "Level 3: 9786070607646");
 
-            levelkT.setVisibility(View.VISIBLE);
             level1T.setVisibility(View.VISIBLE);
+            level1T.setText("English ID Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
+            level2T.setText("English ID Class CD");
             level3T.setVisibility(View.VISIBLE);
+            level3T.setText("English ID DVD");
+            level4T.setVisibility(View.VISIBLE);
+            level4T.setText("English ID Digital Book CD-ROM");
 
-            ISBNSkT.setVisibility(View.VISIBLE);
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
             ISBNS3T.setVisibility(View.VISIBLE);
+            ISBNS4T.setVisibility(View.VISIBLE);
 
-            ISBNSkT.setText("7506009841178");
-            ISBNS1T.setText("9786070607752");
-            ISBNS2T.setText("9786070607721");
-            ISBNS3T.setText("9786070607738");
+            ISBNS1T.setText("Level 1: 9786070607714\n" +
+                    "Level 2: 9786070607752\n" +
+                    "Level 3: 9786070607721");
+            ISBNS2T.setText("Level 1: 7506009836716\n" +
+                    "Level 2: 7506009836730\n" +
+                    "Level 3: 7506009839137");
+            ISBNS3T.setText("Level 1: 7506009836723\n" +
+                    "Level 2: 7506009836747\n" +
+                    "Level 3: 7506009836761");
+            ISBNS4T.setText("Level 1: 9786070607899\n" +
+                    "Level 2: 9786070607882\n" +
+                    "Level 3: 9786070607905");
+
+            thematicTeachersTitle.setVisibility(View.VISIBLE);
+            thematicTeachersTitle.setText("English ID Student’s & Workbook");
+
+            ISBNSA1T.setVisibility(View.VISIBLE);
+
+            ISBNSA1T.setText("A:9786070607783 / B:9786070607790\n" +
+                    "A:9786070607806 / B:9786070607813");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1684,12 +1706,6 @@ public class FourFragment extends Fragment{
 
         else if(titulo1.equals("Richmond Mazes"))
         {
-            tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
-            tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
-        }
-
-        else if(titulo1.equals("The big picture"))
-        {
             level1.setVisibility(View.VISIBLE);
             level1.setText("Richmond Mazes - Escape From Pizza Plaza");
             level2.setVisibility(View.VISIBLE);
@@ -1704,6 +1720,49 @@ public class FourFragment extends Fragment{
             ISBNS1.setText("9788466817431");
             ISBNS2.setText("9788466817448");
             ISBNS3.setText("9788466818513");
+
+            tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
+            tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
+        }
+
+        else if(titulo1.equals("The big picture"))
+        {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("The BIG Picture Student’s Book");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("The BIG Picture Pack (WB+CD)");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("Level A1: 9788466815673\n" +
+                    "Level A2: 9788466820769\n" +
+                    "Level B1: 9788466820776");
+            ISBNS2.setText("Level A1: 7506009839595\n" +
+                    "Level A2: 7506009834248\n" +
+                    "Level B1: 7506009834255");
+
+
+            level1T.setVisibility(View.VISIBLE);
+            level1T.setText("The BIG Picture Teacher’s Book");
+            level2T.setVisibility(View.VISIBLE);
+            level2T.setText("The BIG Picture Class Audio CDs");
+            level3T.setVisibility(View.VISIBLE);
+            level3T.setText("The BIG Picture Digital Book");
+
+            ISBNS1T.setVisibility(View.VISIBLE);
+            ISBNS2T.setVisibility(View.VISIBLE);
+            ISBNS3T.setVisibility(View.VISIBLE);
+
+            ISBNS1T.setText("Level A1: 9788466815697\n" +
+                    "Level A2: 9788466810579\n" +
+                    "Level B1: 9788466810609");
+            ISBNS2T.setText("Level A1: 9788466815703\n" +
+                    "Level A2: 9788466812801\n" +
+                    "Level B1: 9788466812825");
+            ISBNS2T.setText("Level A1: 9788466815710\n" +
+                    "Level A2: 9788466812818\n" +
+                    "Level B1: 9788466812832");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1912,36 +1971,126 @@ public class FourFragment extends Fragment{
 
         else if(titulo1.equals("TARGET KET for Schools"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Target KET for Schools Student Pack (SB+CD-ROM)");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Target KET Workbook");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("7506009832596");
+            ISBNS2.setText("9788466806824");
+
+
+            level1T.setVisibility(View.VISIBLE);
+            level1T.setText("Target KET for Schools Teacher’s Pack (TB+Audio CD)");
+
+            ISBNS1T.setVisibility(View.VISIBLE);
+
+            ISBNS1T.setText("7506009832619");
+
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
         }
 
         else if(titulo1.equals("TARGET PET"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Target PET Student Pack (SB+CD-ROM)");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Target PET Workbook");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("7506009832558");
+            ISBNS2.setText("9788466808712");
+
+
+            level1T.setVisibility(View.VISIBLE);
+            level1T.setText("Target PET Teacher’s Pack (TB+Audio CD)");
+
+            ISBNS1T.setVisibility(View.VISIBLE);
+
+            ISBNS1T.setText("7506009832572");
+
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: Advanced"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Richmond Practice Tests for Cambridge English: Advanced");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("9788466820714");
+
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: First"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Target First Student’s Book");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Pack Target First (WB+CD)");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("9788466817493");
+            ISBNS2.setText("7506009841789");
+
+
+            level1T.setVisibility(View.VISIBLE);
+            level1T.setText("Target First Teacher’s Pack (TB+CD)");
+
+            ISBNS1T.setVisibility(View.VISIBLE);
+
+            ISBNS1T.setText("7506009841550");
+
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
         }
 
         else if(titulo1.equals("Richmond Practice Tests for IELTS"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Richmond Practice Tests for IELTS");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("9788466817455");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
         }
 
         else if(titulo1.equals("Pass the TOEIC Test: Introductory Course"))
         {
+
+            ISBNS1.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("Introductory: 7506009841215\n"+"Intermediate: 7506009841222\n"+"Advanced: 7506009841239");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
         }
@@ -1954,24 +2103,183 @@ public class FourFragment extends Fragment{
 
         else if(titulo1.equals("Ready, Set, Go!"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Level 2 (K1):");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Level 3 (K2)::");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("Level 4 (K3)::");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("What Shape Is It?: 9786070606038\n"
+                    +"Farm Animals: 9786070606021\n"
+                    +"My Clothes: 9786070606014\n"
+                    +"Helping My Family: 9786070606052");
+
+            ISBNS2.setText("Everyday Jobs: 9786070606403\n"
+                    +"Wild Animals: 9786070606045\n"
+                    +"My New School: 9786070606069\n"
+                    +"How Do We Get There?: 9786070606533");
+
+            ISBNS3.setText("Our Living Earth: 9786070606564\n"
+                    +"My Senses at Work: 9786070606311\n"
+                    +"Animals through the Seasons: 9786070606328\n"
+                    +"Take a Ride: 9786070606557");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
 
         else if(titulo1.equals("Infoquest"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Level 1:");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Level 2:");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("Level 3:");
+            level4.setVisibility(View.VISIBLE);
+            level4.setText("Level 4:");
+            level5.setVisibility(View.VISIBLE);
+            level5.setText("Level 5:");
+            level6.setVisibility(View.VISIBLE);
+            level6.setText("Level 6:");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
+            ISBNS4.setVisibility(View.VISIBLE);
+            ISBNS5.setVisibility(View.VISIBLE);
+            ISBNS6.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250");
+
+            ISBNS2.setText("Fun and Games: 9789707392311\n"
+                    +"Tho se Animals: 9789707392304\n"
+                    +"What´s Cooking?: 9789707392328");
+
+            ISBNS3.setText("Tap into Sap: 9789707392366");
+            ISBNS4.setText("Grassland Safari: 9789707392380\n"
+                    +"On the Wild Side: 9789707392403");
+
+            ISBNS5.setText("A Way with Words: 9789707392410\n"
+                    +"Getting Together: 9789707392441\n"
+                    +"Cell City: 9789707392434");
+
+            ISBNS6.setText("Close Up on Careers: 9789707392458");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
 
         else if(titulo1.equals("Little Readers"))
         {
+            ISBNS1.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("Crickle, Crackle, Pop:  9789707392229\n"
+                    +"Shake and Sh ver : 9789707392236");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
 
         else if(titulo1.equals("Super stars"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Early Reader 1:");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Early Reader 2:");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("Solo Reader 1:");
+            level4.setVisibility(View.VISIBLE);
+            level4.setText("Solo Reader 2:");
+            level5.setVisibility(View.VISIBLE);
+            level5.setText("Fluent Reader 1:");
+            level6.setVisibility(View.VISIBLE);
+            level6.setText("Fluent Reader 2:");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
+            ISBNS4.setVisibility(View.VISIBLE);
+            ISBNS5.setVisibility(View.VISIBLE);
+            ISBNS6.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("Be Healthy: 9786070606113\n"
+                    +"Butterfly Life Cycle: 9786070606168\n"
+                    +"Face Painting: 9786070606618\n"
+                    +"Meet a Beekeeper: 9786070606571\n"
+                    +"Meet an Astronaut: 9786070606144\n"
+                    +"Grow Grass Creatures: 9786070606199\n"
+                    +"My Community: 9786070606489\n"
+                    +"Our Earth: 9786070606588\n"
+                    +"Why We Need Sleep: 9786070606601");
+
+            ISBNS2.setText("Tadpole to Frog: 9786070606137\n"
+                    +"Water for Life: 9786070606472\n"
+                    +"Schoolyard Games: 9786070606182\n"
+                    +"Monkeys and Apes: 9786070606076\n"
+                    +"Dangerous Jobs: 9786070606175\n"
+                    +"Explore Eclipses: 9786070606090\n"
+                    +"All about Sharks: 9786070606083\n"
+                    +"Melting Ice: 9786070606120");
+
+            ISBNS3.setText("Whales and Dolphins: 9789707392267\n"
+                    +"Wild Wind storms: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281");
+
+            ISBNS4.setText("In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281");
+
+            ISBNS5.setText("In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281");
+
+            ISBNS6.setText("In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281\n"
+                    +"Jeepers Creepers: 9789707392250\n"
+                    +"In My Garden: 9789707392267\n"
+                    +"Down on the Farm: 9789707392281");
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
