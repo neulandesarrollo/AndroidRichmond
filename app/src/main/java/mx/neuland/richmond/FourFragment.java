@@ -2244,41 +2244,42 @@ public class FourFragment extends Fragment{
                     +"All about Sharks: 9786070606083\n"
                     +"Melting Ice: 9786070606120");
 
-            ISBNS3.setText("Whales and Dolphins: 9789707392267\n"
-                    +"Wild Wind storms: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS3.setText("Whales and Dolphins: 9786070606625\n"
+                    +"Wild Wind storms: 9786070606151\n"
+                    +"End angered Animals: 9786070606465\n"
+                    +"On Safari: 9786070606373\n"
+                    +"Recycling Race: 9786070606366\n"
+                    +"Space Junk: 9786070606106\n"
+                    +"Making Masks: 9786070606243\n"
+                    +"EXPERIMENTS WITH MAGNETS: 9786070606205");
 
-            ISBNS4.setText("In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS4.setText("Space Stations: 9786070606250\n"
+                    +"Puppets Making: 9786070606274\n"
+                    +"My Family Tree: 9786070606212\n"
+                    +"Desert Animals: 9786070606342\n"
+                    +"Why Volcanoes Erupt: 9786070606519\n"
+                    +"Working with Apes: 9786070606229\n"
+                    +"Radical Robos: 9786070606335\n"
+                    +"ANIMALS IN CAPTIVITY: 9786070606236");
 
-            ISBNS5.setText("In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS5.setText("The Games: 9786070606540\n"
+                    +"Global Warming: 9786070606267\n"
+                    +"Our Greatest Inventions: 9786070606298\n"
+                    +"How Anim als Defend Themselves: 9786070606359\n"
+                    +"Great Moments in History: 9786070606281\n"
+                    +"Super Science Experiments: 9786070606304\n"
+                    +"Magnificent Mummies: 9786070606526\n"
+                    +"Secret Codes: 9786070606397");
 
-            ISBNS6.setText("In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS6.setText("Creating Cool Gadgets: 9786070606632\n"
+                    +"Explore Extreme Sports: 9786070606434\n"
+                    +"How the Brain Works: 9786070606427\n"
+                    +"It’s a Mystery: 9786070606595\n"
+                    +"Make Your Own Web Page: 9786070606441\n"
+                    +"How Aircraft Fly: 9786070606496\n"
+                    +"Reptiles and Amphibians: 9786070606380\n"
+                    +"Why Earth quakes Occur: 9786070606502\n"
+                    +"Body Smart: 9786070606458");
 
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
@@ -2298,6 +2299,45 @@ public class FourFragment extends Fragment{
 
         else if(titulo1.equals("Richmond readers"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Level 3:");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Level 4:");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("Level 5:");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("P.R. and Prejudice: 9786070606113\n"
+                    +"The Canterville Ghost: 9786070606168\n"
+                    +"Dr. Jekyll & Mr. Hyde: 9786070606618\n"
+                    +"Frankenstein: 9786070606571\n"
+                    +"Meet an Astronaut: 9786070606144\n"
+                    +"Grow Grass Creatures: 9786070606199\n"
+                    +"My Community: 9786070606489\n"
+                    +"Our Earth: 9786070606588\n"
+                    +"Why We Need Sleep: 9786070606601");
+
+            ISBNS2.setText("Tadpole to Frog: 9786070606137\n"
+                    +"Water for Life: 9786070606472\n"
+                    +"Schoolyard Games: 9786070606182\n"
+                    +"Monkeys and Apes: 9786070606076\n"
+                    +"Dangerous Jobs: 9786070606175\n"
+                    +"Explore Eclipses: 9786070606090\n"
+                    +"All about Sharks: 9786070606083\n"
+                    +"Melting Ice: 9786070606120");
+
+            ISBNS3.setText("Whales and Dolphins: 9786070606625\n"
+                    +"Wild Wind storms: 9786070606151\n"
+                    +"End angered Animals: 9786070606465\n"
+                    +"On Safari: 9786070606373\n"
+                    +"Recycling Race: 9786070606366\n"
+                    +"Space Junk: 9786070606106\n"
+                    +"Making Masks: 9786070606243\n"
+                    +"EXPERIMENTS WITH MAGNETS: 9786070606205");
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
