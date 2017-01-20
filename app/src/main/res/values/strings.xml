@@ -7,9 +7,92 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra porta massa, sit amet cursus dui facilisis ac. Nam maximus metus risus, id ultrices arcu semper rhoncus. Donec sollicitudin at augue non ullamcorper. Morbi placerat venenatis imperdiet. Pellentesque et dolor enim. Pellentesque facilisis felis a tortor consequat, a efficitur libero pellentesque. Nulla vehicula sed lorem in varius. Proin tempus venenatis nisl sit amet vulputate. Curabitur egestas, quam et ultrices vulputate, velit nisl finibus lacus, id consectetur felis leo at purus. Phasellus purus eros, vulputate at est et, mollis volutpat ipsum. Fusce porttitor leo at nisi feugiat, sit amet imperdiet justo malesuada. In gravida consequat tortor at mattis. Cras semper ut nunc vel egestas. Pellentesque porttitor condimentum aliquet. Etiam aliquet neque vitae ante egestas, vel fringilla libero accumsan. Donec dictum ligula non ultricies porta.
+      <string name="richadv">Richmond Practice Tests for Cambridge English: Advanced has
+    been written by experienced examiners and offers comprehensive exam
+    preparation and practice in print and online. It provides five complete
+    practice tests for Cambridge English: Advanced (CAE). Interactive versions
+    of the tests are also provided on the Richmond Learning Platform, along
+    with two additional online practice tests for the exam.\n</string>
 
-Aliquam pellentesque consectetur turpis, at varius est varius euismod. Nullam dolor risus, tempor dictum lacus vitae, interdum cursus risus. Mauris commodo risus eu pretium ultrices. Ut arcu purus, vehicula at tempor vel, volutpat sollicitudin nibh. Praesent ullamcorper at quam at vehicula. Curabitur sollicitudin, magna vitae bibendum vestibulum, quam mauris posuere est, ornare congue mauris nisi sit amet diam. Phasellus posuere feugiat vestibulum. Morbi ut mi eget arcu elementum mattis sit amet in felis. Cras vitae elit sapien. Suspendisse dignissim iaculis vehicula. Curabitur gravida erat at tempus commodo. Proin pulvinar volutpat mauris id accumsan. Phasellus bibendum nisi felis, ut pretium ante pharetra in.</string>
+        <string name="ketdesc">Target KET for Schools is a course to prepare students for the Cambridge
+    English Key (KET) exam. It provides essential exam practice and training, as
+    well as tips and strategies, plus focused practice of the key language needed
+    for the exam. With 40-50 hours of core material in the Student’s Book,
+    Target KET for Schools offers a quick, effective route to exam success.
+    Through its interactive CD-ROM, Target KET for Schools offers two
+    options: Exam Trainer and Practice Exam which will give students practice of
+    a computer-based exam.\n</string>
+
+        <string name="pet">Target PET is a short preparation course for the Cambridge English
+    Preliminary (PET) exam. It provides essential training and exam practice
+    for both paper and computer-based testing. With 40-50 hours of core
+    material in the Student’s Book, Target PET offers a quick, effective route
+    to exam success and is perfect for both teenagers and young adults.
+    Through the Exam Trainer and Practice Exam sections of
+    the Interactive CD-ROM, students gain practice of a computer-based
+    exam.\n</string>
+
+            <string name="richfirst">Richmond Practice Tests for Cambridge English: First has
+    been written by experienced examiners and offers comprehensive
+    exam preparation and practice, in print and online. It provides five
+    complete practice tests for Cambridge English: First (FCE).
+    Interactive versions of the tests are also provided on the
+    Richmond Learning Platform, along with two additional online
+    practice tests for the exam.\n</string>
+
+        <string name="ieltsdesc">Richmond Practice Tests for IELTS helps students prepare for the
+    International English Language Testing System (IELTS). The tests have
+    been written by experienced exam item writers and offer comprehensive
+    support and practice in print and online. With four complete practice
+    tests for the Academic module and two Reading and Writing components
+    for the General Training module, it is perfect for anyone who is preparing
+    to take IELTS. Interactive versions of these tests, plus two further
+    Academic tests are also provided on the Richmond Learning Platform,
+    along with the audio material for all the tests.\n</string>
+
+    <string name="toeicdesc">Pass the TOEIC Test is a thoroughly comprehensive, authentic and up-to-date
+    preparation course for the TOEIC test. Ideal for self-study or class use, the course
+    builds confidence and boosts test scores for students on the Listening and Reading
+    sections of the TOEIC test.\n</string>
+
+    <string name="readysetdesc">Is a reading program designed to encourage preschoolers to interact with words and pictures.
+        The books have been carefully graded to include three levels of reading proficiency. Titles at each level are
+        arranged into four themes that young readers will find both familiar and interesting.\n</string>
+
+    <string name="infoquestdesc">Is a six-level series of exciting, interesting and authentic stories, especially
+        written to motivate children and young teenagersto read. Each book has a central theme which
+        encourages cross-curricular work and the discussion of wider topics.\n</string>
+
+    <string name="littlereaddesc">Is a colorful series that includes interesting stories and appealing pictures,
+        encouraging children to read for pleasure and engage in creative writing and project work.\n</string>ç
+
+    <string name="starsdesc">A fresh, lively and engaging graded reading program. Super Stars offers a wonderful range of stunningly illustrated
+    nonfiction titles. The core program is made up of 36 books, carefully graded across six levels of reading and featuring a
+    variety of literary genres.\n</string>
+
+    <string name="popdesc">Popcorn ELT Readers are a series of low-level, graded readers based on popular films, TV series, and classic children’s literature.\n</string>
+
+    <string name="mediadesc">Media Readers are a series of contemporary film and TV adaptations, original teenage fiction, biographies and classic literature.
+        Specifically targeted at teenagers learning English, all five levels follow a carefully graded syllabus,
+        from beginner to advanced level.\n</string>
+
+    <string name="richreadersdesc">Richmond Readers are a multi-genre, five-level series of carefully graded readers for the older learner.
+        There are adaptations of classic literature, original fiction, biographies and even game books. They require the student to play an imaginative role that is integral
+        to the outcome of the story. Each book includes an audio CD, glossary and extra comprehension activities that can be used either as a supplement to
+        any main course or as a stand-alone resource.\n</string>
+
+    <string name="dvdreaddesc">DVD Readers are a series of non-fiction graded readers for teenagers, with supporting DVD material adapted from popular TV documentaries and films.
+        Each title presents students with engaging content that is directly linked to a curriculum content area. The DVD exposes students to authentic English, supported by
+        easy-to-use voiceover and subtitle options..\n</string>
+
+
+          <string name="lorem"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.\n</string>
+
     <string name="title_activity_maps">Map</string>
 
     <string name="components_lorem">
