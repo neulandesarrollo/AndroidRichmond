@@ -2386,30 +2386,17 @@ public class FourFragment extends Fragment{
             ISBNS1.setText("P.R. and Prejudice: 9786070606113\n"
                     +"The Canterville Ghost: 9786070606168\n"
                     +"Dr. Jekyll & Mr. Hyde: 9786070606618\n"
-                    +"Frankenstein: 9786070606571\n"
-                    +"Meet an Astronaut: 9786070606144\n"
-                    +"Grow Grass Creatures: 9786070606199\n"
-                    +"My Community: 9786070606489\n"
-                    +"Our Earth: 9786070606588\n"
-                    +"Why We Need Sleep: 9786070606601");
+                    +"Frankenstein: 9786070606571");
 
-            ISBNS2.setText("Tadpole to Frog: 9786070606137\n"
-                    +"Water for Life: 9786070606472\n"
-                    +"Schoolyard Games: 9786070606182\n"
-                    +"Monkeys and Apes: 9786070606076\n"
-                    +"Dangerous Jobs: 9786070606175\n"
-                    +"Explore Eclipses: 9786070606090\n"
-                    +"All about Sharks: 9786070606083\n"
-                    +"Melting Ice: 9786070606120");
+            ISBNS2.setText("Medical Match: 9786070606137\n"
+                    +"A Floral Arrangement: 9786070606472\n"
+                    +"Sense & Sensibility: 9786070606182\n"
+                    +"Dracula: 9786070606076\n"
+                    +"A Trip to London: 9786070606175");
 
-            ISBNS3.setText("Whales and Dolphins: 9786070606625\n"
-                    +"Wild Wind storms: 9786070606151\n"
-                    +"End angered Animals: 9786070606465\n"
-                    +"On Safari: 9786070606373\n"
-                    +"Recycling Race: 9786070606366\n"
-                    +"Space Junk: 9786070606106\n"
-                    +"Making Masks: 9786070606243\n"
-                    +"EXPERIMENTS WITH MAGNETS: 9786070606205");
+            ISBNS3.setText("Elizabet h II:The Diamond Queen: 9786070606625\n"
+                    +"Steve Jobs : th e man behind Apple: 9786070606151\n"
+                    +"SHERLOCK HOLMES: 9786070606465");
 
             tituloForStudents.setVisibility(View.GONE);
             tituloForTeachers.setVisibility(View.GONE);
@@ -2422,6 +2409,32 @@ public class FourFragment extends Fragment{
 
         else if(titulo1.equals("DVD readers"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Level A2:");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Level B1:");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("Brilliant Britain: The Seaside: 9786070606915\n"
+                    +"Take Away My Takeaway: Hong Kong: 9786070606861\n"
+                    +"Take Away My Takeaway: Texas: 9786070606854\n"
+                    +"999 Emergency: 9781909221383\n"+
+                    "The British Royal Family: 9781909221390");
+
+            ISBNS2.setText("Brilliant Brita in: Tea: 9786070606908\n"
+                    +"Changing World: 9781909221413\n"
+                    +"Take Away My Takeaway : Italy: 9786070606878\n"
+                    +"Eccentric Britain: 9781909221406\n"+
+                    "Brilliant Brita in: Breakfasts: 9786070606892\n"
+                    +"Take Away My Takeaway : New Orleans: 9786070606885");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
