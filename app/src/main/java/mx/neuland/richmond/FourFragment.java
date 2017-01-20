@@ -2046,7 +2046,6 @@ public class FourFragment extends Fragment{
 
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
-<<<<<<< HEAD
 
             level1.setVisibility(View.VISIBLE);
             level1.setText("Richmond\n" +
@@ -2056,12 +2055,11 @@ public class FourFragment extends Fragment{
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS1.setText("9788466820714\n");
 
-=======
             tituloForStudents.setVisibility(View.GONE);
             tituloForTeachers.setVisibility(View.GONE);
             ISBNStudents.setVisibility(View.GONE);
             ISBNTeachers.setVisibility(View.GONE);
->>>>>>> aa5c761b5498db101ff013f59f25899d91da06ce
+
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: First"))
@@ -2351,6 +2349,11 @@ public class FourFragment extends Fragment{
                     +"Why Earth quakes Occur: 9786070606502\n"
                     +"Body Smart: 9786070606458");
 
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
@@ -2407,6 +2410,11 @@ public class FourFragment extends Fragment{
                     +"Space Junk: 9786070606106\n"
                     +"Making Masks: 9786070606243\n"
                     +"EXPERIMENTS WITH MAGNETS: 9786070606205");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
 
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
