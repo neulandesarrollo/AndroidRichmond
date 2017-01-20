@@ -87,7 +87,7 @@ public class TwoFragment extends Fragment{
             imagen1.setImageResource(R.drawable.schoolcubbyhouse1);
             imagen1.setVisibility(View.VISIBLE);
 
-            texto1.setText("Each unit ends with a page to review vocabulary and language.");
+            texto1.setText("Each unit ends with page to review vocabulary and language.");
 
             imagen2.setImageResource(R.drawable.schoolcubbyhouses2);
             imagen2.setVisibility(View.VISIBLE);
@@ -97,7 +97,7 @@ public class TwoFragment extends Fragment{
             imagen3.setImageResource(R.drawable.schoolcubbyhouse3);
             imagen3.setVisibility(View.VISIBLE);
 
-            texto3.setText("There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.\n\n\n\n\n\n\n\n");
+            texto3.setText("There are beautiful pop-outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.\n\n\n\n\n\n\n\n");
         }
 
         else if(titulo1.equals("PEBBLES"))

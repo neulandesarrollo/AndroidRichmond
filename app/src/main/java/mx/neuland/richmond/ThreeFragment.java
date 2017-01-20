@@ -62,7 +62,7 @@ public class ThreeFragment extends Fragment{
 
             descripcionTeachers.setText("In the Teacher’s Guide, teacher’s will  nd instructions to build a play house—similar to those in the Values section—where students can develop their creativity and motor skills.\n\n" +
                     "Teachers will also  nd suggestions to use the cubby houses— children can keep their toys or school materials inside or get in to color and play.\n\n" +
-                    "By building their cubby houses, students will enjoy themselves while understanding and visualizing the value in a more memorable way!");
+                    "By building their cubby houses, students will enjoy themselves while understanding and visualizing the value in a more memorable way.");
 
         }
 

@@ -1985,7 +1985,7 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("DELTA'S Key to the Next Generation TOELF Test"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#ffc907"));
-            imagen.setImageResource(R.drawable.grupo_amarillo);
+            imagen.setImageResource(R.drawable.deltas);
             descripcion.setText(R.string.ibt);
 
             uno.setImageResource(R.drawable.richmondlearning);
@@ -2032,8 +2032,8 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("TARGET KET for Schools"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#ffc907"));
-            imagen.setImageResource(R.drawable.grupo_amarillo);
-            descripcion.setText(R.string.lorem);
+            imagen.setImageResource(R.drawable.targetket);
+            descripcion.setText(R.string.ketdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2079,8 +2079,8 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("TARGET PET"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#ffc907"));
-            imagen.setImageResource(R.drawable.grupo_amarillo);
-            descripcion.setText(R.string.lorem);
+            imagen.setImageResource(R.drawable.targetpet);
+            descripcion.setText(R.string.pet);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2125,8 +2125,8 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: Advanced"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#ffc907"));
-            imagen.setImageResource(R.drawable.grupo_amarillo);
-            descripcion.setText(R.string.lorem);
+            imagen.setImageResource(R.drawable.cambadv);
+            descripcion.setText(R.string.richadv);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2171,8 +2171,8 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: First"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#ffc907"));
-            imagen.setImageResource(R.drawable.grupo_amarillo);
-            descripcion.setText(R.string.lorem);
+            imagen.setImageResource(R.drawable.first);
+            descripcion.setText(R.string.richfirst);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2218,8 +2218,8 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("Richmond Practice Tests for IELTS"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#ffc907"));
-            imagen.setImageResource(R.drawable.grupo_amarillo);
-            descripcion.setText(R.string.lorem);
+            imagen.setImageResource(R.drawable.ielts);
+            descripcion.setText(R.string.ieltsdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2265,8 +2265,8 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("Pass the TOEIC Test: Introductory Course"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#ffc907"));
-            imagen.setImageResource(R.drawable.grupo_amarillo);
-            descripcion.setText(R.string.lorem);
+            imagen.setImageResource(R.drawable.toeic);
+            descripcion.setText(R.string.toeicdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2360,7 +2360,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.readysetdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2407,7 +2407,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.infoquestdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2454,7 +2454,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.littlereaddesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2501,7 +2501,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.starsdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2548,7 +2548,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.popdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2595,7 +2595,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.mediadesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2642,7 +2642,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.richreadersdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
@@ -2689,7 +2689,7 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setImageResource(R.drawable.grupo_azul);
-            descripcion.setText(R.string.lorem);
+            descripcion.setText(R.string.dvdreaddesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
             uno.setVisibility(View.VISIBLE);
