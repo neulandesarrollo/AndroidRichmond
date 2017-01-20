@@ -1846,7 +1846,6 @@ public class FourFragment extends Fragment{
             ISBNS6T.setVisibility(View.VISIBLE);
             ISBNS6T.setText("9788429450675\n");
 
-
         }
 
         else if(titulo1.equals("Richmond Compact Dictionary"))
@@ -2046,22 +2045,11 @@ public class FourFragment extends Fragment{
 
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
-<<<<<<< HEAD
 
-            level1.setVisibility(View.VISIBLE);
-            level1.setText("Richmond\n" +
-                    "Practice Tests for\n" +
-                    "Cambridge English:\n" +
-                    "Advanced");
-            ISBNS1.setVisibility(View.VISIBLE);
-            ISBNS1.setText("9788466820714\n");
-
-=======
             tituloForStudents.setVisibility(View.GONE);
             tituloForTeachers.setVisibility(View.GONE);
             ISBNStudents.setVisibility(View.GONE);
             ISBNTeachers.setVisibility(View.GONE);
->>>>>>> aa5c761b5498db101ff013f59f25899d91da06ce
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: First"))
