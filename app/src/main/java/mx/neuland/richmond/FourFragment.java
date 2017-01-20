@@ -2046,10 +2046,12 @@ public class FourFragment extends Fragment{
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
 
+
             tituloForStudents.setVisibility(View.GONE);
             tituloForTeachers.setVisibility(View.GONE);
             ISBNStudents.setVisibility(View.GONE);
             ISBNTeachers.setVisibility(View.GONE);
+
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: First"))
@@ -2302,41 +2304,144 @@ public class FourFragment extends Fragment{
                     +"All about Sharks: 9786070606083\n"
                     +"Melting Ice: 9786070606120");
 
-            ISBNS3.setText("Whales and Dolphins: 9789707392267\n"
-                    +"Wild Wind storms: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS3.setText("Whales and Dolphins: 9786070606625\n"
+                    +"Wild Wind storms: 9786070606151\n"
+                    +"End angered Animals: 9786070606465\n"
+                    +"On Safari: 9786070606373\n"
+                    +"Recycling Race: 9786070606366\n"
+                    +"Space Junk: 9786070606106\n"
+                    +"Making Masks: 9786070606243\n"
+                    +"EXPERIMENTS WITH MAGNETS: 9786070606205");
 
-            ISBNS4.setText("In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS4.setText("Space Stations: 9786070606250\n"
+                    +"Puppets Making: 9786070606274\n"
+                    +"My Family Tree: 9786070606212\n"
+                    +"Desert Animals: 9786070606342\n"
+                    +"Why Volcanoes Erupt: 9786070606519\n"
+                    +"Working with Apes: 9786070606229\n"
+                    +"Radical Robos: 9786070606335\n"
+                    +"ANIMALS IN CAPTIVITY: 9786070606236");
 
-            ISBNS5.setText("In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS5.setText("The Games: 9786070606540\n"
+                    +"Global Warming: 9786070606267\n"
+                    +"Our Greatest Inventions: 9786070606298\n"
+                    +"How Anim als Defend Themselves: 9786070606359\n"
+                    +"Great Moments in History: 9786070606281\n"
+                    +"Super Science Experiments: 9786070606304\n"
+                    +"Magnificent Mummies: 9786070606526\n"
+                    +"Secret Codes: 9786070606397");
 
-            ISBNS6.setText("In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281\n"
-                    +"Jeepers Creepers: 9789707392250\n"
-                    +"In My Garden: 9789707392267\n"
-                    +"Down on the Farm: 9789707392281");
+            ISBNS6.setText("Creating Cool Gadgets: 9786070606632\n"
+                    +"Explore Extreme Sports: 9786070606434\n"
+                    +"How the Brain Works: 9786070606427\n"
+                    +"It’s a Mystery: 9786070606595\n"
+                    +"Make Your Own Web Page: 9786070606441\n"
+                    +"How Aircraft Fly: 9786070606496\n"
+                    +"Reptiles and Amphibians: 9786070606380\n"
+                    +"Why Earth quakes Occur: 9786070606502\n"
+                    +"Body Smart: 9786070606458");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
+            tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
+            tituloForStudents.setTextColor(Color.parseColor("#018abf"));
+        }
+
+        else if(titulo1.equals("Media readers"))
+        {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Starter Level:");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("\n\n\n\n\n\n\nLevel 1:");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 2:");
+            level4.setVisibility(View.VISIBLE);
+            level4.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 3:");
+            level5.setVisibility(View.VISIBLE);
+            level5.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 4:");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
+            ISBNS4.setVisibility(View.VISIBLE);
+            ISBNS5.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("Robin Hood: The Taxman: 9788466812214\n"
+                    +"Zoey 101: Dance Contest: 9781906861063\n"
+                    +"Blog Love: 9780956857705\n"
+                    +"\"Storm Hawks:9781906861056\n");
+
+            ISBNS2.setText("Malala: 9781910173602\n"
+                    +"Mr. Bean’s Holiday : 9788466810197\n"
+                    +"BUFFY THE VAMPIRE SLAYER: 9781904720331\n"
+                    +"Transformers: 9781905775446\n"
+                    +"Hotel for Dogs: 9781905775897\n"
+                    +"Monster House: 9788466808729\n"
+                    +"THE ADVENTURES OF MERLIN: Arthur and the Unicorn : 9781905775873\n"
+                    +"One Direction: Making the dream real: 9781909221864\n"
+                    +"The city of ember: 9781905775460\n"
+                    +"SMALLVILLE ARRIVAL: 9788466808668\n");
+
+            ISBNS3.setText("Muhammad Ali: 9781407169972\n"
+                    +"Great Expectations: 9781909221994\n"
+                    +"Selma: 9781910173718\n"
+                    +"Sherlock : The Sign of Three: 9781910173497"
+                    +"The Pink Panther : 9788466818704\n" +
+                    "9781904720751\n"
+                    +"Romeo and Juliet: 9781910173534\n"
+                    +"The In-Crowd: 9788466819046\n"
+                    +"Johnn y English Reborn: 9781407133720\n"
+                    +"ABOUT TIME: 9781910173473\n"
+                    +"THE DEVIL WEARS PRADA: 9788466812245"
+                    +"STAR WARS: THE CLONE WARS: 9781905775521\n"
+                    +"SENSE AND SENSIBILITY : 9781905775620\n"
+                    +"GLEE: FOREING EXCHANGE: 9781909221215\n"
+                    +"HOOT: 9788466810241\n"
+                    +"NIGHT AT THE MUSEUM: : SECRET OF THE TOMB: 9781910173589"
+                    +"The OC: The Outsider : 9781904720836\n"
+                    +"The Mask of Zorro: 9781906861162\n"
+                    +"Bandslam: 9781905775972\n"
+                    +"Jane Eyre: 9788466810227"
+                    +"Batman Begins: 9788466818698\n"
+                    +"Glee : The Beginning: 9781908351333\n"
+                    +"Senna: 9781909221192"
+                    +"Nelson Mandela : 9781908351166\n"
+                    +"TRANSFORMERS: Revenge of the Fallen: 9781909221222\n"
+                    +"ROBIN HOOD: The Silver Arrow and the Slaves: 9788466810234\n"
+                    +"DJ Ambition: 9788466819053");
+
+            ISBNS4.setText("12 Years a Slave: 9781910173527\n"
+                    +"Suffragette: 9781910173398\n"
+                    +"The Imitation Game: 9781910173411\n"
+                    +"Black Gold: 9781905775569\n"
+                    +"Bob Marley : 9781908351982\n"
+                    +"MICHAEL JACKS ON : The Man, The Music, The Mystery: 9788466812771\n"
+                    +"Angela’s Ashes: 9788466810302"
+                    +"Made in Dagenham: 9781908351203\n"
+                    +"Glee : Summer Break: 9781909221253\n"
+                    +"TRANSFORMERS : THE DARK OF MOON: 9781909221260\n"
+                    +"Pride & Prejudice: 9788466810265\n"
+                    +"SHERL OCK: The Hounds of Basker ville: 9781909221246\n"
+                    +"Life of PI: 9781909221789\n"
+                    +"Touching the Void: 9781905775095\n"
+                    +"The Story of Chanel: 9781906861858\n"
+                    +"The Queen: 9788466812276\n"
+                    +"TThe OC: The Gamble: 9781904720850\n"
+                    +"The OC: The Misfits: 9781904720874\n"
+                    +"VANITY FAIR: 9781906861186");
+
+            ISBNS5.setText("An Education: 9781906861018\n"
+                    +"Nowhere Boy: Before The Beatles – the story of John Lennon: 9781906861032\n"
+                    +"A Lion Called Christian 9781906861223\n"
+                    +"Slumdog Millionaire: 9781906861216");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
 
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
@@ -2344,18 +2449,136 @@ public class FourFragment extends Fragment{
 
         else if(titulo1.equals("Popcorn readers"))
         {
-            tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
-            tituloForStudents.setTextColor(Color.parseColor("#018abf"));
-        }
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Starter Level:");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 1:");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 2:");
+            level4.setVisibility(View.VISIBLE);
+            level4.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 3:");
 
-        else if(titulo1.equals("Media readers"))
-        {
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
+            ISBNS4.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("Meet the Turtles: 9781909221819\n"
+                    +"Meet the Smurfs!: 9781910173442\n"
+                    +"Who are the Smurfs?: 9781910173435\n"
+                    +"\"SpongeBob squarepants :\n" +
+                    "Underwater Friends\": 9781909221833\n"
+                    +"Mr. Bean: A day at the beach: 9781909221796\n"
+                    +"\"How to Train Your Dragon:\n" +
+                    "Hic up and Friends: \n 9781910173756\n"
+                    + "\"SpongeBob squarepants :\n" +
+                    "SpongeBob’s New Toy: \n9781909221895\n"
+                    +"Mr. Bean: Guide to London: \n 9781910173046 \n"
+                    +"Meet the Croods: \n9781910173770\n"
+                    +"The Animals of Kung Fu Panda:\n 9781910173794");
+
+            ISBNS2.setText("Ice Age 4: 9781407169910\n"
+                    +"The Jungle Book : 9781908351500\n"
+                    +"MR. BEAN ROYAL BEAN: 9781906861469\n"
+                    +"Madagascar: 9781906861575\n"
+                    +"Shrek: 9781906861551\n"
+                    +"Over the Hedge: 9781909221291\n"
+                    +"Kung Fu Panda : Holidays: 9781909221284\n"
+                    +"Rio: Blu and Jewel: 9781908351258\n"
+                    +"THE PENGUINS OF MADAGASCAR: 9781909221307\n"
+                    +"Gargamel’s Magic Spell: 9781910173558\n"
+                    +"SpongeBob Square Pants : Talent Show: 9781909221901\n"
+                    +"Cloudy with the Chane of Meatballs: 9781910173459\n"
+                    +"Rise of the Turtles: 9781909221888\n"
+                    +"Ice Age: 9781906861599\n"
+                    +"The Jungle Book : Cobra’s Egg: 9781908351524\n"
+                    +"Snoopy and Charlie Brown: The Peanuts Movie: 9781910173510\n"
+                    +"How to Train Your Dragon: 9781910173817");
+
+            ISBNS3.setText("The little prince & the rose: 9781407169941\n"
+                    +"ANGRY BIRDS: 9781407169927\n"
+                    +"MADAGASCAR: Escape Africa: 9781906861650\n"
+                    +"Mr. Bean: Toothache: 9781906861483"
+                    +"PUSS in boots : The Outlaw: 9781909221338\n"
+                    +"Shrek 2: 9781906861636\n"
+                    +"The Smurfs 2: 9781910173541"
+                    +"Rango: 9781906861995\n"
+                    +"Peanuts classic: Snoopy and Friends: 9781910173565\n"
+                    +"Cloudy with the Chance: of Meatballs 2: 9781910173466"
+                    +"Time Jump : Back to the Stone Age: 9781908351647\n"
+                    +"The Turtles : Kraang Attack!: 9781910173015\n"
+                    +"How to Train Your Dragon 2: 9781910173831\n"
+                    +"Turbo : 9781910173855\n"
+                    +"SpongeBob Square Pants : Wormy: 9781910173008");
+
+            ISBNS4.setText("The Smurfs : The Lost Village: 9781407169958\n"
+                    +"Home: 9781910173879\n"
+                    +"SpongeBob Square Pants :DoodleBob: 9781909221826\n"
+                    +"Rio: Looking for Blu: 9781908351128"
+                    +"The Turtles : Donnie’s Robot: 9781910173022\n"
+                    +"Shrek Forever After: 9781906861308\n"
+                    +"Madagascar 3: Europe’s Most Wanted: 9781909221352"
+                    +"Peanuts classic:The Ice-Skating Competition: 9781910173572\n"
+                    +"Kung Fu Panda 2: 9781906861834\n"
+                    +"Shrek the Third: 9781906861735\n"
+                    +"MR BEAN: THE PALACE OF BEAN: 9781906861506\n"
+                    +"Ice Age 3: Dawn of the Dinosaurs: 9781906861773\n");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
 
         else if(titulo1.equals("Richmond readers"))
         {
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Level 3:");
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("Level 4:");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("Level 5:");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
+
+            ISBNS1.setText("P.R. and Prejudice: 9786070606113\n"
+                    +"The Canterville Ghost: 9786070606168\n"
+                    +"Dr. Jekyll & Mr. Hyde: 9786070606618\n"
+                    +"Frankenstein: 9786070606571\n"
+                    +"Meet an Astronaut: 9786070606144\n"
+                    +"Grow Grass Creatures: 9786070606199\n"
+                    +"My Community: 9786070606489\n"
+                    +"Our Earth: 9786070606588\n"
+                    +"Why We Need Sleep: 9786070606601");
+
+            ISBNS2.setText("Tadpole to Frog: 9786070606137\n"
+                    +"Water for Life: 9786070606472\n"
+                    +"Schoolyard Games: 9786070606182\n"
+                    +"Monkeys and Apes: 9786070606076\n"
+                    +"Dangerous Jobs: 9786070606175\n"
+                    +"Explore Eclipses: 9786070606090\n"
+                    +"All about Sharks: 9786070606083\n"
+                    +"Melting Ice: 9786070606120");
+
+            ISBNS3.setText("Whales and Dolphins: 9786070606625\n"
+                    +"Wild Wind storms: 9786070606151\n"
+                    +"End angered Animals: 9786070606465\n"
+                    +"On Safari: 9786070606373\n"
+                    +"Recycling Race: 9786070606366\n"
+                    +"Space Junk: 9786070606106\n"
+                    +"Making Masks: 9786070606243\n"
+                    +"EXPERIMENTS WITH MAGNETS: 9786070606205");
+
+            tituloForStudents.setVisibility(View.GONE);
+            tituloForTeachers.setVisibility(View.GONE);
+            ISBNStudents.setVisibility(View.GONE);
+            ISBNTeachers.setVisibility(View.GONE);
+
             tituloForTeachers.setTextColor(Color.parseColor("#018abf"));
             tituloForStudents.setTextColor(Color.parseColor("#018abf"));
         }
