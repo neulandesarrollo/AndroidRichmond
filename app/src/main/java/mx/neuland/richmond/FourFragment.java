@@ -31,6 +31,11 @@ public class FourFragment extends Fragment{
     TextView level4T;
     TextView level5T;
     TextView level6T;
+    TextView level7T;
+    TextView level8T;
+    TextView level9T;
+    TextView level10T;
+
 
     TextView ISBNSk;
     TextView ISBNS1;
@@ -47,6 +52,10 @@ public class FourFragment extends Fragment{
     TextView ISBNS4T;
     TextView ISBNS5T;
     TextView ISBNS6T;
+    TextView ISBNS7T;
+    TextView ISBNS8T;
+    TextView ISBNS9T;
+    TextView ISBNS10T;
 
     TextView ISBNSAk;
     TextView ISBNSA1;
@@ -1595,30 +1604,137 @@ public class FourFragment extends Fragment{
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ef6264"));
             tituloForStudents.setTextColor(Color.parseColor("#ef6264"));
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("English Grammar in Steps with answers (New Edition)");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("9788466817530\n");
+
+            level2.setVisibility(View.VISIBLE);
+            level2.setText("English Grammar in Steps without answers (New Edition)");
+
+            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS2.setText("9788466817554\n");
+
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("English Grammar in Steps Practice Book with answers (New Edition)");
+
+            ISBNS3.setVisibility(View.VISIBLE);
+            ISBNS3.setText("9788466817523\n");
+
+            level4.setVisibility(View.VISIBLE);
+            level4.setText("English Grammar in Steps Practice Book without answers (New Edition)");
+
+            ISBNS4.setVisibility(View.VISIBLE);
+            ISBNS4.setText("9788466817547\n");
+
+
         }
 
         else if(titulo1.equals("Primary Methodology Handbook"))
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ef6264"));
             tituloForStudents.setTextColor(Color.parseColor("#ef6264"));
+
+            level1T.setVisibility(View.VISIBLE);
+            level1T.setText("CLIL Across Educational Levels");
+
+            ISBNS1T.setVisibility(View.VISIBLE);
+            ISBNS1T.setText("9788466802598\n");
+
+            level2T.setVisibility(View.VISIBLE);
+            level2T.setText("Helping Students to Learn");
+
+            ISBNS2T.setVisibility(View.VISIBLE);
+            ISBNS2T.setText("9788429454475\n");
+
+            level3T.setVisibility(View.VISIBLE);
+            level3T.setText("The Mixed Ability Class");
+
+            ISBNS3T.setVisibility(View.VISIBLE);
+            ISBNS3T.setText("9788429449273\n");
+
+            level4T.setVisibility(View.VISIBLE);
+            level4T.setText("An Introduction to Teaching English to Children");
+
+            ISBNS4T.setVisibility(View.VISIBLE);
+            ISBNS4T.setText("9788429450682\n");
+
+            level5T.setVisibility(View.VISIBLE);
+            level5T.setText("Helping Students to Speak");
+
+            ISBNS5T.setVisibility(View.VISIBLE);
+            ISBNS5T.setText("9788429449266\n");
+
+            level6T.setVisibility(View.VISIBLE);
+            level6T.setText("Evaluating your Students");
+
+            ISBNS6T.setVisibility(View.VISIBLE);
+            ISBNS6T.setText("9788429450675\n");
+
+            level7T.setVisibility(View.VISIBLE);
+            level7T.setText("Developing Resources for Primary");
+
+            ISBNS7T.setVisibility(View.VISIBLE);
+            ISBNS7T.setText("9788429450668\n");
+
+            level8T.setVisibility(View.VISIBLE);
+            level8T.setText("Developing Resources for Primary (Español)");
+
+            ISBNS8T.setVisibility(View.VISIBLE);
+            ISBNS8T.setText("9788429450934\n");
+
+            level9T.setVisibility(View.VISIBLE);
+            level9T.setText("Teaching Very Young Children");
+
+            ISBNS9T.setVisibility(View.VISIBLE);
+            ISBNS9T.setText("9788429454468\n");
+
+            level10T.setVisibility(View.VISIBLE);
+            level10T.setText("The Language In English Teaching");
+
+            ISBNS10T.setVisibility(View.VISIBLE);
+            ISBNS10T.setText("9789685699136\n");
+
         }
 
         else if(titulo1.equals("Richmond Compact Dictionary"))
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ef6264"));
             tituloForStudents.setTextColor(Color.parseColor("#ef6264"));
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Richmond Compact Dictionary");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("9788466810340\n");
+
         }
 
         else if(titulo1.equals("Richmond Mini Dictionary"))
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ef6264"));
             tituloForStudents.setTextColor(Color.parseColor("#ef6264"));
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Richmond Mini Dictionary");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("9788466810333\n");
+
         }
 
         else if(titulo1.equals("Richmond Pocket Dictionary"))
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ef6264"));
             tituloForStudents.setTextColor(Color.parseColor("#ef6264"));
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Richmond Pocket Dictionary");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("9788466814164\n");
         }
 
         else if(titulo1.equals("An Introduction to Teaching English to Children"))
@@ -1631,12 +1747,40 @@ public class FourFragment extends Fragment{
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ef6264"));
             tituloForStudents.setTextColor(Color.parseColor("#ef6264"));
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Student’s Book with answers");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("A2: 9788466815291\n" +
+                    "B1: 9788466815666\n");
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Student’s Book without answers");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("A2: 9788466815215\n" +
+                    "B1: 9788466815246\n");
         }
 
         else if(titulo1.equals("Richmond Vocabulary Builder"))
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ef6264"));
             tituloForStudents.setTextColor(Color.parseColor("#ef6264"));
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Student’s Book with answers");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("B1: 9788466815277\n" +
+                    "B2: 9788466815284\n");
+
+            level1.setVisibility(View.VISIBLE);
+            level1.setText("Student’s Book without answers");
+
+            ISBNS1.setVisibility(View.VISIBLE);
+            ISBNS1.setText("B1: 9788466815260\n" +
+                    "B2: 9788466815444\n");
         }
 
         else if(titulo1.equals("DELTA'S Key to the Next Generation TOELF Test"))
