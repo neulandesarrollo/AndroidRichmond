@@ -99,7 +99,7 @@ public class ListaSeriePrimaryActivity extends AppCompatActivity implements View
         ImagenSerie.add(R.drawable.beep);
         ImagenSerie.add(R.drawable.ckids1);
         ImagenSerie.add(R.drawable.lighthouse);
-        ImagenSerie.add(R.drawable.primariathumbsups1);
+        ImagenSerie.add(R.drawable.tup);
         ImagenSerie.add(R.drawable.pathway_togrammar);
         ImagenSerie.add(R.drawable.patway_toliterature);
         ImagenSerie.add(R.drawable.pathway_tomath);
@@ -122,17 +122,17 @@ public class ListaSeriePrimaryActivity extends AppCompatActivity implements View
         Titulo.add("SPOTLIGHT ON ENGLISH");
 
 
-        Autor.add("Lenore Cohen");
+        Autor.add("Lenore Cohen - Sarah Fash");
         Autor.add("Brendan Dunne - Robin Newton");
         Autor.add("Gabriela Zapiain - Silvia Zapiain - Joep van der Werff - Andrew Starling - Jeanette Greenwell - Ana Foncerrada");
-        Autor.add("Michael Downie - David Gray - Juan M. Jiménez");
+        Autor.add("Robin Newton - Brendan Dunne - David Gray - Michael Downie - Juan M. Jiménez - ");
         Autor.add("Sarah Fash - Suzanne Harris - Martyn Hobbs - Julia Keddle");
         Autor.add("Noelle Child");
         Autor.add("Elizabeth Rodriguez - Stefania Villarreal - Aaron Burkholder");
         Autor.add("");
         Autor.add("");
         Autor.add("");
-        Autor.add("Sarah Conway");
+        Autor.add("Sarah Fash - Andrew Starling - Lindsay Ruggles - Sarah Conway");
         Autor.add("");
 
         Flecha.add(R.drawable.a_turqueza);

@@ -268,9 +268,9 @@ public class FourFragment extends Fragment{
                     "Level 3: 7506009834958");
 
             level1T.setVisibility(View.VISIBLE);
-            level1T.setText("Pack Pebbles (Guia + Class CD)");
+            level1T.setText("Pack Pebbles (Guia + Class CD)\n");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Flashcards");
+            level2T.setText("Flashcards\n\n");
             level3T.setVisibility(View.VISIBLE);
             level3T.setText("Fun Activity Mat (Level 1,2 and 3)");
 
@@ -380,7 +380,7 @@ public class FourFragment extends Fragment{
             level6T.setVisibility(View.VISIBLE);
             level6T.setText("Puppets (Level 3)");
             levelkT.setVisibility(View.VISIBLE);
-            levelkT.setText("Digital Book DVD (Level 1,2 and 3)");
+            levelkT.setText("Digital Book DVD (Level 1,2 and 3)\n");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -503,7 +503,7 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Pack Abracadabra (GM+TRCD)\n\n\n\n");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Flashcards");
+            level2T.setText("Flashcards\n\n\n\n");
             level3T.setVisibility(View.VISIBLE);
             level3T.setText("Digital Book CD");
 
@@ -1932,7 +1932,7 @@ public class FourFragment extends Fragment{
                     "B2: 9788466815444\n");
         }
 
-        else if(titulo1.equals("DELTA'S Key to the Next Generation TOELF Test"))
+        else if(titulo1.equals("DELTA'S Key to the TOEFL iBT"))
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
@@ -2122,7 +2122,7 @@ public class FourFragment extends Fragment{
 
         }
 
-        else if(titulo1.equals("Pass the TOEIC Test: Introductory Course"))
+        else if(titulo1.equals("Pass the TOEIC Test"))
         {
 
             ISBNS1.setVisibility(View.VISIBLE);
@@ -2153,12 +2153,28 @@ public class FourFragment extends Fragment{
             ISBNS3.setText("7506009841239\n");
         }
 
-        else if(titulo1.equals("Richmond Practice Tests - Movers"))
+        else if(titulo1.equals("Richmond Practice Tests: YLE"))
         {
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
 
             
+        }
+
+        else if(titulo1.equals("Richmond Practice Tests: ket and PET"))
+        {
+            tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
+            tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
+
+
+        }
+
+        else if(titulo1.equals("Target Cambridge English: First"))
+        {
+            tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
+            tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
+
+
         }
 
         else if(titulo1.equals("Ready, Set, Go!"))

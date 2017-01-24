@@ -112,10 +112,10 @@ public class ListaSerieActivity extends AppCompatActivity implements View.OnClic
 
         Autor.add("Fanny Riva Palacio - Stefania Villareal");
         Autor.add("Marlina Bahena");
-        Autor.add("Gabriela Zatain");
-        Autor.add("Rebecca Williams Salvador");
-        Autor.add("Rachel Gonia - Rebecca Williams Salvador");
-        Autor.add("Annette Flavel - Isabel Moreno");
+        Autor.add("Rebecca Lee Williams");
+        Autor.add("Rebecca Lee Williams");
+        Autor.add("Rachel Gonin - Rebecca Lee Williams");
+        Autor.add("Annette Flavel - Francisco Layda - Isabel Moreno - Fanny Riva Palacio");
         Autor.add("Rebecca Lee Williams");
 
         Flecha.add(R.drawable.flecha_nar);

@@ -110,13 +110,13 @@ public class ListaSerieSecondaryActivity extends AppCompatActivity implements Vi
         Titulo.add("Spotlight on Literature");
         Titulo.add("Stopwatch");
 
-        Autor.add("Leanne Gray - Ken Wilson");
+        Autor.add("Carolyn Barraclough - Leanne Gray - Martyn Hobbs - Julia Keddle - Jane Revell - Ken Wilson");
         Autor.add("Carol Lethaby - Simon Brewster");
-        Autor.add("Hina Hashmi - Bernice Richter");
+        Autor.add("Hina Hashmi - Vali Tamm - Carol Haddox-Baldwin - Bernice Richter");
         Autor.add("Robert Campbell - Gill Holley - Rob Metcalf");
         Autor.add("Carol Lethaby - Simon Brewster");
         Autor.add("");
-        Autor.add("Simon Brewster, Viviane Kirmeliene and Alastair Lane");
+        Autor.add("Simon Brewster - Viviane Kirmeliene - Alastair Lane");
 
         Flecha.add(R.drawable.a_violeta);
         Flecha.add(R.drawable.a_violeta);

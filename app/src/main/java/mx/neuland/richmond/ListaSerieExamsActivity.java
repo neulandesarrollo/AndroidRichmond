@@ -99,26 +99,34 @@ public class ListaSerieExamsActivity extends AppCompatActivity implements View.O
         ImagenSerie.add(R.drawable.ielts);
         ImagenSerie.add(R.drawable.toeic2);
         ImagenSerie.add(R.drawable.movers);
+        ImagenSerie.add(R.drawable.thumbs_practice_tests_ket_pet);
+        ImagenSerie.add(R.drawable.thumb_target_cambridge_english_first);
 
-        Titulo.add("DELTA'S Key to the Next Generation TOELF Test");
+        Titulo.add("DELTA'S Key to the TOEFL iBT");
         Titulo.add("TARGET KET for Schools");
         Titulo.add("TARGET PET");
         Titulo.add("Richmond Practice Tests for Cambridge English: Advanced");
         Titulo.add("Richmond Practice Tests for Cambridge English: First");
         Titulo.add("Richmond Practice Tests for IELTS");
-        Titulo.add("Pass the TOEIC Test: Introductory Course");
-        Titulo.add("Richmond Practice Tests - Movers");
+        Titulo.add("Pass the TOEIC Test");
+        Titulo.add("Richmond Practice Tests: YLE");
+        Titulo.add("Richmond Practice Tests: ket and PET");
+        Titulo.add("Target Cambridge English: First");
 
 
         Autor.add("Nancy Gallagher");
         Autor.add("Sue Ireland - Joanna Kosta");
         Autor.add("Sue Ireland - Joanna Kosta");
-        Autor.add("");
-        Autor.add("");
-        Autor.add("");
+        Autor.add("Language Testing 123");
+        Autor.add("Diana L. Fried-Booth");
+        Autor.add("Language Testing 123");
         Autor.add("Miles Craven");
-        Autor.add("Richmond");
+        Autor.add("");
+        Autor.add("Sue Elliott - Sue Irelan - Karen Saxby - Diana L. Fried-Booth");
+        Autor.add("Bess Bradfield - Caroline Krantz");
 
+        Flecha.add(R.drawable.a_amarillo);
+        Flecha.add(R.drawable.a_amarillo);
         Flecha.add(R.drawable.a_amarillo);
         Flecha.add(R.drawable.a_amarillo);
         Flecha.add(R.drawable.a_amarillo);

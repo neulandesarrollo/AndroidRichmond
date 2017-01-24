@@ -95,14 +95,14 @@ public class ListaSerieReadersActivity extends AppCompatActivity implements View
 
     private void llenadoDummy() {
 
-        ImagenSerie.add(R.drawable.azul_libro);
-        ImagenSerie.add(R.drawable.azul_libro);
-        ImagenSerie.add(R.drawable.azul_libro);
-        ImagenSerie.add(R.drawable.azul_libro);
-        ImagenSerie.add(R.drawable.azul_libro);
-        ImagenSerie.add(R.drawable.azul_libro);
-        ImagenSerie.add(R.drawable.azul_libro);
-        ImagenSerie.add(R.drawable.azul_libro);
+        ImagenSerie.add(R.drawable.thumbs_ready_set_go);
+        ImagenSerie.add(R.drawable.thumb_infoquest);
+        ImagenSerie.add(R.drawable.thumb_little_readers);
+        ImagenSerie.add(R.drawable.thumb_super_stars);
+        ImagenSerie.add(R.drawable.thumbs_popcorn_readers);
+        ImagenSerie.add(R.drawable.media_readers);
+        ImagenSerie.add(R.drawable.thumb_richmond_readers);
+        ImagenSerie.add(R.drawable.thumb_dvd_readers);
 
         Titulo.add("Ready, Set, Go!");
         Titulo.add("Infoquest");
@@ -114,11 +114,11 @@ public class ListaSerieReadersActivity extends AppCompatActivity implements View
         Titulo.add("DVD readers");
 
 
-        Autor.add("Lenore Cohen");
-        Autor.add("Brendan Dunne - Robin Newton");
-        Autor.add("Michael Downie - David Gray - Juan M. Jiménez");
         Autor.add("");
-        Autor.add("Aaron Burkholder");
+        Autor.add("");
+        Autor.add("");
+        Autor.add("");
+        Autor.add("");
         Autor.add("");
         Autor.add("");
         Autor.add("");

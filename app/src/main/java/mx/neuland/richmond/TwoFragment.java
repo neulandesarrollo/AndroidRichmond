@@ -399,52 +399,10 @@ public class TwoFragment extends Fragment{
         {
             tituloComponents.setTextColor(Color.parseColor("#ef6264"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_business_skills);
         }
 
         else if(titulo1.equals("BUSINESS Theories"))
-        {
-            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
-
-            components.setText(R.string.components_lorem);
-        }
-
-        else if(titulo1.equals("English Grammar in Steps"))
-        {
-            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
-
-            components.setText(R.string.components_lorem);
-        }
-
-        else if(titulo1.equals("Primary Methodology Handbook"))
-        {
-            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
-
-            components.setText(R.string.components_lorem);
-        }
-
-        else if(titulo1.equals("Richmond Compact Dictionary"))
-        {
-            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
-
-            components.setText(R.string.components_lorem);
-        }
-
-        else if(titulo1.equals("Richmond Mini Dictionary"))
-        {
-            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
-
-            components.setText(R.string.components_lorem);
-        }
-
-        else if(titulo1.equals("Richmond Pocket Dictionary"))
-        {
-            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
-
-            components.setText(R.string.components_lorem);
-        }
-
-        else if(titulo1.equals("An Introduction to Teaching English to Children"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ef6264"));
 
@@ -455,70 +413,140 @@ public class TwoFragment extends Fragment{
         {
             tituloComponents.setTextColor(Color.parseColor("#ef6264"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_visual_grammar);
         }
 
-        else if(titulo1.equals("Richmond Vocabulary Builder"))
+        else if(titulo1.equals("Vocabulary Builder"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ef6264"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_vocabulary_builder);
         }
 
-        else if(titulo1.equals("DELTA'S Key to the Next Generation TOELF Test"))
+        else if(titulo1.equals("English Grammar in Steps"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("Primary METHODOLOGY HANDBOOK"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("Lessons Learned"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("Primary Handbooks for Teachers"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("Richmond Picture Dictionary"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("Richmond First Dictionary"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("Richmond Dictionay Fully Illustrated"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("Richmond Dictionaries"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ef6264"));
+
+            components.setText(R.string.components_empty);
+        }
+
+        else if(titulo1.equals("DELTA'S Key to the TOEFL iBT"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_empty);
         }
 
         else if(titulo1.equals("TARGET KET for Schools"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_target_ket);
         }
 
         else if(titulo1.equals("TARGET PET"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_target_ket);
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: Advanced"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_richmond_test_advance);
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: First"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_richmond_test_first);
         }
 
         else if(titulo1.equals("Richmond Practice Tests for IELTS"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_richmond_ielts);
         }
 
-        else if(titulo1.equals("Pass the TOEIC Test: Introductory Course"))
+        else if(titulo1.equals("Pass the TOEIC Test"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_richmond_toeic);
         }
 
-        else if(titulo1.equals("Richmond Practice Tests - Movers"))
+        else if(titulo1.equals("Richmond Practice Tests: YLE"))
         {
             tituloComponents.setTextColor(Color.parseColor("#ffc907"));
 
-            components.setText(R.string.components_lorem);
+            components.setText(R.string.components_yle);
+        }
+
+        else if(titulo1.equals("Richmond Practice Tests: ket and PET"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ffc907"));
+
+            components.setText(R.string.components_ket_pet);
+        }
+
+        else if(titulo1.equals("Target Cambridge English: First"))
+        {
+            tituloComponents.setTextColor(Color.parseColor("#ffc907"));
+
+            components.setText(R.string.components_camb_first);
         }
 
         else if(titulo1.equals("Ready, Set, Go!"))

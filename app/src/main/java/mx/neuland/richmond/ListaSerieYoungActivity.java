@@ -108,13 +108,13 @@ public class ListaSerieYoungActivity extends AppCompatActivity implements View.O
         Titulo.add("Richmond Mazes");
         Titulo.add("The big picture");
 
+        Autor.add("Ben Goldstein - Ceri Jones - Bess Bradfield - Carol Lethaby - Alastair Lane - Simon Brewster - Mark Lloyd");
+        Autor.add("Luois Rogers - Anna Cowper - James Greenan - Marion Grussendorf - Pete Sharma");
+        Autor.add("Paul Seligson - Tom Abraham - Cris Gontow - Carol Lethaby - Jose Luis Morales - Luis Otávio Barros - Ray Shoulder - Ricardo Sili - Pamela Vittorio");
         Autor.add("Simon Brewster - Alastair Lane");
-        Autor.add("Anna Cowper - James Greenan");
-        Autor.add("Paul Seligson - Luis Otávio Barros");
-        Autor.add("Simon Brewster - Alastair Lane");
-        Autor.add("Paul Seligson - Luis Otávio Barros");
-        Autor.add("Alastair Lane - James Styring");
-        Autor.add("Ben Goldstein Ceri Jones");
+        Autor.add("Paul Seligson - Luiz Otávio Barros");
+        Autor.add("James Styring - Alastair Lane - Victoria Boobyer");
+        Autor.add("Ben Goldstein - Ceri Jones - Bess Bradfield - Carol Lethaby - Alastair Lane - Simon Brewster - MArk Lloyd");
 
         Flecha.add(R.drawable.a_aqua);
         Flecha.add(R.drawable.a_aqua);
