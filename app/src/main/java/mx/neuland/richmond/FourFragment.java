@@ -243,7 +243,7 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Pack Cubby House (GUIA+CLASS +FLASH)");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Story Cards");
+            level2T.setText("Story Cards\n\n\n\n\n\n");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -251,9 +251,9 @@ public class FourFragment extends Fragment{
             ISBNS1T.setText("Level 1: 7506009845176\n" +
                     "Level 2: 7506009845206\n" +
                     "Level 3: 7506009845183");
-            ISBNS2T.setText("Level 1: 7506009843745\n" +
+            ISBNS2T.setText("\n\n\nLevel 1: 7506009843745\n" +
                     "Level 2: 7506009843752\n" +
-                    "Level 3: 7506009843769");
+                    "Level 3: 7506009843769\n\n\n\n");
         }
 
         else if(titulo1.equals("PEBBLES"))
@@ -272,7 +272,7 @@ public class FourFragment extends Fragment{
             level2T.setVisibility(View.VISIBLE);
             level2T.setText("Flashcards\n\n");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Fun Activity Mat (Level 1,2 and 3)");
+            level3T.setText("Fun Activity Mat (Level 1,2 and 3)\n\n\n\n\n");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -281,10 +281,10 @@ public class FourFragment extends Fragment{
             ISBNS1T.setText("Level 1: 7506009835405\n" +
                     "Level 2: 7506009835412\n" +
                     "Level 3: 7506009835429");
-            ISBNS2T.setText("Level 1: 9786070605161\n" +
+            ISBNS2T.setText("\n\nLevel 1: 9786070605161\n" +
                     "Level 2: 9786070605208\n" +
                     "Level 3: 9786070605246");
-            ISBNS3T.setText("Level 1: 9786070606649\n" +
+            ISBNS3T.setText("\nLevel 1: 9786070606649\n" +
                     "Level 2: 9786070606656\n" +
                     "Level 3: 9786070606663");
         }
@@ -303,10 +303,10 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
 
             ISBNS1.setText("Level N: 7506009837508");
-            ISBNS2.setText("Level 1: 7506009837515\n" +
+            ISBNS2.setText("\n\n\n\n\nLevel 1: 7506009837515\n" +
                     "Level 2: 7506009837522\n" +
                     "Level 3: 7506009837539");
-            ISBNS3.setText("Level 1: 9786070607394\n" +
+            ISBNS3.setText("\nLevel 1: 9786070607394\n" +
                     "Level 2: 9786070607400\n" +
                     "Level 3: 9786070607417");
 
@@ -315,13 +315,13 @@ public class FourFragment extends Fragment{
             level2T.setVisibility(View.VISIBLE);
             level2T.setText("Big Book");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Posters & Posters Cutouts");
+            level3T.setText("\n\nPosters & Posters Cutouts");
             level4T.setVisibility(View.VISIBLE);
             level4T.setText("Teacher's Resource CD-ROM");
             level5T.setVisibility(View.VISIBLE);
             level5T.setText("Classroom Language Cards (Level 1,2 and 3)");
             level6T.setVisibility(View.VISIBLE);
-            level6T.setText("Digital Book DVD (Level 1,2 and 3)");
+            level6T.setText("Digital Book DVD (Level 1,2 and 3)\n\n\n");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -333,7 +333,7 @@ public class FourFragment extends Fragment{
             ISBNS1T.setText("Level 1: 7506009837546\n" +
                     "Level 2: 7506009837553\n" +
                     "Level 3: 7506009837560");
-            ISBNS2T.setText("Level 1: 9786070607424\n" +
+            ISBNS2T.setText("\nLevel 1: 9786070607424\n" +
                     "Level 2: 9786070607431\n" +
                     "Level 3: 9786070607448");
             ISBNS3T.setText("Level 1: 7506009836471\n" +
@@ -342,12 +342,12 @@ public class FourFragment extends Fragment{
             ISBNS4T.setText("Level 1: 7506009836402\n" +
                     "Level 2: 7506009836433\n" +
                     "Level 3: 7506009836464");
-            ISBNS5T.setText("Level 1: 9786070607455\n" +
+            ISBNS5T.setText("\nLevel 1: 9786070607455\n" +
                     "Level 2: 9786070607455\n" +
                     "Level 3: 9786070607455");
-            ISBNS6T.setText("Level 1: 7506009844179\n" +
+            ISBNS6T.setText("\n\nLevel 1: 7506009844179\n" +
                     "Level 2: 7506009844179\n" +
-                    "Level 3: 7506009844179");
+                    "Level 3: 7506009844179\n\n\n\n\n\n");
         }
 
         else if(titulo1.equals("TIPPY TOES"))
@@ -363,18 +363,18 @@ public class FourFragment extends Fragment{
             ISBNS1.setText("Level 1: 7506009842755\n" +
                     "Level 2: 7506009842762\n" +
                     "Level 3: 7506009842779");
-            ISBNS2.setText("Level 1: 9786070602641\n" +
+            ISBNS2.setText("\nLevel 1: 9786070602641\n" +
                     "Level 2: 9786070602658\n" +
                     "Level 3: 9786070602665");
 
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Teacher’s Guide");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Class CD");
+            level2T.setText("\n\n\nClass CD");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Big Book");
+            level3T.setText("\n\nBig Book");
             level4T.setVisibility(View.VISIBLE);
-            level4T.setText("Posters & Cutouts");
+            level4T.setText("\n\nPosters & Cutouts");
             level5T.setVisibility(View.VISIBLE);
             level5T.setText("Fun Activity Mat (Level 1,2 and 3)");
             level6T.setVisibility(View.VISIBLE);
@@ -390,10 +390,10 @@ public class FourFragment extends Fragment{
             ISBNS6T.setVisibility(View.VISIBLE);
             ISBNSAkT.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("Level 1: 9786070602672\n" +
+            ISBNS1T.setText("\n\n\n\n\nLevel 1: 9786070602672\n" +
                     "Level 2: 9786070602689\n" +
                     "Level 3: 9786070602696");
-            ISBNS2T.setText("Level 1: 7506009807518\n" +
+            ISBNS2T.setText("\n\nLevel 1: 7506009807518\n" +
                     "Level 2: 7506009807525\n" +
                     "Level 3: 7506009807532");
             ISBNS3T.setText("Level 1: 9786070602702\n" +
@@ -405,7 +405,7 @@ public class FourFragment extends Fragment{
             ISBNS5T.setText("Level 1: 9786070606649\n" +
                     "Level 2: 9786070606656\n" +
                     "Level 3: 9786070606663");
-            ISBNS6T.setText("Level 3: 7506009807846");
+            ISBNS6T.setText("\nLevel 3: 7506009807846\n\n\n\n\n\n\n\n\n ");
             ISBNSAkT.setText("Level 1: 7506009844162\n" +
                     "Level 2: 7506009844162\n" +
                     "Level 3: 7506009844162");
@@ -437,10 +437,10 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
 
             ISBNS1.setText("Level N: 7506009842489");
-            ISBNS2.setText("Level 1: 7506009842571\n" +
+            ISBNS2.setText("\n\n\n\nLevel 1: 7506009842571\n" +
                     "Level 2: 7506009842588\n" +
                     "Level 3: 7506009842595");
-            ISBNS3.setText("Level 1: 9786070610783\n" +
+            ISBNS3.setText("\nLevel 1: 9786070610783\n" +
                     "Level 2: 9786070610738\n" +
                     "Level 3: 9786070610745");
 
@@ -449,7 +449,7 @@ public class FourFragment extends Fragment{
             level2T.setVisibility(View.VISIBLE);
             level2T.setText("Flashcards (Level N)");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Digital Book DVD (Level 1,2 and 3)");
+            level3T.setText("Digital Book DVD (Level 1,2 and 3)\n\n\n\n\n");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -458,8 +458,8 @@ public class FourFragment extends Fragment{
             ISBNS1T.setText("Level 1: 7506009842601\n" +
                     "Level 2: 7506009842618\n" +
                     "Level 3: 7506009842625");
-            ISBNS2T.setText("Level 1: 7506009842502");
-            ISBNS3T.setText("Level 2: 7506009844186\n" +
+            ISBNS2T.setText("\n\n\nLevel 1: 7506009842502");
+            ISBNS3T.setText("\nLevel 2: 7506009844186\n" +
                     "Level 3: 7506009844186\n" +
                     "Level N: 7506009844186");
         }
@@ -528,7 +528,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9786070613029\n"+
                     "Level 4: 9786070612749\n" +
                     "Level 5: 9786070612961\n" +
-                    "Level 6: 9786070612954");
+                    "Level 6: 9786070612954\n\n\n\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -549,18 +549,20 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
 
             ISBNS1.setText("Level 1: 7506009840102\n" +
-                    "Level 2: 7506009840119");
+                           "Level 2: 7506009840119\n\n\n");
+
             ISBNS2.setText("Level 3: 7506009840324\n"+
-                    "Level 4: 7506009840126");
+                           "Level 4: 7506009840126\n");
+
             ISBNS3.setText("Level 5: 7506009840331\n" +
-                    "Level 6: 7506009840133");
+                           "Level 6: 7506009840133");
 
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Pack Beep (TB + Class CD + Flashcards)");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Posters");
+            level2T.setText("\n\nPosters");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Digital Book CD");
+            level3T.setText("\n\n\n\n\nDigital Book CD");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -583,7 +585,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9786070612909\n"+
                     "Level 4: 9786070612978\n" +
                     "Level 5: 9786070612886\n" +
-                    "Level 6: 9786070612923");
+                    "Level 6: 9786070612923\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -595,7 +597,7 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Pack Cool Kids SE");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Workbook");
+            level2.setText("\n\n\n\nWorkbook");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -616,7 +618,7 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Pack Cool Kids SE (Teacher’s Guide)");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Pack Cool Kids SE (Guía del Maestro)");
+            level2T.setText("\n\n\nPack Cool Kids SE (Guía del Maestro)");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -632,7 +634,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 7506009846463\n"+
                     "Level 4: 7506009846470\n" +
                     "Level 5: 7506009846487\n" +
-                    "Level 6: 7506009846494");
+                    "Level 6: 7506009846494\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -645,7 +647,7 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Pack Lighthouse (SB + CD + Stickers)");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Activity Book");
+            level2.setText("\n\n\nActivity Book");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -666,15 +668,15 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Class CDs & CR ROM");
+            level2T.setText("\n\n\n\n\n\nClass CDs & CR ROM");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Poster & Cutouts");
+            level3T.setText("\n\n\n\nPoster & Cutouts");
             level4T.setVisibility(View.VISIBLE);
-            level4T.setText("Puzzles");
+            level4T.setText("\n\n\nPuzzles");
             level5T.setVisibility(View.VISIBLE);
-            level5T.setText("Word Kits");
+            level5T.setText("\n\nWord Kits");
             level6T.setVisibility(View.VISIBLE);
-            level6T.setText("Digital Book CD");
+            level6T.setText("\nDigital Book CD");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -712,7 +714,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9786070608667\n"+
                     "Level 4: 9786070608674\n" +
                     "Level 5: 9786070608681\n" +
-                    "Level 6: 9786070608698");
+                    "Level 6: 9786070608698\n\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -742,7 +744,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9786070610998\n"+
                     "Level 4: 9786070611001\n" +
                     "Level 5: 9786070611018\n" +
-                    "Level 6: 9786070611025");
+                    "Level 6: 9786070611025\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -773,7 +775,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 7506009842427\n"+
                     "Level 4: 7506009842434\n" +
                     "Level 5: 7506009842441\n" +
-                    "Level 6: 7506009842458");
+                    "Level 6: 7506009842458\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -839,7 +841,7 @@ public class FourFragment extends Fragment{
 
             ISBNS1.setText("Level 1: 7506009844391\n" +
                     "Level 4: 7506009844421");
-            ISBNS2.setText("Level 2: 9786070612565\n" +
+            ISBNS2.setText("\n\nLevel 2: 9786070612565\n" +
                     "Level 3: 9786070612572\n"+
                     "Level 5: 9786070612596\n" +
                     "Level 6: 9786070612602");
@@ -854,7 +856,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 7506009845268\n"+
                     "Level 4: 7506009845275\n" +
                     "Level 5: 7506009845282\n" +
-                    "Level 6: 7506009845299");
+                    "Level 6: 7506009845299\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -877,7 +879,7 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Pack Pathway to Science (Tg+Evaluations+R&E)");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Digital Book CD");
+            level2T.setText("\n\nDigital Book CD");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -893,7 +895,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9786070613166\n"+
                     "Level 4: 9786070613159\n" +
                     "Level 5: 9786070613142\n" +
-                    "Level 6: 9786070613135");
+                    "Level 6: 9786070613135\n\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -916,9 +918,9 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Science and Geography Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Science and Geography Posters");
+            level2T.setText("\n\nScience and Geography Posters");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Science and Geography Resource Book");
+            level3T.setText("\nScience and Geography Resource Book");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -941,7 +943,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9786076000533\n"+
                     "Level 4: 9786076000892\n" +
                     "Level 5: 9786076001028\n" +
-                    "Level 6: 9786076001011");
+                    "Level 6: 9786076001011\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -953,11 +955,11 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Student’s Book");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Pack Skyrocket (PB+CD)");
+            level2.setText("\n\n\n\nPack Skyrocket (PB+CD)");
             level3.setVisibility(View.VISIBLE);
-            level3.setText("Skyrocket Your Grammar Student’s Book");
+            level3.setText("\n\n\nSkyrocket Your Grammar Student’s Book");
             level4.setVisibility(View.VISIBLE);
-            level4.setText("Pack Skyrocket (SB+PRACTICE+CD+GRAMMAR)");
+            level4.setText("\nPack Skyrocket (SB+PRACTICE+CD+GRAMMAR)");
 
 
             ISBNS1.setVisibility(View.VISIBLE);
@@ -993,13 +995,13 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Pack Skyrocket (TG+CA+RCD)");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Pack Skyrocket Your Grammar (TG+CA)");
+            level2T.setText("\n\n\nPack Skyrocket Your Grammar (TG+CA)");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Posters with Word Cards");
+            level3T.setText("\n\nPosters with Word Cards");
             level4T.setVisibility(View.VISIBLE);
-            level4T.setText("Digital Media Projects");
+            level4T.setText("\n\nDigital Media Projects");
             level5T.setVisibility(View.VISIBLE);
-            level5T.setText("Digital Book DVD");
+            level5T.setText("\n\n\nDigital Book DVD");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -1036,7 +1038,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9786070612824\n"+
                     "Level 4: 9786070612756\n" +
                     "Level 5: 9786070612725\n" +
-                    "Level 6: 9786070613043");
+                    "Level 6: 9786070613043\n\n\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1cb0c3"));
             tituloForStudents.setTextColor(Color.parseColor("#1cb0c3"));
@@ -1047,15 +1049,15 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Pack Student’s Spotlight");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Student’s Book");
+            level2.setText("\n\n\n\n\n\nStudent’s Book");
             level3.setVisibility(View.VISIBLE);
-            level3.setText("Activity Pad");
+            level3.setText("\n\n\nActivity Pad");
             level4.setVisibility(View.VISIBLE);
-            level4.setText("Practice Book");
+            level4.setText("\nPractice Book");
             level5.setVisibility(View.VISIBLE);
-            level5.setText("Assessments");
+            level5.setText("\n\n\nAssessments");
             level6.setVisibility(View.VISIBLE);
-            level6.setText("Pack Spotlight Thematic Library");
+            level6.setText("\n\n\n\n\nPack Spotlight Thematic Library");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -1102,15 +1104,15 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Teacher’s Guide");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Assessments Teacher’s Manual");
+            level2T.setText("\n\n\n\n\n\nAssessments Teacher’s Manual");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Blackline Masters");
+            level3T.setText("\n\n\n\nBlackline Masters");
             level4T.setVisibility(View.VISIBLE);
-            level4T.setText("Teacher’s Digital Resource");
+            level4T.setText("\n\n\n\nTeacher’s Digital Resource");
             level5T.setVisibility(View.VISIBLE);
-            level5T.setText("Audio CD");
+            level5T.setText("\n\n\n\nAudio CD");
             level6T.setVisibility(View.VISIBLE);
-            level6T.setText("Poster with Cutouts");
+            level6T.setText("\n\n\nPoster with Cutouts");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -1153,7 +1155,7 @@ public class FourFragment extends Fragment{
                     "Level 5: 7506009806627\n" +
                     "Level 6: 7506009806634\n" +
                     "Level K: 7506009806573");
-            ISBNS6T.setText("Level K: 7506009806559");
+            ISBNS6T.setText("Level K: 7506009806559\n\n\n\n\n\n");
 
             thematicTeachersTitle.setVisibility(View.VISIBLE);
             thematicTeachersTitle.setText("Big Book (Level K)");
@@ -1182,7 +1184,7 @@ public class FourFragment extends Fragment{
             level1.setText("Achievers Student’s Book");
 
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Pack Achievers (WB+AUDIO CD)");
+            level2.setText("\n\n\nPack Achievers (WB+AUDIO CD)");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -1203,7 +1205,7 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Pack Achievers (TG+TRB+AUDIO MATERIAL)");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Teacher’s l-Book");
+            level2T.setText("\n\n\nTeacher’s l-Book");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -1219,7 +1221,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 9788466829106\n"+
                     "Level 4: 9788466829557\n" +
                     "Level 5: 9788466829915\n" +
-                    "Level 6: TBA");
+                    "Level 6: TBA\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1254,7 +1256,7 @@ public class FourFragment extends Fragment{
             level4T.setVisibility(View.VISIBLE);
             level4T.setText("Awesome NE Poster");
             level5T.setVisibility(View.VISIBLE);
-            level5T.setText("Awesome NE Digital Book DVD");
+            level5T.setText("\n\nAwesome NE Digital Book DVD");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -1274,14 +1276,14 @@ public class FourFragment extends Fragment{
                     "Level 2: 7506009841185\n" +
                     "Level 3: 7506009841192\n"+
                     "Level 4: 7506009841208");
-            ISBNS4T.setText("Level 1: 7506009840782\n" +
+            ISBNS4T.setText("\n\nLevel 1: 7506009840782\n" +
                     "Level 2: 7506009840799\n" +
                     "Level 3: 7506009840805\n"+
                     "Level 4: 7506009840812");
             ISBNS5T.setText("Level 1: 9786070613067\n" +
                     "Level 2: 9786070613098\n" +
                     "Level 3: 9786070613128\n"+
-                    "Level 4: 9786070613111");
+                    "Level 4: 9786070613111\n\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1326,8 +1328,10 @@ public class FourFragment extends Fragment{
                     "Level 3: 7506009834163\n" +
                     "Level 4: 7506009834170");
 
+            levelkT.setVisibility(View.VISIBLE);
+            levelkT.setText("English In motion All-In-One Resource Book");
             level1T.setVisibility(View.VISIBLE);
-            level1T.setText("English In motion Teacher’s Book");
+            level1T.setText("\nEnglish In motion Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
             level2T.setText("English In motion Class CD");
             level3T.setVisibility(View.VISIBLE);
@@ -1335,25 +1339,30 @@ public class FourFragment extends Fragment{
             level4T.setVisibility(View.VISIBLE);
             level4T.setText("English In motion Test Pack+CD");
             level5T.setVisibility(View.VISIBLE);
-            level5T.setText("English In motion DVD");
+            level5T.setText("\nEnglish In motion DVD");
             level6T.setVisibility(View.VISIBLE);
             level6T.setText("English In motion Digital CD-ROM");
-            levelkT.setVisibility(View.VISIBLE);
-            levelkT.setText("English In motion All-In-One Resource Book");
 
+
+            ISBNSAkT.setVisibility(View.VISIBLE);
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
             ISBNS3T.setVisibility(View.VISIBLE);
             ISBNS4T.setVisibility(View.VISIBLE);
             ISBNS5T.setVisibility(View.VISIBLE);
             ISBNS6T.setVisibility(View.VISIBLE);
-            ISBNSAkT.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("Level 1: 9788466808538\n" +
+
+            ISBNSAkT.setText("Level 1: 9788466812856\n" +
+                    "Level 2: 9788466813624\n" +
+                    "Level 3: 9788466814041\n" +
+                    "Level 4: 9788466814102");
+
+            ISBNS1T.setText("\n\n\n\n\n\nLevel 1: 9788466808538\n" +
                     "Level 2: 9788466813594\n" +
                     "Level 3: 9788466813884\n" +
                     "Level 4: 9788466814072");
-            ISBNS2T.setText("Level 1: 8431300228733\n" +
+            ISBNS2T.setText("\nLevel 1: 8431300228733\n" +
                     "Level 2: 8431300228740\n" +
                     "Level 3: 8431300228757\n" +
                     "Level 4: 8431300228771");
@@ -1365,18 +1374,15 @@ public class FourFragment extends Fragment{
                     "Level 2: 7506009838840\n" +
                     "Level 3: 7506009838857\n" +
                     "Level 4: 7506009838864");
-            ISBNS5T.setText("Level 1: 8431300228788\n" +
+            ISBNS5T.setText("\nLevel 1: 8431300228788\n" +
                     "Level 2: 8431300228801\n" +
                     "Level 3: 8431300228818\n" +
                     "Level 4: 8431300228825");
             ISBNS6T.setText("Level 1: 8431300230415\n" +
                     "Level 2: 8431300230422\n" +
                     "Level 3: 8431300230439\n" +
-                    "Level 4: 8431300230446");
-            ISBNSAkT.setText("Level 1: 9788466812856\n" +
-                    "Level 2: 9788466813624\n" +
-                    "Level 3: 9788466814041\n" +
-                    "Level 4: 9788466814102");
+                    "Level 4: 8431300230446\n\n\n\n\n\n\n\n\n");
+
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1404,9 +1410,9 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Next Step Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Next Step Posters");
+            level2T.setText("\n\nNext Step Posters");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("Next Step Teacher’s CD Pack");
+            level3T.setText("\nNext Step Teacher’s CD Pack");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -1423,7 +1429,7 @@ public class FourFragment extends Fragment{
             ISBNS3T.setText("Level 1: 7506009809185\n" +
                     "Level 2: 7506009809192\n" +
                     "Level 3: 7506009809208\n" +
-                    "Level 4: 7506009809215");
+                    "Level 4: 7506009809215\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1453,7 +1459,7 @@ public class FourFragment extends Fragment{
                     "Level C: 7506009838185\n"+
                     "Level D: 7506009838192\n" +
                     "Level E: 7506009838208\n" +
-                    "Level F: 7506009838215");
+                    "Level F: 7506009838215\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1483,7 +1489,7 @@ public class FourFragment extends Fragment{
                     "Level 3: 7506009845237\n"+
                     "Level 4: 7506009846111\n" +
                     "Level 5: 7506009846128\n" +
-                    "Level 6: 7506009846135");
+                    "Level 6: 7506009846135\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#99549b"));
             tituloForStudents.setTextColor(Color.parseColor("#99549b"));
@@ -1494,24 +1500,24 @@ public class FourFragment extends Fragment{
         else if(titulo1.equals("American Big Picture"))
         {
             level1.setVisibility(View.VISIBLE);
-            level1.setText("The BIG Picture Student’s Book");
+            level1.setText("American Big Picture Student’s Book");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("The BIG Picture Pack (WB+CD)");
+            level2.setText("\n\nPack American Big Picture (Wb + CD)");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("Level A1: 9788466815673\n" +
-                    "Level A2: 9788466820769\n" +
-                    "Level B1: 9788466820776");
-            ISBNS2.setText("Level A1: 7506009839595\n" +
-                    "Level A2: 7506009834248\n" +
-                    "Level B1: 7506009834255");
+            ISBNS1.setText("Level A1: 9786070608704\n" +
+                    "Level A2: 9786070605697\n" +
+                    "Level B1: 9786070605772\n");
+            ISBNS2.setText("Level A1: 7506009834965\n" +
+                    "Level A2: 7506009834972\n" +
+                    "Level B1: 7506009834989");
 
             level1T.setVisibility(View.VISIBLE);
-            level1T.setText("The BIG Picture Teacher’s Book");
+            level1T.setText("Pack American Big Picture (Tch + CD)");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("The BIG Picture Class Audio CDs");
+            level2T.setText("\n\nAmerican Big Picture Digital Book CD-ROM");
             level3T.setVisibility(View.VISIBLE);
             level3T.setText("The BIG Picture Digital Book");
 
@@ -1519,15 +1525,12 @@ public class FourFragment extends Fragment{
             ISBNS2T.setVisibility(View.VISIBLE);
             ISBNS3T.setVisibility(View.VISIBLE);
 
-            ISBNS1T.setText("Level A1: 9788466815697\n" +
-                    "Level A2: 9788466810579\n" +
-                    "Level B1: 9788466810609");
-            ISBNS2T.setText("Level A1: 9788466815703\n" +
-                    "Level A2: 9788466812801\n" +
-                    "Level B1: 9788466812825");
-            ISBNS3T.setText("Level A1: 9788466815710\n" +
-                    "Level A2: 9788466812818\n" +
-                    "Level B1: 9788466812832");
+            ISBNS1T.setText("Level A1: 7506009835436\n" +
+                    "Level A2: 7506009835443\n" +
+                    "Level B1: 7506009835450");
+            ISBNS2T.setText("Level A1: 9786070608742\n" +
+                    "Level A2: 9786070607059\n" +
+                    "Level B1: 9786070607356");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1539,9 +1542,9 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Student’s Book");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Pack @work Workbook");
+            level2.setText("\n\n\n\nPack @work Workbook");
             level3.setVisibility(View.VISIBLE);
-            level3.setText("@Work Digital Workbook");
+            level3.setText("\n\n\n@Work Digital Workbook");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -1560,9 +1563,9 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("Class Audio CD");
+            level2T.setText("\n\n\n\nClass Audio CD");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("@Work Digital Book");
+            level3T.setText("\n\n\n\n@Work Digital Book");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -1576,7 +1579,7 @@ public class FourFragment extends Fragment{
                     "Intermediate: 8431300228467");
             ISBNS3T.setText("Elementary: 8431300228412\n" +
                     "Pre-intermediate: 8431300228443\n" +
-                    "Intermediate: 8431300228474");
+                    "Intermediate: 8431300228474\n\n\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1596,19 +1599,20 @@ public class FourFragment extends Fragment{
             ISBNS3.setVisibility(View.VISIBLE);
 
             ISBNS1.setText("Level 1: 9786070607776");
-            ISBNS2.setText("Level 2: 9786070607615\n" +
-                    "Level 3: 9786070607639");
-            ISBNS3.setText("Level 2: 9786070607622\n" +
-                    "Level 3: 9786070607646");
+            ISBNS2.setText("\n\n\nLevel 1: 9786070607615\n" +
+                           "Level 2: 9786070607639");
+            ISBNS3.setText("\n\nLevel 1: 9786070607622\n" +
+                           "Level 2: 9786070607646\n" +
+                           "Level 3: 9786070607660");
 
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("English ID Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
             level2T.setText("English ID Class CD");
             level3T.setVisibility(View.VISIBLE);
-            level3T.setText("English ID DVD");
+            level3T.setText("\nEnglish ID DVD");
             level4T.setVisibility(View.VISIBLE);
-            level4T.setText("English ID Digital Book CD-ROM");
+            level4T.setText("English ID Digital Book CD-ROM\n\n\n\n\n");
 
             ISBNS1T.setVisibility(View.VISIBLE);
             ISBNS2T.setVisibility(View.VISIBLE);
@@ -1633,8 +1637,8 @@ public class FourFragment extends Fragment{
 
             ISBNSA1T.setVisibility(View.VISIBLE);
 
-            ISBNSA1T.setText("A:9786070607783 / B:9786070607790\n" +
-                    "A:9786070607806 / B:9786070607813");
+            ISBNSA1T.setText("A:9786070607783 / \nB:9786070607790\n" +
+                    "A:9786070607806 / \nB:9786070607813");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1680,9 +1684,9 @@ public class FourFragment extends Fragment{
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("Level 1: 978846682083\n" +
-                    "Level 2: *TBA");
-            ISBNS2.setText("Level 1: 9788466820851\n" +
+                ISBNS1.setText("Level 1: 978846682083\n" +
+                        "Level 2: *TBA");
+            ISBNS2.setText("\nLevel 1: 9788466820851\n" +
                     "Level 2: *TBA");
 
             level1T.setVisibility(View.VISIBLE);
@@ -1695,8 +1699,8 @@ public class FourFragment extends Fragment{
 
             ISBNS1T.setText("Level 1: 9788466820844\n" +
                     "Level 2: *TBA");
-            ISBNS2T.setText("Level 1: 9788466820806\n" +
-                    "Level 2: *TBA");
+            ISBNS2T.setText("\nLevel 1: 9788466820806\n" +
+                    "Level 2: *TBA\n\n\n\n");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1708,16 +1712,16 @@ public class FourFragment extends Fragment{
             level1.setText("Richmond Mazes - Escape From Pizza Plaza");
             level2.setVisibility(View.VISIBLE);
             level2.setText("Richmond Mazes - Trouble at Paradise");
-            level2.setVisibility(View.VISIBLE);
-            level2.setText("Richmond Mazes - Crisis at Clifton");
+            level3.setVisibility(View.VISIBLE);
+            level3.setText("Richmond Mazes - Crisis at Clifton");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
-            ISBNS2.setVisibility(View.VISIBLE);
+            ISBNS3.setVisibility(View.VISIBLE);
 
             ISBNS1.setText("9788466817431");
-            ISBNS2.setText("9788466817448");
-            ISBNS3.setText("9788466818513");
+            ISBNS2.setText("\n\n\n\n\n9788466817448");
+            ISBNS3.setText("\n\n\n9788466818513");
 
             tituloForTeachers.setTextColor(Color.parseColor("#1db59b"));
             tituloForStudents.setTextColor(Color.parseColor("#1db59b"));
@@ -1728,7 +1732,7 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("The BIG Picture Student’s Book");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("The BIG Picture Pack (WB+CD)");
+            level2.setText("\nThe BIG Picture Pack (WB+CD)");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -1744,7 +1748,7 @@ public class FourFragment extends Fragment{
             level1T.setVisibility(View.VISIBLE);
             level1T.setText("The BIG Picture Teacher’s Book");
             level2T.setVisibility(View.VISIBLE);
-            level2T.setText("The BIG Picture Class Audio CDs");
+            level2T.setText("\nThe BIG Picture Class Audio CDs");
             level3T.setVisibility(View.VISIBLE);
             level3T.setText("The BIG Picture Digital Book");
 
@@ -1793,19 +1797,19 @@ public class FourFragment extends Fragment{
             level2.setText("English Grammar in Steps without answers (New Edition)");
 
             ISBNS2.setVisibility(View.VISIBLE);
-            ISBNS2.setText("9788466817554\n");
+            ISBNS2.setText("\n\n\n\n\n9788466817554\n");
 
             level3.setVisibility(View.VISIBLE);
             level3.setText("English Grammar in Steps Practice Book with answers (New Edition)");
 
             ISBNS3.setVisibility(View.VISIBLE);
-            ISBNS3.setText("9788466817523\n");
+            ISBNS3.setText("\n\n\n\n\n9788466817523\n");
 
             level4.setVisibility(View.VISIBLE);
             level4.setText("English Grammar in Steps Practice Book without answers (New Edition)");
 
             ISBNS4.setVisibility(View.VISIBLE);
-            ISBNS4.setText("9788466817547\n");
+            ISBNS4.setText("\n\n\n\n\n\n9788466817547\n");
 
 
         }
@@ -1963,7 +1967,7 @@ public class FourFragment extends Fragment{
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("7506009832596");
+            ISBNS1.setText("7506009832596test\n\n\n\n\n");
             ISBNS2.setText("9788466806824");
 
 
@@ -1977,21 +1981,6 @@ public class FourFragment extends Fragment{
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
 
-
-            level1.setVisibility(View.VISIBLE);
-            level1.setText("Target KET for Schools Student Pack (SB+CD-ROM)");
-            ISBNS1.setVisibility(View.VISIBLE);
-            ISBNS1.setText("7506009832596\n");
-
-            level2.setVisibility(View.VISIBLE);
-            level2.setText("Target KET Workbook");
-            ISBNS2.setVisibility(View.VISIBLE);
-            ISBNS2.setText("9788466806824\n");
-
-            level1T.setVisibility(View.VISIBLE);
-            level1T.setText("Target KET for Schools Teacher’s Pack (TB+Audio CD)");
-            ISBNS1T.setVisibility(View.VISIBLE);
-            ISBNS1T.setText("7506009832619\n");
         }
 
         else if(titulo1.equals("TARGET PET"))
@@ -2005,7 +1994,7 @@ public class FourFragment extends Fragment{
             ISBNS2.setVisibility(View.VISIBLE);
 
             ISBNS1.setText("7506009832558");
-            ISBNS2.setText("9788466808712");
+            ISBNS2.setText("\n\n\n\n\n9788466808712");
 
 
             level1T.setVisibility(View.VISIBLE);
@@ -2018,20 +2007,7 @@ public class FourFragment extends Fragment{
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
 
-            level1.setVisibility(View.VISIBLE);
-            level1.setText("Target PET Student Pack (SB+CD-ROM)");
-            ISBNS1.setVisibility(View.VISIBLE);
-            ISBNS1.setText("7506009832558\n");
 
-            level2.setVisibility(View.VISIBLE);
-            level2.setText("Target PET Workbook");
-            ISBNS2.setVisibility(View.VISIBLE);
-            ISBNS2.setText("9788466808712\n");
-
-            level1T.setVisibility(View.VISIBLE);
-            level1T.setText("Target PET Teacher’s Pack (TB+Audio CD)");
-            ISBNS1T.setVisibility(View.VISIBLE);
-            ISBNS1T.setText("7506009832572\n");
         }
 
         else if(titulo1.equals("Richmond Practice Tests for Cambridge English: Advanced"))
@@ -2041,7 +2017,7 @@ public class FourFragment extends Fragment{
 
             ISBNS1.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("9788466820714");
+            ISBNS1.setText("\n\n9788466820714");
 
             tituloForTeachers.setTextColor(Color.parseColor("#ffc907"));
             tituloForStudents.setTextColor(Color.parseColor("#ffc907"));
@@ -2182,9 +2158,9 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Level 2 (K1):");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Level 3 (K2)::");
+            level2.setText("\n\n\n\n\n\nLevel 3 (K2)::");
             level3.setVisibility(View.VISIBLE);
-            level3.setText("Level 4 (K3)::");
+            level3.setText("\n\n\n\n\n\nLevel 4 (K3)::");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -2219,15 +2195,15 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Level 1:");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Level 2:");
+            level2.setText("\n\n\n\n\nLevel 2:");
             level3.setVisibility(View.VISIBLE);
-            level3.setText("Level 3:");
+            level3.setText("\n\n\n\n\nLevel 3:");
             level4.setVisibility(View.VISIBLE);
-            level4.setText("Level 4:");
+            level4.setText("\nLevel 4:");
             level5.setVisibility(View.VISIBLE);
-            level5.setText("Level 5:");
+            level5.setText("\n\n\nLevel 5:");
             level6.setVisibility(View.VISIBLE);
-            level6.setText("Level 6:");
+            level6.setText("\n\n\n\nLevel 6:");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -2284,15 +2260,15 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Early Reader 1:");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Early Reader 2:");
+            level2.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEarly Reader 2:");
             level3.setVisibility(View.VISIBLE);
-            level3.setText("Solo Reader 1:");
+            level3.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolo Reader 1:");
             level4.setVisibility(View.VISIBLE);
-            level4.setText("Solo Reader 2:");
+            level4.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolo Reader 2:");
             level5.setVisibility(View.VISIBLE);
-            level5.setText("Fluent Reader 1:");
+            level5.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\nFluent Reader 1:");
             level6.setVisibility(View.VISIBLE);
-            level6.setText("Fluent Reader 2:");
+            level6.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFluent Reader 2:");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -2371,7 +2347,7 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Starter Level:");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("\n\n\n\n\n\n\nLevel 1:");
+            level2.setText("\n\n\n\n\n\n\n\nLevel 1:");
             level3.setVisibility(View.VISIBLE);
             level3.setText("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 2:");
             level4.setVisibility(View.VISIBLE);
@@ -2385,7 +2361,7 @@ public class FourFragment extends Fragment{
             ISBNS4.setVisibility(View.VISIBLE);
             ISBNS5.setVisibility(View.VISIBLE);
 
-            ISBNS1.setText("Robin Hood: The Taxman: 9788466812214\n"
+            ISBNS1.setText("Robin Hood:\n The Taxman: 9788466812214\n"
                     +"Zoey 101: Dance Contest: 9781906861063\n"
                     +"Blog Love: 9780956857705\n"
                     +"\"Storm Hawks:9781906861056\n");
@@ -2554,9 +2530,9 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Level 3:");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Level 4:");
+            level2.setText("\n\n\n\n\n\n\nLevel 4:");
             level3.setVisibility(View.VISIBLE);
-            level3.setText("Level 5:");
+            level3.setText("\n\n\n\n\n\n\n\n\nLevel 5:");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -2591,7 +2567,7 @@ public class FourFragment extends Fragment{
             level1.setVisibility(View.VISIBLE);
             level1.setText("Level A2:");
             level2.setVisibility(View.VISIBLE);
-            level2.setText("Level B1:");
+            level2.setText("\n\n\n\n\n\n\n\n\n\n\n  Level B1:");
 
             ISBNS1.setVisibility(View.VISIBLE);
             ISBNS2.setVisibility(View.VISIBLE);
@@ -2602,7 +2578,7 @@ public class FourFragment extends Fragment{
                     +"999 Emergency: 9781909221383\n"+
                     "The British Royal Family: 9781909221390");
 
-            ISBNS2.setText("Brilliant Brita in: Tea: 9786070606908\n"
+            ISBNS2.setText("Brilliant Britain: Tea: 9786070606908\n"
                     +"Changing World: 9781909221413\n"
                     +"Take Away My Takeaway : Italy: 9786070606878\n"
                     +"Eccentric Britain: 9781909221406\n"+
