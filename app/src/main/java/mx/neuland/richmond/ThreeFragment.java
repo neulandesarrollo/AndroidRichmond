@@ -9,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ThreeFragment extends Fragment{
@@ -18,6 +19,20 @@ public class ThreeFragment extends Fragment{
     TextView tituloComponentsTeachers;
     TextView componentsTeachers;
     TextView descripcionTeachers;
+
+    ImageView imagen1;
+    ImageView imagen2;
+    ImageView imagen3;
+    ImageView imagen4;
+    ImageView imagen5;
+    ImageView imagen6;
+
+    TextView texto1;
+    TextView texto2;
+    TextView texto3;
+    TextView texto4;
+    TextView texto5;
+    TextView texto6;
 
     public ThreeFragment(String titulo, Context detallesSerieActivity) {
         titulo1 = titulo;
@@ -42,9 +57,30 @@ public class ThreeFragment extends Fragment{
         componentsTeachers = (TextView)view.findViewById(R.id.componentsTeachers);
         descripcionTeachers = (TextView)view.findViewById(R.id.descripcionTeachers);
 
+        imagen1 = (ImageView)view.findViewById(R.id.imagen1);
+        imagen2 = (ImageView)view.findViewById(R.id.imagen2);
+        imagen3 = (ImageView)view.findViewById(R.id.imagen3);
+        imagen4 = (ImageView)view.findViewById(R.id.imagen4);
+        imagen5 = (ImageView)view.findViewById(R.id.imagen5);
+        imagen6 = (ImageView)view.findViewById(R.id.imagen6);
+
+        texto1 = (TextView)view.findViewById(R.id.texto1);
+        texto2 = (TextView)view.findViewById(R.id.texto2);
+        texto3 = (TextView)view.findViewById(R.id.texto3);
+        texto4 = (TextView)view.findViewById(R.id.texto4);
+        texto5 = (TextView)view.findViewById(R.id.texto5);
+        texto6 = (TextView)view.findViewById(R.id.texto6);
+
         tituloComponentsTeachers.setTypeface(leagueGothic);
         componentsTeachers.setTypeface(firaSansLight);
         descripcionTeachers.setTypeface(firaSansLight);
+
+        texto1.setTypeface(firaSansLight);
+        texto2.setTypeface(firaSansLight);
+        texto3.setTypeface(firaSansLight);
+        texto4.setTypeface(firaSansLight);
+        texto5.setTypeface(firaSansLight);
+        texto6.setTypeface(firaSansLight);
 
         return view;
     }
@@ -58,12 +94,29 @@ public class ThreeFragment extends Fragment{
 
             tituloComponentsTeachers.setTextColor(Color.parseColor("#f48b31"));
 
-            componentsTeachers.setText(R.string.teachers_cubbyhouse);
+            imagen1.setImageResource(R.drawable.guia_maestro_cubby);
+            imagen1.setVisibility(View.VISIBLE);
 
-            descripcionTeachers.setText("In the Teacher’s Guide, teacher’s will  nd instructions to build a play house—similar to those in the Values section—where students can develop their creativity and motor skills.\n\n" +
-                    "Teachers will also  nd suggestions to use the cubby houses— children can keep their toys or school materials inside or get in to color and play.\n\n" +
-                    "By building their cubby houses, students will enjoy themselves while understanding and visualizing the value in a more memorable way.");
+            texto1.setText("\"Guía del Maestro (In Spanish)\n\n" +
+                    "La Guía del Maestro incluye notas detalladas para desarrollar cada lección, las actividades de valores, habilidades motrices, la revisión y el ciclo de lectura.");
 
+            imagen2.setImageResource(R.drawable.cd_class_resource_cubby);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Class & Resource CD\n\n" +
+                    "Incluye un CD de Recursos para el profesor, donde encontrará las grabaciones de las canciones, cantos, rimas e historias, así como los worksheets y assessments, actividades de festividades (Holidays) y la Unidad Cero.");
+
+            imagen3.setImageResource(R.drawable.story_cards_cubby);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Story Cards\n\n" +
+                    "Cubby House incluye una historia por unidad, ilustrada en tarjetas de gran tamaño o Story Cards. Las historiasse relacionan con el tema y las estructuras de cada unidad, de modo que los alumnos puedan repasarlas en contextos y situaciones que les sean atractivos y significativos.");
+
+            imagen4.setImageResource(R.drawable.flash_cards_cubby);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Flashcards\n\n" +
+                    "Cubby House contiene flashcards que ilustran las palabras de uso más frecuente en cada unidad.");
         }
 
         else if(titulo1.equals("PEBBLES"))

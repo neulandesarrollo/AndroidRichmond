@@ -23,10 +23,16 @@ public class TwoFragment extends Fragment{
     ImageView imagen1;
     ImageView imagen2;
     ImageView imagen3;
+    ImageView imagen4;
+    ImageView imagen5;
+    ImageView imagen6;
 
     TextView texto1;
     TextView texto2;
     TextView texto3;
+    TextView texto4;
+    TextView texto5;
+    TextView texto6;
 
     TextView tituloComponents;
 
@@ -54,10 +60,17 @@ public class TwoFragment extends Fragment{
         imagen1 = (ImageView)view.findViewById(R.id.imagen1);
         imagen2 = (ImageView)view.findViewById(R.id.imagen2);
         imagen3 = (ImageView)view.findViewById(R.id.imagen3);
+        imagen4 = (ImageView)view.findViewById(R.id.imagen4);
+        imagen5 = (ImageView)view.findViewById(R.id.imagen5);
+        imagen6 = (ImageView)view.findViewById(R.id.imagen6);
+
 
         texto1 = (TextView)view.findViewById(R.id.texto1);
         texto2 = (TextView)view.findViewById(R.id.texto2);
         texto3 = (TextView)view.findViewById(R.id.texto3);
+        texto4 = (TextView)view.findViewById(R.id.texto4);
+        texto5 = (TextView)view.findViewById(R.id.texto5);
+        texto6 = (TextView)view.findViewById(R.id.texto6);
 
         tituloComponents = (TextView)view.findViewById(R.id.tituloComponents);
 
@@ -68,6 +81,9 @@ public class TwoFragment extends Fragment{
         texto1.setTypeface(firaSansLight);
         texto2.setTypeface(firaSansLight);
         texto3.setTypeface(firaSansLight);
+        texto4.setTypeface(firaSansLight);
+        texto5.setTypeface(firaSansLight);
+        texto6.setTypeface(firaSansLight);
 
         return view;
     }
@@ -78,38 +94,95 @@ public class TwoFragment extends Fragment{
 
         if(titulo1.equals("CUBBY HOUSE"))
         {
-           components.setText(R.string.components_cubby);
             tituloComponents.setTextColor(Color.parseColor("#f48b31"));
 
-            studentsbook.setVisibility(View.VISIBLE);
-            studentsbook.setTextColor(Color.parseColor("#f48b31"));
-
-            imagen1.setImageResource(R.drawable.schoolcubbyhouse1);
+            imagen1.setImageResource(R.drawable.student_book_cubby);
             imagen1.setVisibility(View.VISIBLE);
 
-            texto1.setText("Each unit ends with page to review vocabulary and language.");
+            texto1.setText("Student’s Book\n\n" +
+                    "El Student’s Book contiene páginas con ilustraciones o fotografías a todo color para " +
+                    "representar el léxico y las estructuras de forma " +
+                    "más clara, memorable y atractiva.");
 
-            imagen2.setImageResource(R.drawable.schoolcubbyhouses2);
+            imagen2.setImageResource(R.drawable.student_cd_cubby);
             imagen2.setVisibility(View.VISIBLE);
 
-            texto2.setText("CLIL lessons explore an area related to the topic of the lesson.");
+            texto2.setText("Student’s CD\n\n" +
+                    "Cubby House incluye un CD con las canciones, " +
+                    "cantos, rimas e historias de la serie, para que " +
+                    "los alumnos pueden escucharlos cuantas veces " +
+                    "quieran y consoliden lo aprendido en clase.");
 
-            imagen3.setImageResource(R.drawable.schoolcubbyhouse3);
-            imagen3.setVisibility(View.VISIBLE);
-
-            texto3.setText("There are beautiful pop-outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.\n\n\n\n\n\n\n\n");
         }
 
         else if(titulo1.equals("PEBBLES"))
         {
-            components.setText(R.string.components_pebbles);
             tituloComponents.setTextColor(Color.parseColor("#f48b31"));
+
+            imagen1.setImageResource(R.drawable.student_book_pebbles);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Student’s Book\n\n" +
+                    "Pebbles Student’s Book consta de nueve unidades "+
+                    "temáticas con actividades variadas y "+
+                    "divertidas para aprender el idioma inglés.");
+
+            imagen2.setImageResource(R.drawable.resourse_booklet);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Resource Booklet\n\n" +
+                    "Pebbles Resource Booklet contiene los siguientes " +
+                    "elementos:\n" +
+                    "Pop-outs, Pictionary Puzzles, Números para trazar");
+
+            imagen3.setImageResource(R.drawable.hans_on_activity_pad);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Hands-on Activity Pad\n\n" +
+                    "Pebbles Hands-on Activity Pad incluye dos " +
+                    "actividades manuales para cada unidad.");
+
+            imagen4.setImageResource(R.drawable.student_cd_pebbles);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Student’s CD\n\n" +
+                    "Incluyen las grabaciones de todas las canciones, rimas, así como de las palabras del vocabulario de cada nivel");
         }
 
         else if(titulo1.equals("GUMDROPS"))
         {
-            components.setText(R.string.components_gumdrops);
             tituloComponents.setTextColor(Color.parseColor("#f48b31"));
+
+            imagen1.setImageResource(R.drawable.student_book_gumdrops);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Student’s Book\n\n" +
+                    "The Student’s Book contains full-colored pages with a variety of fun activities.");
+
+            imagen2.setImageResource(R.drawable.activity_pad_gumdrops);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Activity Pad\n\n" +
+                    "Th e Activity Pad contains detachable pages of stimulating activities that provide extra hands-on practice for developing essential readiness skills and concepts, such as drawing, coloring, fi nger-painting, and assembling.");
+
+            imagen3.setImageResource(R.drawable.student_audio_gumdrops);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("\"Student’s Audio CD (Level 1)\n\n" +
+                    "Th e Student’s Audio contains all the songs, rhymes, chants and stories from Level 1 recorded by native English Speakers for students to listen to outside the classroom.");
+
+            imagen4.setImageResource(R.drawable.student_interactive_cd);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Student’s Audio/Interactive CD-ROM (Levels 2 and 3)");
+
+            imagen5.setImageResource(R.drawable.student_resource_pack_gumdrops);
+            imagen5.setVisibility(View.VISIBLE);
+
+            texto5.setText("Student’s (Resource Pack)\n" +
+                    "- Finger and Stick Puppets\n" +
+                    "- Stickers\n" +
+                    "- Mini-flashcards");
         }
 
         else if(titulo1.equals("TIPPY TOES"))

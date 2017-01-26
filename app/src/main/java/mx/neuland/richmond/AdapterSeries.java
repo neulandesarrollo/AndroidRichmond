@@ -167,14 +167,16 @@ public class AdapterSeries extends BaseAdapter{
                     context.startActivity(intent);
                 }
 
-                else if(titulo.get(position).equals("DELTA'S Key to the Next Generation TOELF Test")||
+                else if(titulo.get(position).equals("DELTA'S Key to the TOEFL iBT")||
                         titulo.get(position).equals("TARGET KET for Schools")||
                         titulo.get(position).equals("TARGET PET")||
                         titulo.get(position).equals("Richmond Practice Tests for Cambridge English: Advanced")||
                         titulo.get(position).equals("Richmond Practice Tests for Cambridge English: First")||
                         titulo.get(position).equals("Richmond Practice Tests for IELTS")||
-                        titulo.get(position).equals("Pass the TOEIC Test: Introductory Course")||
-                        titulo.get(position).equals("Richmond Practice Tests - Movers"))
+                        titulo.get(position).equals("Pass the TOEIC Test")||
+                        titulo.get(position).equals("Richmond Practice Tests: YLE")||
+                        titulo.get(position).equals("Richmond Practice Tests: ket and PET")||
+                        titulo.get(position).equals("Target Cambridge English: First"))
                 {
 
                     //Toast.makeText(context, "Contenido no disponible", Toast.LENGTH_SHORT).show();

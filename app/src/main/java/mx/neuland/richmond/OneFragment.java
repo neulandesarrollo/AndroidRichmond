@@ -2125,7 +2125,11 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("Infoquest"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
-            imagen.setImageResource(R.drawable.grupo_azul);
+            imagen.setVisibility(View.GONE);
+
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_infoquest);
+
             descripcion.setText(R.string.infoquestdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
@@ -2172,7 +2176,11 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("Little Readers"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
-            imagen.setImageResource(R.drawable.grupo_azul);
+            imagen.setVisibility(View.GONE);
+
+            //portadas.setVisibility(View.VISIBLE);
+            //portadas.setImageResource(R.drawable.portadas_ready_set_go);
+
             descripcion.setText(R.string.littlereaddesc);
 
             uno.setImageResource(R.drawable.richmondlearning);
@@ -2219,236 +2227,97 @@ public class OneFragment extends Fragment{
         else if(titulo1.equals("Super stars"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
-            imagen.setImageResource(R.drawable.grupo_azul);
+            imagen.setVisibility(View.GONE);
+
+            table.setVisibility(View.VISIBLE);
+            table.setImageResource(R.drawable.super_stars_table);
+
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_superstars);
+
             descripcion.setText(R.string.starsdesc);
 
-            uno.setImageResource(R.drawable.richmondlearning);
-            uno.setVisibility(View.VISIBLE);
+            sample.setVisibility(View.GONE);
+            scope.setVisibility(View.GONE);
 
-            dos.setImageResource(R.drawable.american_english);
-            dos.setVisibility(View.VISIBLE);
-
-            tres.setImageResource(R.drawable.i6_levels);
-            tres.setVisibility(View.VISIBLE);
-
-            cuatro.setImageResource(R.drawable.i90_120hours);
-            cuatro.setVisibility(View.VISIBLE);
-
-            extra.setImageResource(R.drawable.app);
-            extra.setVisibility(View.VISIBLE);
-
-            cinco.setImageResource(R.drawable.videos);
-            cinco.setVisibility(View.VISIBLE);
-
-            seis.setImageResource(R.drawable.digital_book);
-            seis.setVisibility(View.VISIBLE);
-
-            siete.setImageResource(R.drawable.digital_resources);
-            siete.setVisibility(View.VISIBLE);
-
-            sample.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Sample Unit not available", Toast.LENGTH_SHORT).show();
-                }
-            });
-
-            scope.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Scope & Sequence not available", Toast.LENGTH_SHORT).show();
-                }
-            });
         }
 
         else if(titulo1.equals("Popcorn readers"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
-            imagen.setImageResource(R.drawable.grupo_azul);
+            imagen.setVisibility(View.GONE);
+
+            table.setVisibility(View.VISIBLE);
+            table.setImageResource(R.drawable.popcorn_readers_table);
+
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_popcorn);
+
             descripcion.setText(R.string.popdesc);
 
-            uno.setImageResource(R.drawable.richmondlearning);
+            uno.setImageResource(R.drawable.microsite);
             uno.setVisibility(View.VISIBLE);
 
-            dos.setImageResource(R.drawable.american_english);
+            dos.setImageResource(R.drawable.audio_cd);
             dos.setVisibility(View.VISIBLE);
 
-            tres.setImageResource(R.drawable.i6_levels);
-            tres.setVisibility(View.VISIBLE);
+            sample.setVisibility(View.GONE);
+            scope.setVisibility(View.GONE);
 
-            cuatro.setImageResource(R.drawable.i90_120hours);
-            cuatro.setVisibility(View.VISIBLE);
-
-            extra.setImageResource(R.drawable.app);
-            extra.setVisibility(View.VISIBLE);
-
-            cinco.setImageResource(R.drawable.videos);
-            cinco.setVisibility(View.VISIBLE);
-
-            seis.setImageResource(R.drawable.digital_book);
-            seis.setVisibility(View.VISIBLE);
-
-            siete.setImageResource(R.drawable.digital_resources);
-            siete.setVisibility(View.VISIBLE);
-
-            sample.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Sample Unit not available", Toast.LENGTH_SHORT).show();
-                }
-            });
-
-            scope.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Scope & Sequence not available", Toast.LENGTH_SHORT).show();
-                }
-            });
         }
 
         else if(titulo1.equals("Media readers"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
-            imagen.setImageResource(R.drawable.grupo_azul);
+            imagen.setVisibility(View.GONE);
+
+            table.setVisibility(View.VISIBLE);
+            table.setImageResource(R.drawable.media_readers_table);
+
             descripcion.setText(R.string.mediadesc);
 
-            uno.setImageResource(R.drawable.richmondlearning);
+            uno.setImageResource(R.drawable.microsite);
             uno.setVisibility(View.VISIBLE);
 
-            dos.setImageResource(R.drawable.american_english);
+            dos.setImageResource(R.drawable.audio_cd);
             dos.setVisibility(View.VISIBLE);
 
-            tres.setImageResource(R.drawable.i6_levels);
-            tres.setVisibility(View.VISIBLE);
-
-            cuatro.setImageResource(R.drawable.i90_120hours);
-            cuatro.setVisibility(View.VISIBLE);
-
-            extra.setImageResource(R.drawable.app);
-            extra.setVisibility(View.VISIBLE);
-
-            cinco.setImageResource(R.drawable.videos);
-            cinco.setVisibility(View.VISIBLE);
-
-            seis.setImageResource(R.drawable.digital_book);
-            seis.setVisibility(View.VISIBLE);
-
-            siete.setImageResource(R.drawable.digital_resources);
-            siete.setVisibility(View.VISIBLE);
-
-            sample.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Sample Unit not available", Toast.LENGTH_SHORT).show();
-                }
-            });
-
-            scope.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Scope & Sequence not available", Toast.LENGTH_SHORT).show();
-                }
-            });
+            sample.setVisibility(View.GONE);
+            scope.setVisibility(View.GONE);
         }
 
         else if(titulo1.equals("Richmond readers"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
-            imagen.setImageResource(R.drawable.grupo_azul);
+            imagen.setVisibility(View.GONE);
+
+            table.setVisibility(View.VISIBLE);
+            table.setImageResource(R.drawable.richmond_readers_table);
+
             descripcion.setText(R.string.richreadersdesc);
 
-            uno.setImageResource(R.drawable.richmondlearning);
+            uno.setImageResource(R.drawable.microsite);
             uno.setVisibility(View.VISIBLE);
 
-            dos.setImageResource(R.drawable.american_english);
-            dos.setVisibility(View.VISIBLE);
-
-            tres.setImageResource(R.drawable.i6_levels);
-            tres.setVisibility(View.VISIBLE);
-
-            cuatro.setImageResource(R.drawable.i90_120hours);
-            cuatro.setVisibility(View.VISIBLE);
-
-            extra.setImageResource(R.drawable.app);
-            extra.setVisibility(View.VISIBLE);
-
-            cinco.setImageResource(R.drawable.videos);
-            cinco.setVisibility(View.VISIBLE);
-
-            seis.setImageResource(R.drawable.digital_book);
-            seis.setVisibility(View.VISIBLE);
-
-            siete.setImageResource(R.drawable.digital_resources);
-            siete.setVisibility(View.VISIBLE);
-
-            sample.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Sample Unit not available", Toast.LENGTH_SHORT).show();
-                }
-            });
-
-            scope.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Scope & Sequence not available", Toast.LENGTH_SHORT).show();
-                }
-            });
+            sample.setVisibility(View.GONE);
+            scope.setVisibility(View.GONE);
         }
 
         else if(titulo1.equals("DVD readers"))
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
-            imagen.setImageResource(R.drawable.grupo_azul);
+            imagen.setVisibility(View.GONE);
+
+            table.setVisibility(View.VISIBLE);
+            table.setImageResource(R.drawable.dvd_readers_table);
+
             descripcion.setText(R.string.dvdreaddesc);
 
-            uno.setImageResource(R.drawable.richmondlearning);
+            uno.setImageResource(R.drawable.dvd);
             uno.setVisibility(View.VISIBLE);
 
-            dos.setImageResource(R.drawable.american_english);
-            dos.setVisibility(View.VISIBLE);
-
-            tres.setImageResource(R.drawable.i6_levels);
-            tres.setVisibility(View.VISIBLE);
-
-            cuatro.setImageResource(R.drawable.i90_120hours);
-            cuatro.setVisibility(View.VISIBLE);
-
-            extra.setImageResource(R.drawable.app);
-            extra.setVisibility(View.VISIBLE);
-
-            cinco.setImageResource(R.drawable.videos);
-            cinco.setVisibility(View.VISIBLE);
-
-            seis.setImageResource(R.drawable.digital_book);
-            seis.setVisibility(View.VISIBLE);
-
-            siete.setImageResource(R.drawable.digital_resources);
-            siete.setVisibility(View.VISIBLE);
-
-            sample.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Sample Unit not available", Toast.LENGTH_SHORT).show();
-                }
-            });
-
-            scope.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(contexto, "Scope & Sequence not available", Toast.LENGTH_SHORT).show();
-                }
-            });
+            sample.setVisibility(View.GONE);
+            scope.setVisibility(View.GONE);
         }
 
 
