@@ -38,6 +38,9 @@ public class OneFragment extends Fragment{
 
     ImageView cefr;
 
+    ImageView table;
+    ImageView portadas;
+
     public OneFragment(String titulo, String autor, Context detallesSerieActivity) {
         titulo1 = titulo;
         autor1 = autor;
@@ -79,6 +82,9 @@ public class OneFragment extends Fragment{
         scope = (ImageView)view.findViewById(R.id.scope);
 
         cefr = (ImageView)view.findViewById(R.id.cefr);
+
+        table = (ImageView)view.findViewById(R.id.table);
+        portadas = (ImageView)view.findViewById(R.id.portadas);
 
         return view;
     }
@@ -2066,6 +2072,13 @@ public class OneFragment extends Fragment{
         {
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setVisibility(View.GONE);
+
+            table.setVisibility(View.VISIBLE);
+            table.setImageResource(R.drawable.ready_set_go_table);
+
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_ready_set_go);
+
             descripcion.setText(R.string.readysetdesc);
 
             uno.setImageResource(R.drawable.richmondlearning);

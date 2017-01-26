@@ -172,6 +172,42 @@
                 android:layout_height="match_parent"
                 android:textColor="#212121"/>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ready_set_go_table"
+                    android:layout_gravity="right"
+                    android:layout_weight="6"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/portadas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/portadas_ready_set_go"
+                    android:layout_gravity="right"
+                    android:layout_weight="6"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
