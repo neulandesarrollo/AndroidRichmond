@@ -92,7 +92,7 @@ public class ListaEstadosActivity extends AppCompatActivity implements View.OnCl
         Estados.add("Chihuahua");
         Estados.add("Coahuila");
         Estados.add("Colima");
-        Estados.add("Distrito Federal");
+        Estados.add("Ciudad de México");
         Estados.add("Durango");
         Estados.add("Estado de México");
         Estados.add("Guanajuato");
