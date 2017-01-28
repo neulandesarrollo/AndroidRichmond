@@ -96,10 +96,10 @@ public class DetalleYoungActivity extends AppCompatActivity implements View.OnCl
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(titulo, autor, DetalleYoungActivity.this), "Description");
-        adapter.addFragment(new TwoFragment(titulo, DetalleYoungActivity.this), "For Students");
-        adapter.addFragment(new ThreeFragment(titulo, DetalleYoungActivity.this), "For Teachers");
-        adapter.addFragment(new FourFragment(titulo, DetalleYoungActivity.this), "ISBNs");
+        adapter.addFragment(OneFragment.newInstance(titulo, autor, DetalleYoungActivity.this), "Description");
+        adapter.addFragment(TwoFragment.newInstance(titulo, DetalleYoungActivity.this), "For Students");
+        adapter.addFragment(ThreeFragment.newInstance(titulo, DetalleYoungActivity.this), "For Teachers");
+        adapter.addFragment(FourFragment.newInstance(titulo, DetalleYoungActivity.this), "ISBNs");
         viewPager.setAdapter(adapter);
     }
 

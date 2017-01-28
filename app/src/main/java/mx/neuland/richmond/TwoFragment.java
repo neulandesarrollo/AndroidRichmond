@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 public class TwoFragment extends Fragment{
 
-    String titulo1;
-    Context contexto;
+    static String titulo1;
+    static Context contexto;
 
     TextView components;
     TextView studentsbook;
@@ -36,9 +36,17 @@ public class TwoFragment extends Fragment{
 
     TextView tituloComponents;
 
-    public TwoFragment(String titulo, Context detallesSerieActivity) {
+    /*public TwoFragment(String titulo, Context detallesSerieActivity) {
         titulo1 = titulo;
         contexto = detallesSerieActivity;
+    }*/
+
+    public static final TwoFragment newInstance(String titulo, Context detallesSerieActivity)
+    {
+        TwoFragment f = new TwoFragment();
+        titulo1 = titulo;
+        contexto = detallesSerieActivity;
+        return f;
     }
 
     @Override
@@ -187,54 +195,129 @@ public class TwoFragment extends Fragment{
 
         else if(titulo1.equals("TIPPY TOES"))
         {
-            components.setText(R.string.components_tippytoes);
             tituloComponents.setTextColor(Color.parseColor("#f48b31"));
 
-            studentsbook.setVisibility(View.VISIBLE);
-            studentsbook.setTextColor(Color.parseColor("#f48b31"));
-
-            imagen1.setImageResource(R.drawable.schooltippytoess1);
+            imagen1.setImageResource(R.drawable.student_book_tippy_toes);
             imagen1.setVisibility(View.VISIBLE);
 
-            texto1.setText("The pages of the lessons present the materials, objectives, structures and vocabulary.");
+            texto1.setText("Student’s Book\n\n" +
+                    "The Student’s Book contains 152 full-color pages with a variety of fun and beautiful illustrations.");
 
-            imagen2.setImageResource(R.drawable.schooltippytoess2);
+            imagen2.setImageResource(R.drawable.stickers_tippy_toes);
             imagen2.setVisibility(View.VISIBLE);
 
-            texto2.setText("Each lesson is divided into four sections.");
+            texto2.setText("Stickers\n\n" +
+                    "Tippy Toes off ers colorful and fun Stickers that are used in every unit along with the Student’s Book. Th ey off er a motivational element to the course.");
+
+            imagen3.setImageResource(R.drawable.activity_book_tippy_toes);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Activity Book\n\n" +
+                    "The Activity Book reinforces what students learn in the classroom through a wide variety of activities.");
+
+            imagen4.setImageResource(R.drawable.student_cd_tippy_toes);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Student’s CD\n\n" +
+                    "The Student’s CD contains all the songs, rhymes, chants and stories from Level 1 for students to listen outside the classroom.");
+
+            imagen5.setImageResource(R.drawable.interactive_cd_rom_tippy_toes);
+            imagen5.setVisibility(View.VISIBLE);
+
+            texto5.setText("Interactive CD (Levels 2 and 3)");
+
+            imagen6.setImageResource(R.drawable.app_tippy_toes);
+            imagen6.setVisibility(View.VISIBLE);
+
+            texto6.setText("Tippy Toes App (Level 1)");
 
         }
 
         else if(titulo1.equals("MY FIRST LETTERS AND SOUNDS"))
         {
-            components.setText(R.string.components_mflas);
+
             tituloComponents.setTextColor(Color.parseColor("#f48b31"));
+
+            imagen1.setImageResource(R.drawable.student_book_mfls);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Student’s Book\n\n");
+
+            imagen2.setImageResource(R.drawable.student_cd_mfls);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Student’s CD\n\n");
+
+            imagen3.setImageResource(R.drawable.app_mfls);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("App\n\n");
 
         }
 
         else if(titulo1.equals("CRICKETS"))
         {
-            components.setText(R.string.components_crickets);
             tituloComponents.setTextColor(Color.parseColor("#f48b31"));
 
-            studentsbook.setVisibility(View.VISIBLE);
-            studentsbook.setTextColor(Color.parseColor("#f48b31"));
-
-            imagen1.setImageResource(R.drawable.schoolcricketss1);
+            imagen1.setImageResource(R.drawable.student_book_crickets);
             imagen1.setVisibility(View.VISIBLE);
 
-            texto1.setText("CLIL lessons explore an area related to the topic of the lesson.");
+            texto1.setText("Student’s Book\n\n" +
+                    "The Student’s Book contains full-colored pages with both illustrations and photographs that represent concepts vividly and clearly.");
 
-            imagen2.setImageResource(R.drawable.schooltippytoess2);
+            imagen2.setImageResource(R.drawable.practice_book_crickets);
             imagen2.setVisibility(View.VISIBLE);
 
-            texto2.setText("The Student’s Book includes the Mini-  ashcards section, a mini reproduction of the  ashcards that students can also use as a picture dictionary.");
+            texto2.setText("Practice Book\n\n" +
+                    "The Crickets Practice Book is for use in the classroom or at home. Activities in the Practice Book correspond to the stages Explore, Explain and Evaluate of the 5Es methodology.");
+
+            imagen3.setImageResource(R.drawable.students_cd_crickets);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Student’s CD\n\n" +
+                    "The Student’s CD includes recordings by native English speakers of all the stories, songs and chants.");
+
+            imagen4.setImageResource(R.drawable.tales_students_crickets);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Cricket Tales\n\n" +
+                    "This useful component, for both students and teachers, features fun reading activities related to each of the stories from Crickets.");
+
+            imagen5.setImageResource(R.drawable.app_crickets);
+            imagen5.setVisibility(View.VISIBLE);
+
+            texto5.setText("Crickets App\n\n" +
+                    "Crickets Nursery and Level 1 feature an App with fun activities to review and practice everywhere children go!");
+
         }
 
         else if(titulo1.equals("M@TH ADVENTURES"))
         {
-            components.setText(R.string.components_mathadventures);
             tituloComponents.setTextColor(Color.parseColor("#f48b31"));
+
+            imagen1.setImageResource(R.drawable.math_adventures_student_book);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Student’s Book\n\n" +
+                    "Has eight contextualized units. Each unit includes twelve core lesson pages and two review pages.");
+
+            imagen2.setImageResource(R.drawable.math_adventures_student_cd);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Student’s CD\n\n" +
+                    "Includes math-related songs and chants for students to listen to in and outside the classroom.");
+
+            imagen3.setImageResource(R.drawable.pack_sb_resoruces_cd_math);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Resource Pack\n\n" +
+                    "Provides a collection of manipulative materials for children’s use. These are different types of cutouts that are used repeatedly throughout the course.");
+
+            imagen4.setImageResource(R.drawable.microsite_students_math);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Microsite\n\n" +
+                    "www.richmond.com.mx/mathadventures");
         }
 
         //

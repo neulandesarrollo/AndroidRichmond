@@ -29,6 +29,7 @@
             android:theme="@style/SplashTheme" />
         <activity
             android:name=".ListaSerieActivity"
+            android:configChanges="keyboardHidden|orientation"
             android:theme="@style/preschool" />
         <activity
             android:name=".DetallesSerieActivity"

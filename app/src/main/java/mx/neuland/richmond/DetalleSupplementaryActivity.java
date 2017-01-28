@@ -92,10 +92,10 @@ public class DetalleSupplementaryActivity extends AppCompatActivity implements V
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(titulo, autor, DetalleSupplementaryActivity.this), "Description");
-        adapter.addFragment(new TwoFragment(titulo, DetalleSupplementaryActivity.this), "For Students");
-        adapter.addFragment(new ThreeFragment(titulo, DetalleSupplementaryActivity.this), "For Teachers");
-        adapter.addFragment(new FourFragment(titulo, DetalleSupplementaryActivity.this), "ISBNs");
+        adapter.addFragment(OneFragment.newInstance(titulo, autor, DetalleSupplementaryActivity.this), "Description");
+        adapter.addFragment(TwoFragment.newInstance(titulo, DetalleSupplementaryActivity.this), "For Students");
+        adapter.addFragment(ThreeFragment.newInstance(titulo, DetalleSupplementaryActivity.this), "For Teachers");
+        adapter.addFragment(FourFragment.newInstance(titulo, DetalleSupplementaryActivity.this), "ISBNs");
         viewPager.setAdapter(adapter);
     }
 

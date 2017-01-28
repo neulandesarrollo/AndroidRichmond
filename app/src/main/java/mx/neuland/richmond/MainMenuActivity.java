@@ -3,6 +3,7 @@ package mx.neuland.richmond;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -231,5 +232,11 @@ public class MainMenuActivity extends AppCompatActivity implements View.OnClickL
                 });
         android.app.AlertDialog alert = builder.create();
         alert.show();
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        setContentView(R.layout.activity_main_menu);
     }
 }

@@ -97,10 +97,10 @@ public class DetalleReadersActivity extends AppCompatActivity implements View.On
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(titulo, autor, DetalleReadersActivity.this), "Description");
-        adapter.addFragment(new TwoFragment(titulo, DetalleReadersActivity.this), "For Students");
-        adapter.addFragment(new ThreeFragment(titulo, DetalleReadersActivity.this), "For Teachers");
-        adapter.addFragment(new FourFragment(titulo, DetalleReadersActivity.this), "ISBNs");
+        adapter.addFragment(OneFragment.newInstance(titulo, autor, DetalleReadersActivity.this), "Description");
+        adapter.addFragment(TwoFragment.newInstance(titulo, DetalleReadersActivity.this), "For Students");
+        adapter.addFragment(ThreeFragment.newInstance(titulo, DetalleReadersActivity.this), "For Teachers");
+        adapter.addFragment(FourFragment.newInstance(titulo, DetalleReadersActivity.this), "ISBNs");
         viewPager.setAdapter(adapter);
     }
 

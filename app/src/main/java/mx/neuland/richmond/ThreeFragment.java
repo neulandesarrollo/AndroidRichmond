@@ -14,8 +14,9 @@ import android.widget.TextView;
 
 public class ThreeFragment extends Fragment{
 
-    String titulo1;
-    Context contexto;
+    static String titulo1;
+    static Context contexto;
+
     TextView tituloComponentsTeachers;
     TextView componentsTeachers;
     TextView descripcionTeachers;
@@ -26,6 +27,8 @@ public class ThreeFragment extends Fragment{
     ImageView imagen4;
     ImageView imagen5;
     ImageView imagen6;
+    ImageView imagen7;
+    ImageView imagen8;
 
     TextView texto1;
     TextView texto2;
@@ -33,10 +36,20 @@ public class ThreeFragment extends Fragment{
     TextView texto4;
     TextView texto5;
     TextView texto6;
+    TextView texto7;
+    TextView texto8;
 
-    public ThreeFragment(String titulo, Context detallesSerieActivity) {
+    /*public ThreeFragment(String titulo, Context detallesSerieActivity) {
         titulo1 = titulo;
         contexto = detallesSerieActivity;
+    }*/
+
+    public static final ThreeFragment newInstance(String titulo, Context detallesSerieActivity)
+    {
+        ThreeFragment f = new ThreeFragment();
+        titulo1 = titulo;
+        contexto = detallesSerieActivity;
+        return f;
     }
 
     @Override
@@ -63,6 +76,8 @@ public class ThreeFragment extends Fragment{
         imagen4 = (ImageView)view.findViewById(R.id.imagen4);
         imagen5 = (ImageView)view.findViewById(R.id.imagen5);
         imagen6 = (ImageView)view.findViewById(R.id.imagen6);
+        imagen7 = (ImageView)view.findViewById(R.id.imagen7);
+        imagen8 = (ImageView)view.findViewById(R.id.imagen8);
 
         texto1 = (TextView)view.findViewById(R.id.texto1);
         texto2 = (TextView)view.findViewById(R.id.texto2);
@@ -70,6 +85,8 @@ public class ThreeFragment extends Fragment{
         texto4 = (TextView)view.findViewById(R.id.texto4);
         texto5 = (TextView)view.findViewById(R.id.texto5);
         texto6 = (TextView)view.findViewById(R.id.texto6);
+        texto7 = (TextView)view.findViewById(R.id.texto7);
+        texto8 = (TextView)view.findViewById(R.id.texto8);
 
         tituloComponentsTeachers.setTypeface(leagueGothic);
         componentsTeachers.setTypeface(firaSansLight);
@@ -81,6 +98,8 @@ public class ThreeFragment extends Fragment{
         texto4.setTypeface(firaSansLight);
         texto5.setTypeface(firaSansLight);
         texto6.setTypeface(firaSansLight);
+        texto7.setTypeface(firaSansLight);
+        texto8.setTypeface(firaSansLight);
 
         return view;
     }
@@ -123,55 +142,212 @@ public class ThreeFragment extends Fragment{
         {
             tituloComponentsTeachers.setTextColor(Color.parseColor("#f48b31"));
 
-            componentsTeachers.setText(R.string.teachers_pebbles);
+            imagen1.setImageResource(R.drawable.guia_del_maestro_pebbles);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Teacher’s Guide in Spanish\n\n" +
+                    "La Guía del Maestro de Pebbles cuenta con instrucciones para el maestro sobre el manejo de cada lección y con las páginas del Student’s Book intercaladas, para una rápida referencia");
+
+            imagen2.setImageResource(R.drawable.class_cd_pebbles);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Class CD\n\n" +
+                    "Incluyen las grabaciones de todas las canciones, rimas, así como de las palabras del vocabulario de cada nivel");
+
+            imagen3.setImageResource(R.drawable.flash_cards_pebbles);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Flashcards\n\n" +
+                    "Pebbles cuenta con un número de tarjetas para cada unidad, las cuales son un útil y atractivo apoyo visual para presentar y practicar el vocabulario y las estructuras.");
+
+            imagen4.setImageResource(R.drawable.hans_on_activity_pad_pebbles);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Fun Activity Mat with Pebble Puppet");
         }
 
         else if(titulo1.equals("GUMDROPS"))
         {
             tituloComponentsTeachers.setTextColor(Color.parseColor("#f48b31"));
-            componentsTeachers.setText(R.string.teachers_gumdrops);
+            imagen1.setImageResource(R.drawable.teacher_guide_gumdrops);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Teacher’s Guide\n\n" +
+                    "Gumdrops Teacher’s Guide offers comprehensive, step-by-step notes that are interleaved with the Student’s Book and Activity Pad pages.");
+
+            imagen2.setImageResource(R.drawable.big_book_gumdrops);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Big Books\n\n" +
+                    "The Big Book is a beautifully illustrated collection of original and traditional stories and chants that will delight and animate " +
+                    "students while exposing them to natural language.");
+
+            imagen3.setImageResource(R.drawable.posters_cutouts_gumdrops);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Posters & Cutouts\n\n" +
+                    "Gumdrops posters provide the teacher with an eff ective visual tool to introduce and reinforce target vocabulary and language. Each unit comes with large, theme-related cut-out cards.");
+
+            imagen4.setImageResource(R.drawable.teacher_cd_rom1_gumdrops);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Teacher’s Resource CD-ROM\n\n" +
+                    "This includes the Gumdrops Support Booklet, which contains the series philosophy and methodology, as well as valuable tips for " +
+                    "presenting language and vocabulary, developing skills and making the most of all of the Gumdrops components.");
+
+            imagen5.setImageResource(R.drawable.class_audio_gumdrops1);
+            imagen5.setVisibility(View.VISIBLE);
+
+            texto5.setText("Class Audio\n\n" +
+                    "The Class Audio includes recordings by native English speakers of all the songs chants, rhymes and stories.");
+
+            imagen6.setImageResource(R.drawable.classroom_lenguage_cards_gumdrops);
+            imagen6.setVisibility(View.VISIBLE);
+
+            texto6.setText("Classroom Language Cards\n\n" +
+                    "These visual cue cards vividly illustrate common classroom commands. Use them when you are giving students instructions along with the English command.");
+
+            imagen7.setImageResource(R.drawable.digital_book_gumdrops);
+            imagen7.setVisibility(View.VISIBLE);
+
+            texto7.setText("Digital Book");
         }
 
         else if(titulo1.equals("TIPPY TOES"))
         {
             tituloComponentsTeachers.setTextColor(Color.parseColor("#f48b31"));
-            componentsTeachers.setText(R.string.teachers_tippytoes);
+            imagen1.setImageResource(R.drawable.teachers_book_tippy_toes);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Teacher’s Guide\n\n" +
+                    "The Teacher’s Guide contains easy to follow teacher’s notes");
+
+            imagen2.setImageResource(R.drawable.class_cd_tippy_toes);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Class CD\n\n" +
+                    "The Class CD includes recordings by native English speakers of all the " +
+                    "songs, chants, rhymes, and stories.");
+
+            imagen3.setImageResource(R.drawable.big_book_tippy_toes);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Big Book\n\n" +
+                    "The Big Book is a collection of original and traditional children’s literature that will delight and animate students.");
+
+            imagen4.setImageResource(R.drawable.poster_tippy_toes);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Posters & Cutouts\n\n" +
+                    "There is an interactive poster with cutouts for each unit. These large and colorful visual aids allow the teacher to present and practice language simply and clearly.");
+
+            imagen5.setImageResource(R.drawable.fun_activity_mat_tippy_toes);
+            imagen5.setVisibility(View.VISIBLE);
+
+            texto5.setText("Fun Activity Mat\n\n");
+
+            imagen6.setImageResource(R.drawable.puppet_tippy);
+            imagen6.setVisibility(View.VISIBLE);
+
+            texto6.setText("Puppets (Level 3)");
+
+            imagen7.setImageResource(R.drawable.digital_book_tippy);
+            imagen7.setVisibility(View.VISIBLE);
+
+            texto7.setText("Digital Book");
 
         }
 
         else if(titulo1.equals("MY FIRST LETTERS AND SOUNDS"))
         {
             tituloComponentsTeachers.setTextColor(Color.parseColor("#f48b31"));
-            componentsTeachers.setText(R.string.teachers_mflas);
+            imagen1.setImageResource(R.drawable.class_cd_mfls);
+            imagen1.setVisibility(View.VISIBLE);
 
-            descripcionTeachers.setText("My First Letters and Sounds is a three-part component that allows children to develop phonemic awareness while reinforcing the vocabulary presented in each unit. Each activity page contains clear and simple instructions. Games and activities are suggested to introduce and practice each sound.\n\n" +
-                    "Phonics are an important feature in learning to read. My First Letters and Sounds series introduces children to the most common sounds and provides a foundation to literacy.\n\n\n\n\n\n\n\n");
+            texto1.setText("Class CD");
         }
 
         else if(titulo1.equals("CRICKETS"))
         {
             tituloComponentsTeachers.setTextColor(Color.parseColor("#f48b31"));
-            componentsTeachers.setText(R.string.teachers_crickets);
+            imagen1.setImageResource(R.drawable.teachers_guide_crickets);
+            imagen1.setVisibility(View.VISIBLE);
 
-            descripcionTeachers.setText("THE CRICKETS METHODOLOGY\n\n" +
-                    "The 5 Es instructional model relies on the constructivist approach to learning, which proposes that students build their own understanding and knowledge of the world, through experiencing things and re ecting on those experiences by asking questions, exploring and assessing what they know.\n\n" +
-                    "The model enables preschool children to develop cognitive, language and metacognitive skills and represents  ve stages of a sequence for teaching and learning:\n\n" +
-                    "Engage:\n" +
-                    "This phase starts the process. Its purpose is to raise students’ interest and get them personally involved in the lesson and allows them to make connections between past and present learning experiences.\n\n" +
-                    "Explore:\n" +
-                    "Students actively explore concepts or manipulate materials.\n\n" +
-                    "Explain:\n" +
-                    "Students explain the concepts they have been exploring or demonstrate new skills and behaviors.\n\n" +
-                    "Elaborate:\n" +
-                    "Its purpose is to extend students’ conceptual understanding and allow them to practice skills and behaviors through new experiences.\n\n" +
-                    "Evaluate:\n" +
-                    "This stage encourages learners to assess their understanding and abilities.\n\n\n\n\n\n\n\n\n");
+            texto1.setText("Teacher’s Guide\n\n" +
+                    "The Crickets Teacher’s Guide offers comprehensive, step-by-step notes that are interleaved with the Student’s Book pages.");
+
+            imagen2.setImageResource(R.drawable.teachers_resource_cd_class_cd_crickets);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Teacher’s Resource CD\n\n" +
+                    "You can fi nd a variety of resources on this component");
+
+            imagen3.setImageResource(R.drawable.teachers_class_cd_crickets);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Class CD\n\n" +
+                    "The Class CD includes recordings of class activities and all the songs, chants, and stories.");
+
+            imagen4.setImageResource(R.drawable.teachers_story_cards_crickets);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Story Cards\n\n" +
+                    "Crickets stories expose children to authentic language used naturally. The stories are divided into scenes.");
+
+            imagen5.setImageResource(R.drawable.teachers_flashcards_crickets);
+            imagen5.setVisibility(View.VISIBLE);
+
+            texto5.setText("Flashcards\n\n" +
+                    "Crickets features 112 fl ashcards depicting the most frequent words used per unit. The flashcards include photographs to exemplify concepts vividly.");
+
+            imagen6.setImageResource(R.drawable.teachers_classroom_languaje_flashcards_crickets);
+            imagen6.setVisibility(View.VISIBLE);
+
+            texto6.setText("Classroom Language Flashcards" +
+                    "These visual cue cards vividly illustrate common classroom commands. Use them when you are giving students instructions.");
+
+            imagen7.setImageResource(R.drawable.tales_crickets);
+            imagen7.setVisibility(View.VISIBLE);
+
+            texto7.setText("Cricket Tales\n\n" +
+                    "This useful component, for both students and teachers, features fun reading activities related to each of the stories from Crickets.");
+
+            imagen8.setImageResource(R.drawable.digital_book_crickets);
+            imagen8.setVisibility(View.VISIBLE);
+
+            texto8.setText("Digital Book");
         }
 
         else if(titulo1.equals("M@TH ADVENTURES"))
         {
             tituloComponentsTeachers.setTextColor(Color.parseColor("#f48b31"));
-            componentsTeachers.setText(R.string.teachers_mathadventures);
+            imagen1.setImageResource(R.drawable.math_adventures_teacher_guide);
+            imagen1.setVisibility(View.VISIBLE);
+
+            texto1.setText("Teacher’s Guide with Pocket Cube\n\n" +
+                    "Offers comprehensive, step-by-step notes that are interleaved with the Student’s Book pages.");
+
+            imagen2.setImageResource(R.drawable.math_adventures_resource_pack);
+            imagen2.setVisibility(View.VISIBLE);
+
+            texto2.setText("Resource Pack\n\n");
+
+            imagen3.setImageResource(R.drawable.math_adventures_teacher_resource_cd);
+            imagen3.setVisibility(View.VISIBLE);
+
+            texto3.setText("Teacher’s Resource CD\n\n" +
+                    "Provides teachers with additional resources to enrich their lessons.");
+
+            imagen4.setImageResource(R.drawable.digital_book_math);
+            imagen4.setVisibility(View.VISIBLE);
+
+            texto4.setText("Digital Book\n\n");
+
+            imagen5.setImageResource(R.drawable.microsite_math);
+            imagen5.setVisibility(View.VISIBLE);
+
+            texto5.setText("Microsite\n\n" +
+                    "www.richmond.com.mx/mathadventures");
         }
 
         //

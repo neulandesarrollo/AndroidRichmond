@@ -19,9 +19,9 @@ public class OneFragment extends Fragment{
 
     TextView tituloDetalle;
     TextView autorDetalle;
-    String titulo1;
-    String autor1;
-    Context contexto;
+    static String titulo1;
+    static String autor1;
+    static Context contexto;
     ImageView imagen;
     TextView descripcion;
 
@@ -41,10 +41,24 @@ public class OneFragment extends Fragment{
     ImageView table;
     ImageView portadas;
 
-    public OneFragment(String titulo, String autor, Context detallesSerieActivity) {
+    /*public OneFragment(String titulo, String autor, Context detallesSerieActivity) {
         titulo1 = titulo;
         autor1 = autor;
         contexto = detallesSerieActivity;
+    }*/
+
+    public static final OneFragment newInstance(String titulo, String autor, Context detallesSerieActivity)
+    {
+        OneFragment f = new OneFragment();
+        titulo1 = titulo;
+        autor1 = autor;
+        contexto = detallesSerieActivity;
+        return f;
+    }
+
+    public OneFragment() {
+
+
     }
 
     @Override
@@ -2178,8 +2192,8 @@ public class OneFragment extends Fragment{
             tituloDetalle.setTextColor(Color.parseColor("#018abf"));
             imagen.setVisibility(View.GONE);
 
-            //portadas.setVisibility(View.VISIBLE);
-            //portadas.setImageResource(R.drawable.portadas_ready_set_go);
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_little_readers);
 
             descripcion.setText(R.string.littlereaddesc);
 
@@ -2248,7 +2262,7 @@ public class OneFragment extends Fragment{
             imagen.setVisibility(View.GONE);
 
             table.setVisibility(View.VISIBLE);
-            table.setImageResource(R.drawable.popcorn_readers_table);
+            table.setImageResource(R.drawable.richmond_readers_table);
 
             portadas.setVisibility(View.VISIBLE);
             portadas.setImageResource(R.drawable.portadas_popcorn);
@@ -2274,6 +2288,9 @@ public class OneFragment extends Fragment{
             table.setVisibility(View.VISIBLE);
             table.setImageResource(R.drawable.media_readers_table);
 
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_media_readers);
+
             descripcion.setText(R.string.mediadesc);
 
             uno.setImageResource(R.drawable.microsite);
@@ -2294,6 +2311,9 @@ public class OneFragment extends Fragment{
             table.setVisibility(View.VISIBLE);
             table.setImageResource(R.drawable.richmond_readers_table);
 
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_richmond_readers);
+
             descripcion.setText(R.string.richreadersdesc);
 
             uno.setImageResource(R.drawable.microsite);
@@ -2310,6 +2330,9 @@ public class OneFragment extends Fragment{
 
             table.setVisibility(View.VISIBLE);
             table.setImageResource(R.drawable.dvd_readers_table);
+
+            portadas.setVisibility(View.VISIBLE);
+            portadas.setImageResource(R.drawable.portadas_dvd_readers);
 
             descripcion.setText(R.string.dvdreaddesc);
 

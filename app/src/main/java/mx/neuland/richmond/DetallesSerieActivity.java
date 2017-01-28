@@ -1,6 +1,7 @@
 package mx.neuland.richmond;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.support.design.widget.FloatingActionButton;
@@ -102,10 +103,10 @@ public class DetallesSerieActivity extends AppCompatActivity implements View.OnC
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(titulo, autor, DetallesSerieActivity.this), "Description");
-        adapter.addFragment(new TwoFragment(titulo, DetallesSerieActivity.this), "For Students");
-        adapter.addFragment(new ThreeFragment(titulo, DetallesSerieActivity.this), "For Teachers");
-        adapter.addFragment(new FourFragment(titulo, DetallesSerieActivity.this), "ISBNs");
+        adapter.addFragment(OneFragment.newInstance(titulo, autor, DetallesSerieActivity.this), "Description");
+        adapter.addFragment(TwoFragment.newInstance(titulo, DetallesSerieActivity.this), "For Students");
+        adapter.addFragment(ThreeFragment.newInstance(titulo, DetallesSerieActivity.this), "For Teachers");
+        adapter.addFragment(FourFragment.newInstance(titulo, DetallesSerieActivity.this), "ISBNs");
         viewPager.setAdapter(adapter);
     }
 
@@ -189,5 +190,11 @@ public class DetallesSerieActivity extends AppCompatActivity implements View.OnC
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        setContentView(R.layout.activity_detalles_serie);
     }
 }

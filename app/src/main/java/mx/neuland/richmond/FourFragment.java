@@ -13,8 +13,8 @@ import android.widget.TextView;
 
 public class FourFragment extends Fragment{
 
-    String titulo1;
-    Context contexto;
+    static String titulo1;
+    static Context contexto;
 
     TextView levelk;
     TextView level1;
@@ -82,9 +82,17 @@ public class FourFragment extends Fragment{
 
     TextView Description;
 
-    public FourFragment(String titulo, Context detallesSerieActivity) {
+    /*public FourFragment(String titulo, Context detallesSerieActivity) {
         titulo1 = titulo;
         contexto = detallesSerieActivity;
+    }*/
+
+    public static final FourFragment newInstance(String titulo, Context detallesSerieActivity)
+    {
+        FourFragment f = new FourFragment();
+        titulo1 = titulo;
+        contexto = detallesSerieActivity;
+        return f;
     }
 
     @Override

@@ -96,10 +96,10 @@ public class DetalleSecondaryActivity extends AppCompatActivity implements View.
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(titulo, autor, DetalleSecondaryActivity.this), "Description");
-        adapter.addFragment(new TwoFragment(titulo, DetalleSecondaryActivity.this), "For Students");
-        adapter.addFragment(new ThreeFragment(titulo, DetalleSecondaryActivity.this), "For Teachers");
-        adapter.addFragment(new FourFragment(titulo, DetalleSecondaryActivity.this), "ISBNs");
+        adapter.addFragment(OneFragment.newInstance(titulo, autor, DetalleSecondaryActivity.this), "Description");
+        adapter.addFragment(TwoFragment.newInstance(titulo, DetalleSecondaryActivity.this), "For Students");
+        adapter.addFragment(ThreeFragment.newInstance(titulo, DetalleSecondaryActivity.this), "For Teachers");
+        adapter.addFragment(FourFragment.newInstance(titulo, DetalleSecondaryActivity.this), "ISBNs");
         viewPager.setAdapter(adapter);
     }
 
