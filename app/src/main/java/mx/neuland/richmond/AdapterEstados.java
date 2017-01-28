@@ -72,7 +72,7 @@ public class AdapterEstados extends BaseAdapter{
             public void onClick(View v) {
 
                 if(estados.get(position).toString().equals("Aguascalientes") ||
-                        estados.get(position).toString().equals("Coahuila") ||
+                        //estados.get(position).toString().equals("Coahuila") ||
                         estados.get(position).toString().equals("Colima") ||
                         estados.get(position).toString().equals("Hidalgo") ||
                         estados.get(position).toString().equals("Morelos") ||

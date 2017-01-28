@@ -300,10 +300,13 @@ public class DetalleEstadoActivity extends AppCompatActivity implements View.OnC
 
         else if(estado.equals("Coahuila"))
         {
-
+            Nombres.add(tienda23.name);
+            Direcciones.add(tienda23.address);
+            Telefonos.add(tienda23.phoneA);
+            Ubicaciones.add(tienda23.location);
         }
 
-        else if(estado.equals("Distrito Federal"))
+        else if(estado.equals("Ciudad de México"))
         {
             Nombres.add(tienda11.name);
             Direcciones.add(tienda11.address);
