@@ -112,7 +112,7 @@ public class ListaSeriePrimaryActivity extends AppCompatActivity implements View
         Titulo.add("BEEP");
         Titulo.add("COOL KIDS");
         Titulo.add("LIGHTHOUSE");
-        Titulo.add("THUMBS UP! SECOND EDITION ");
+        Titulo.add("THUMBS UP! SECOND EDITION");
         Titulo.add("PATHWAY TO GRAMMAR");
         Titulo.add("PATHWAY TO LITERATURE");
         Titulo.add("PATHWAY TO MATH");

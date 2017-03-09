@@ -105,7 +105,7 @@ public class AdapterSeries extends BaseAdapter{
                         titulo.get(position).equals("BEEP")||
                         titulo.get(position).equals("COOL KIDS")||
                         titulo.get(position).equals("LIGHTHOUSE")||
-                        titulo.get(position).equals("THUMBS UP SECOND EDITION")||
+                        titulo.get(position).equals("THUMBS UP! SECOND EDITION")||
                         titulo.get(position).equals("PATHWAY TO GRAMMAR")||
                         titulo.get(position).equals("PATHWAY TO LITERATURE")||
                         titulo.get(position).equals("PATHWAY TO MATH")||
@@ -150,14 +150,16 @@ public class AdapterSeries extends BaseAdapter{
 
                 else if(titulo.get(position).equals("BUSINESS Skills")||
                         titulo.get(position).equals("BUSINESS Theories")||
-                        titulo.get(position).equals("English Grammar in Steps")||
-                        titulo.get(position).equals("Primary Methodology Handbook")||
-                        titulo.get(position).equals("Richmond Compact Dictionary")||
-                        titulo.get(position).equals("Richmond Mini Dictionary")||
-                        titulo.get(position).equals("Richmond Pocket Dictionary")||
-                        titulo.get(position).equals("An Introduction to Teaching English to Children")||
                         titulo.get(position).equals("Visual Grammar")||
-                        titulo.get(position).equals("Richmond Vocabulary Builder"))
+                        titulo.get(position).equals("Vocabulary Builder")||
+                        titulo.get(position).equals("English Grammar in Steps")||
+                        titulo.get(position).equals("Primary METHODOLOGY HANDBOOK")||
+                        titulo.get(position).equals("Lessons Learned")||
+                        titulo.get(position).equals("Primary Handbooks for Teachers")||
+                        titulo.get(position).equals("Richmond First Dictionary")||
+                        titulo.get(position).equals("Richmond Picture Dictionary")||
+                        titulo.get(position).equals("Richmond Dictionay Fully Illustrated")||
+                        titulo.get(position).equals("Richmond Dictionaries"))
                 {
                     //Toast.makeText(context, "Contenido no disponible", Toast.LENGTH_SHORT).show();
 

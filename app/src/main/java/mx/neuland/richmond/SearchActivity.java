@@ -62,16 +62,16 @@ public class SearchActivity extends AppCompatActivity
                 ,"PEBBLES By Marlina Bahena"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                ,"GUMDROPS By Gabriela Zatain"));
+                ,"GUMDROPS By Rebecca Lee Williams"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                ,"TIPPY TOES By Rebecca Williams Salvador"));
+                ,"TIPPY TOES By Rebecca Lee Williams"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                ,"MY FIRST LETTERS AND SOUNDS By Rachel Gonia - Rebecca Williams Salvador"));
+                ,"MY FIRST LETTERS AND SOUNDS By Rachel Gonin - Rebecca Lee Williams"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                ,"CRICKETS By Annette Flavel - Isabel Moreno"));
+                ,"CRICKETS By Annette Flavel - Francisco Layda - Isabel Moreno - Fanny Riva Palacio"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
                 ,"M@TH ADVENTURES By Rebecca Lee Williams"));
@@ -82,7 +82,7 @@ public class SearchActivity extends AppCompatActivity
 
         childRows = new ArrayList<ChildRow>();
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "ABRACADABRA By Lenore Cohen"));
+                , "ABRACADABRA By Lenore Cohen - Sarah Fash"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
                 , "BEEP By Brendan Dunne - Robin Newton"));
@@ -91,10 +91,10 @@ public class SearchActivity extends AppCompatActivity
                 , "COOL KIDS By Gabriela Zapiain - Silvia Zapiain - Joep van der Werff - Andrew Starling - Jeanette Greenwell - Ana Foncerrada"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "LIGHTHOUSE By Michael Downie - David Gray - Juan M. Jiménez"));
+                , "LIGHTHOUSE By Brendan Dunne - David Gray - Michael Downie - Juan M. Jiménez"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "THUMBS UP! SECOND EDITION By Sarah Fash - Suzanne Harris - Martyn Hobbs - Julia Keddle"));
+                , "THUMBS UP! SECOND EDITION By Suzanne Harris - Martyn Hobbs - Julia Keddle"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
                 , "PATHWAY TO GRAMMAR By Noelle Child"));
@@ -112,7 +112,7 @@ public class SearchActivity extends AppCompatActivity
                 , "SCIENCE AND GEOGRAPHY"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "SKYROCKET By Sarah Conway"));
+                , "SKYROCKET By Sarah Fash - Andrew Starling - Lindsay Ruggles - Sarah Conway"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
                 , "SPOTLIGHT  ON ENGLISH"));
@@ -122,25 +122,25 @@ public class SearchActivity extends AppCompatActivity
 
         childRows = new ArrayList<ChildRow>();
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "ACHIEVERS"));
+                , "Achievers by Carolyn Barraclough - Leanne Gray - Martyn Hobbs - Julia Keddle - Jane Revell - Ken Wilson"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "AWESOME"));
+                , "Awesome by Carol Lethaby - Simon Brewster"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "COMBINED SCIENCES"));
+                , "Combined Sciences by Hina Hashmi - Vali Tamm - Carol Haddox-Baldwin - Bernice Richter"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "ENGLISH IN MOTION"));
+                , "English in Motion by Robert Campbell - Gill Holley - Rob Metcalf"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "NEXT STEP"));
+                , "Next Step by Carol Lethaby - Simon Brewster"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "SPOTLIGHT ON LITERATURE"));
+                , "Spotlight on Literature"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "STOPWATCH"));
+                , "Stopwatch by Simon Brewster - Viviane Kirmeliene - Alastair Lane"));
 
         parentRow = new ParentRow("Secondary", childRows);
         parentList.add(parentRow);
@@ -148,25 +148,25 @@ public class SearchActivity extends AppCompatActivity
         childRows = new ArrayList<ChildRow>();
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "AMERICAN BIG PICTURE"));
+                , "American Big Picture by Ben Goldstein - Ceri Jones - Bess Bradfield - Carol Lethaby - Alastair Lane - Simon Brewster - Mark Lloyd"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "@WORK"));
+                , "@work by Luois Rogers - Anna Cowper - James Greenan - Marion Grussendorf - Pete Sharma"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "ENGLISH ID"));
+                , "English ID by Paul Seligson - Tom Abraham - Cris Gontow - Carol Lethaby - Jose Luis Morales - Luis Otávio Barros - Ray Shoulder - Ricardo Sili - Pamela Vittorio"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "GOING PRO"));
+                , "Going Pro by Simon Brewster - Alastair Lane"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "IDENTITIES"));
+                , "Identities by Paul Seligson - Luiz Otávio Barros"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND MAZES"));
+                , "Richmond Mazes by James Styring - Alastair Lane - Victoria Boobyer"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "THE BIG PICTURE"));
+                , "The big picture by Ben Goldstein - Ceri Jones - Bess Bradfield - Carol Lethaby - Alastair Lane - Simon Brewster - MArk Lloyd"));
 
         parentRow = new ParentRow("Young Adults", childRows);
         parentList.add(parentRow);
@@ -174,34 +174,40 @@ public class SearchActivity extends AppCompatActivity
         childRows = new ArrayList<ChildRow>();
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "BUSINESS SKILLS"));
+                , "BUSINESS Skills by Jon Marks"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "BUSINESS THEORIES"));
+                , "BUSINESS Theories by Angela Lilley"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "ENGLISH GRAMMAR IN STEPS"));
+                , "Visual Grammar by Jim Scrivener"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "PRIMARY METHODOLOGY HANDBOOK"));
+                , "Vocabulary Builder by Elizabeth Walter - Kate Woodford"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND COMPACT DICTIONARY"));
+                , "English Grammar in Steps by David Bolton - Noel Goodey"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND MINI DICTIONARY"));
+                , "Primary METHODOLOGY HANDBOOK by Patricia Grounds - Suzanne Guerrero - Carol Lethaby - Caroline Moore - Joep van der Werff"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND POCKET DICTIONARY"));
+                , "Lessons Learned by Gabriel Díaz Maggioli - Lesley Painter-Farrell"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "AN INTRODUCTION TO TEACHING ENGLISH TO CHILDREN"));
+                , "Primary Handbooks for Teachers by Paul Seligson - Andy Baxter - Amanda Cant - Emma Dafouz - Michele C. Guerrini - Susan House - Ricky Lowes - Genevieve Roth - Wendy Superfine - Francesca Target  -  Julie Tice"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "VISUAL GRAMMAR"));
+                , "Richmond Picture Dictionary"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND VOCABULARY BUILDER"));
+                , "Richmond First Dictionary"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Richmond Dictionay Fully Illustrated"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Richmond Dictionaries"));
 
         parentRow = new ParentRow("Supplementary", childRows);
         parentList.add(parentRow);
@@ -209,30 +215,65 @@ public class SearchActivity extends AppCompatActivity
         childRows = new ArrayList<ChildRow>();
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "DELTA'S KEY TO THE NEXT GENERATION TOELF TEST"));
+                , "DELTA'S Key to the TOEFL iBT by Nancy Gallagher"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "TARGET KET FOR SCHOOLS"));
+                , "TARGET KET for Schools by Sue Ireland - Joanna Kosta"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "TARGET PET"));
+                , "TARGET PET by Sue Ireland - Joanna Kosta"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND PRACTICE TEST FOR CAMBRIDGE ENGLISH: ADVANCED"));
+                , "Richmond Practice Tests for Cambridge English: Advanced by Language Testing 123"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND PRACTICE TEST FOR CAMBRIDGE ENGLISH: FIRST"));
+                , "Richmond Practice Tests for Cambridge English: First by Diana L. Fried-Booth"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND PRACTICE TEST FOR IELTS"));
+                , "Richmond Practice Tests for IELTS by Language Testing 123"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "PASS THE TOEIC TEST: INTRODUCTORY COURSE"));
+                , "Pass the TOEIC Test by Miles Craven"));
 
         childRows.add(new ChildRow(R.drawable.circulo_rosa
-                , "RICHMOND PRACTICE TEST - MOVERS"));
+                , "Richmond Practice Tests: YLE"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Richmond Practice Tests: ket and PET by Sue Elliott - Sue Irelan - Karen Saxby - Diana L. Fried-Booth"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Target Cambridge English: First by Bess Bradfield - Caroline Krantz"));
 
         parentRow = new ParentRow("Exams", childRows);
+        parentList.add(parentRow);
+
+        childRows = new ArrayList<ChildRow>();
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Ready, Set, Go!"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Infoquest"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Little Readers"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Super stars"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Popcorn readers"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Media readers"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "Richmond readers"));
+
+        childRows.add(new ChildRow(R.drawable.circulo_rosa
+                , "DVD readers"));
+
+        parentRow = new ParentRow("Readers", childRows);
         parentList.add(parentRow);
     }
 

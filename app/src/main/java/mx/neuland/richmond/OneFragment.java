@@ -1,6 +1,7 @@
 package mx.neuland.richmond;
 
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -11,6 +12,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -40,6 +42,10 @@ public class OneFragment extends Fragment{
 
     ImageView table;
     ImageView portadas;
+    ImageView portadas2;
+    ImageView portadas3;
+    ImageView portadas4;
+    ImageView portadas5;
 
     /*public OneFragment(String titulo, String autor, Context detallesSerieActivity) {
         titulo1 = titulo;
@@ -100,6 +106,11 @@ public class OneFragment extends Fragment{
         table = (ImageView)view.findViewById(R.id.table);
         portadas = (ImageView)view.findViewById(R.id.portadas);
 
+        portadas2 = (ImageView)view.findViewById(R.id.portadas2);
+        portadas3 = (ImageView)view.findViewById(R.id.portadas3);
+        portadas4 = (ImageView)view.findViewById(R.id.portadas4);
+        portadas5 = (ImageView)view.findViewById(R.id.portadas5);
+
         return view;
     }
 
@@ -109,6 +120,102 @@ public class OneFragment extends Fragment{
 
         tituloDetalle.setText(titulo1);
         autorDetalle.setText(autor1);
+
+        uno.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
+
+        dos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
+
+        tres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
+
+        cuatro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
+
+        cinco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
+
+        seis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
+
+        siete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
+
+        extra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Dialog settingsDialog = new Dialog(contexto);
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+                settingsDialog.setContentView(getActivity().getLayoutInflater().inflate(R.layout.image_layout
+                        , null));
+                settingsDialog.show();
+            }
+        });
 
         if(titulo1.equals("CUBBY HOUSE"))
         {
@@ -1237,7 +1344,7 @@ public class OneFragment extends Fragment{
                 @Override
                 public void onClick(View v) {
 
-                    Uri uri = Uri.parse("http://www.richmond.com.mx/SS/SSSpotlightL_g.pdf");
+                        Uri uri = Uri.parse("http://www.richmond.com.mx/SS/SSSpotlightL_g.pdf");
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
                 }
@@ -2247,7 +2354,16 @@ public class OneFragment extends Fragment{
             table.setImageResource(R.drawable.super_stars_table);
 
             portadas.setVisibility(View.VISIBLE);
-            portadas.setImageResource(R.drawable.portadas_superstars);
+            portadas.setImageResource(R.drawable.portadas_superstars_1);
+
+            portadas2.setVisibility(View.VISIBLE);
+            portadas2.setImageResource(R.drawable.portadas_superstars_2);
+
+            portadas3.setVisibility(View.VISIBLE);
+            portadas3.setImageResource(R.drawable.portadas_superstars_3);
+
+            portadas4.setVisibility(View.VISIBLE);
+            portadas4.setImageResource(R.drawable.portadas_superstars_4);
 
             descripcion.setText(R.string.starsdesc);
 
@@ -2262,10 +2378,22 @@ public class OneFragment extends Fragment{
             imagen.setVisibility(View.GONE);
 
             table.setVisibility(View.VISIBLE);
-            table.setImageResource(R.drawable.richmond_readers_table);
+            table.setImageResource(R.drawable.popcorn_readers_table);
 
             portadas.setVisibility(View.VISIBLE);
-            portadas.setImageResource(R.drawable.portadas_popcorn);
+            portadas.setImageResource(R.drawable.portadas_popcorn_1);
+
+            portadas2.setVisibility(View.VISIBLE);
+            portadas2.setImageResource(R.drawable.portadas_popcorn_2);
+
+            portadas3.setVisibility(View.VISIBLE);
+            portadas3.setImageResource(R.drawable.portadas_popcorn_3);
+
+            portadas4.setVisibility(View.VISIBLE);
+            portadas4.setImageResource(R.drawable.portadas_popcorn_4);
+
+            portadas5.setVisibility(View.VISIBLE);
+            portadas5.setImageResource(R.drawable.portadas_popcorn_5);
 
             descripcion.setText(R.string.popdesc);
 
@@ -2289,7 +2417,19 @@ public class OneFragment extends Fragment{
             table.setImageResource(R.drawable.media_readers_table);
 
             portadas.setVisibility(View.VISIBLE);
-            portadas.setImageResource(R.drawable.portadas_media_readers);
+            portadas.setImageResource(R.drawable.portadas_media_readers_1);
+
+            portadas2.setVisibility(View.VISIBLE);
+            portadas2.setImageResource(R.drawable.portadas_media_readers_2);
+
+            portadas3.setVisibility(View.VISIBLE);
+            portadas3.setImageResource(R.drawable.portadas_media_readers_3);
+
+            portadas4.setVisibility(View.VISIBLE);
+            portadas4.setImageResource(R.drawable.portadas_media_readers_4);
+
+            portadas5.setVisibility(View.VISIBLE);
+            portadas5.setImageResource(R.drawable.portadas_media_readers_5);
 
             descripcion.setText(R.string.mediadesc);
 
